@@ -41,6 +41,7 @@
         width: 565px;
   
         font-size: 60px;
+        font-weight: bold;
         color: $white;
       }
     }
@@ -1018,6 +1019,14 @@
         .swiper-slide{
           padding: 0 0 0 80px;
         }
+
+        h1{
+          line-height: 1.2;
+        }
+  
+        .title2{
+          line-height: 1.2;
+        }
       }
 
       .swiper-pagination{
@@ -1250,12 +1259,19 @@
     .section-intro {
       padding-bottom: 80px;
       .swiper-container{
+        .swiper-slide{
+          padding: 0 0 0 80px;
+        }
+
         h1{
           margin: 149px 930px 0 -30px;
           width: 530px;
         }
-        .swiper-slide{
-          padding: 0 0 0 80px;
+
+        .title2{
+          margin: 149px 930px 0 -30px;
+          width: 530px;
+          line-height: 1.2;
         }
       }
 
@@ -1472,12 +1488,17 @@
     .section-intro {
       padding-bottom: 80px;
       .swiper-container{
+        .swiper-slide{
+          padding: 0 0 0 25px;
+        }
         h1{
           margin: 150px 0 0 0;
           font-size: 48px;
         }
-        .swiper-slide{
-          padding: 0 0 0 25px;
+        .title2{
+          margin: 150px 0 0 0;
+          font-size: 48px;
+          line-height: 1.2;
         }
       }
 
@@ -1486,7 +1507,7 @@
       }
   
       .logos{  
-        padding-top: 10px;
+        padding-top: 10%;
 
         .content-wrapper{
           position: absolute;

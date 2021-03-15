@@ -419,16 +419,30 @@ header {
   header {
     .container{
       .navbar{
-        .navbar-buttons-inside{
-
-          .btn-number{
-            padding: 13px 19% !important;
-            margin: 5% 0 0 -46% !important;
+        .switcheroo{
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 13px 19% !important;
+              margin: 5% 0 0 -46% !important;
+            }
+  
+            .btn-language{
+              padding: 15px 26.5% !important;
+              margin: 15% 0 0 -46% !important;
+            }
           }
-
-          .btn-language{
-            padding: 15px 26.5% !important;
-            margin: 15% 0 0 -46% !important;
+          .logos-footer{
+            .in-logo{
+              margin-left: -528%;
+            }
+        
+            .em-logo{
+              margin-left: -270%;
+            }
+        
+            .p-logo{
+              margin-left: -43%;
+            }
           }
         }
       }    
@@ -440,16 +454,31 @@ header {
   header {
     .container{
       .navbar{
-        .navbar-buttons-inside{
+        .switcheroo{  
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 13px 17% !important;
+              margin: 5% 0 0 -46% !important;
+            }
 
-          .btn-number{
-            padding: 13px 17% !important;
-            margin: 5% 0 0 -47% !important;
+            .btn-language{
+              padding: 13px 24.5% !important;
+              margin: 13% 0 0 -46% !important;
+            }
           }
-
-          .btn-language{
-            padding: 13px 24.5% !important;
-            margin: 15% 0 0 -47% !important;
+          
+          .logos-footer{
+            .in-logo{
+              margin-left: -538%;
+            }
+        
+            .em-logo{
+              margin-left: -330%;
+            }
+        
+            .p-logo{
+              margin-left: -143%;
+            }
           }
         }
       }    
@@ -461,16 +490,30 @@ header {
   header {
     .container{
       .navbar{
-        .navbar-buttons-inside{
-
-          .btn-number{
-            padding: 13px 15% !important;
-            margin: 5% 0 0 -46% !important;
+        .switcheroo{
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 13px 15% !important;
+              margin: 5% 0 0 -46% !important;
+            }
+  
+            .btn-language{
+              padding: 13px 22.5% !important;
+              margin: 13% 0 0 -46% !important;
+            }
           }
-
-          .btn-language{
-            padding: 13px 22.5% !important;
-            margin: 15% 0 0 -46% !important;
+          .logos-footer{
+            .in-logo{
+              margin-left: -585%;
+            }
+        
+            .em-logo{
+              margin-left: -365%;
+            }
+        
+            .p-logo{
+              margin-left: -165%;
+            }
           }
         }
       }    
@@ -492,21 +535,84 @@ header {
         }
 
         .switcheroo{
-          margin: 0 0 0 0%;
+          margin: 0 0 0 0;
           .nav-item{
             margin: 35px 0 0 0;
             .nav-link{
               padding-right: none;
             }
           }
+                    
+          .navbar-buttons-inside{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+
+            .btn-number{
+              padding: 10px 29% !important;
+              margin: 18% 0 0 -129% !important;
+
+              font-size: 24px;
+              color: $white;
+  
+              background-color: $orange;
+              border: none;
+              border-radius: 37px;
+
+              img{
+                padding-right: 8px;
+                padding-bottom: 8px;
+                width: 30px;
+              }
+            }
+  
+            .btn-language{
+              padding: 10px 219.5% !important;
+              margin: 18% 0 0 -560% !important;
+
+              font-size: 24px;
+              color: $white;
+  
+              background-color: $dark-blue;
+              border: none;
+              border-radius: 37px;
+  
+              img{
+                padding-left: 8px;
+                padding-bottom: 4px;
+                width: 27px;
+              }
+            }
+          }
+
+          .logos-footer{
+            margin-top: 10%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .in-logo{
+              margin-left: -585%;
+              width: 50px;
+            }
+        
+            .em-logo{
+              margin-left: -395%;
+              width: 52px;
+            }
+        
+            .p-logo{
+              margin-left: -230%;
+              width: 52px;
+            }
+          }
 
           .navbar-buttons-outside{
             display: none;
-          }    
-          
-          .navbar-buttons-inside{
-            padding-top: 1px;
-          }
+          } 
         }
 
         .collapse {
@@ -544,4 +650,255 @@ header {
     }
   }
 }
- 
+
+@media (min-width: 470px) and (max-width: 500px) {
+  header {
+    .container{
+      .navbar{
+        .switcheroo{             
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 9px 29% !important;
+              margin: 18% 0 0 -150% !important;
+            }
+  
+            .btn-language{
+              padding: 9px 219.5% !important;
+              margin: 18% 0 0 -635% !important;
+            }
+          }
+
+          .logos-footer{
+            .in-logo{
+              margin-left: -640%;
+            }
+        
+            .em-logo{
+              margin-left: -470%;
+            }
+        
+            .p-logo{
+              margin-left: -330%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 440px) and (max-width: 469px) {
+  header {
+    .container{
+      .navbar{
+        .switcheroo{             
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 9px 29% !important;
+              margin: 18% 0 0 -94% !important;
+            }
+  
+            .btn-language{
+              padding: 9px 219% !important;
+              margin: 18% 0 0 -441% !important;
+            }
+          }
+
+          .logos-footer{
+            .in-logo{
+              margin-left: -415%;
+            }
+        
+            .em-logo{
+              margin-left: -248%;
+            }
+        
+            .p-logo{
+              margin-left: -95%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 400px) and (max-width: 439px) {
+  header {
+    .container{
+      .navbar{
+        .switcheroo{             
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 9px 29% !important;
+              margin: 18% 0 0 -102% !important;
+            }
+  
+            .btn-language{
+              padding: 9px 219% !important;
+              margin: 18% 0 0 -468% !important;
+            }
+          }
+
+          .logos-footer{
+            .in-logo{
+              margin-left: -450%;
+            }
+        
+            .em-logo{
+              margin-left: -274%;
+            }
+        
+            .p-logo{
+              margin-left: -125%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 370px) and (max-width: 399px) {
+  header {
+    .container{
+      .navbar{
+        .switcheroo{             
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 7px 29% !important;
+              margin: 18% 0 0 -112% !important;
+            }
+  
+            .btn-language{
+              padding: 7px 219% !important;
+              margin: 18% 0 0 -500% !important;
+            }
+          }
+
+          .logos-footer{
+            .in-logo{
+              margin-left: -490%;
+            }
+        
+            .em-logo{
+              margin-left: -310%;
+            }
+        
+            .p-logo{
+              margin-left: -165%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 345px) and (max-width: 369px) {
+  header {
+    .container{
+      .navbar{
+        .switcheroo{             
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 7px 25% !important;
+              margin: 18% 0 0 -115% !important;
+            }
+  
+            .btn-language{
+              padding: 7px 205% !important;
+              margin: 18% 0 0 -513% !important;
+            }
+          }
+
+          .logos-footer{
+            .in-logo{
+              margin-left: -502%;
+            }
+        
+            .em-logo{
+              margin-left: -345%;
+            }
+        
+            .p-logo{
+              margin-left: -208%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 330px) and (max-width: 344px) {
+  header {
+    .container{
+      .navbar{
+        .switcheroo{             
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 7px 25% !important;
+              margin: 18% 0 0 -120% !important;
+            }
+  
+            .btn-language{
+              padding: 7px 205% !important;
+              margin: 18% 0 0 -530% !important;
+            }
+          }
+
+          .logos-footer{
+            .in-logo{
+              margin-left: -522%;
+            }
+        
+            .em-logo{
+              margin-left: -360%;
+            }
+        
+            .p-logo{
+              margin-left: -223%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 329px) {
+  header {
+    .container{
+      .navbar{
+        .switcheroo{             
+          .navbar-buttons-inside{
+            .btn-number{
+              padding: 7px 20% !important;
+              margin: 18% 0 0 -125% !important;
+            }
+  
+            .btn-language{
+              padding: 7px 188% !important;
+              margin: 18% 0 0 -547% !important;
+            }
+          }
+
+          .logos-footer{
+            .in-logo{
+              margin-left: -543%;
+            }
+        
+            .em-logo{
+              margin-left: -400%;
+            }
+        
+            .p-logo{
+              margin-left: -284%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

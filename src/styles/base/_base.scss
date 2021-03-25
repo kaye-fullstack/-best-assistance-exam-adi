@@ -90,12 +90,12 @@ input[type="text"] {
 }
 
 .custom-container {
-  max-width: 1730px;
+  max-width: 1500px;
   padding: 0;
 }
 
-@include respond-to(md) {
+@include respond-to(lg) {
   .custom-container {
-    max-width: 1199px;
+    max-width: 1599px;
   }
 }

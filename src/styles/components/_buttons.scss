@@ -3,3 +3,64 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.btn-number{
+  padding: 13px 19px;
+  margin: 23px 3px 0 5px;
+
+  font-size: 15px;
+  color: $white;
+
+  background-color: $orange;
+  border: none;
+  border-radius: 37px;
+
+  img{
+    padding-right: 8px;
+  }
+}  
+
+.btn-language{
+  padding: 13px 20px;
+  margin: 22px 0 0 0;
+
+  font-size: 15px;
+  color: $white;
+
+  background-color: $dark-blue;
+  border: none;
+  border-radius: 37px;
+
+  img{
+    padding-left: 8px;
+  }
+} 
+
+.btn-blue{
+  position: absolute;
+  
+  margin: 22.6% 0 0 1.2%;
+  padding: 18px 29px;
+
+  font-size: 15px;
+  color: $white;
+
+  border: none;
+  background-image: url("../assets/images/14.fw.png");
+  background-repeat: no-repeat;
+}          
+
+.btn-yellow{
+  position: absolute;
+
+  margin: 22.6% 0 0 12%;
+  padding: 18px 29px;
+  width: 200px;
+
+  font-size: 15px;
+  color: $white;
+
+  background-color: $light-yellow;
+  border: none;
+  border-radius: 27px;
+}

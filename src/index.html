@@ -37,23 +37,20 @@
     <div class="container custom-container">
       <nav class="navbar navbar-expand-lg">
         <a href="#" class="navbar-brand">
-          <img src="assets\images\logo.fw.png">
+          <img src="assets\images\logo.fw.png" alt="Best Assistance Logo">
         </a>
 
-        <div class="switcheroo">
+        <div class="navbar-collapsing">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a href="#" class="nav-link">About Us
-                  <span class="sr-only">(current)</span>
-                </a>
+                <a href="about.html" class="nav-link">About Us</a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">Our Partners</a>
@@ -68,23 +65,31 @@
                 <a href="#" class="nav-link">Contact Us</a>
               </li>
             </ul> 
+            
             <div class="navbar-buttons-inside">
-              <div><button type="button" class="btn btn-number"><img src="assets\images\1.fw.png">+961 1 425 426</button></div>
-              <div><button type="button" class="btn btn-language">EN<img src="assets\images\2.fw.png"></button></div>
+              <button type="button" class="btn btn-number"><img src="assets\images\1.fw.png">+961 1 425 426</button>
+              <button type="button" class="btn btn-language">EN<img src="assets\images\2.fw.png"></button>
             </div>
 
             <div class="logos-footer">
-              <a href=""><img class="in-logo" src="assets\images\linkedin-01.fw.png"></a>
-              <a href=""><img class="em-logo" src="assets\images\email.fw.png"></a>
-              <a href=""><img class="p-logo" src="assets\images\arrow.fw.png"></a>
+              <div class="first-logo">
+                <a href=""><img class="in-logo" src="assets\images\linkedin-01.fw.png"></a>
+              </div>
+
+              <div class="second-logo">
+                <a href=""><img class="em-logo" src="assets\images\email.fw.png"></a>
+              </div>
+
+              <div class="third-logo">
+                <a href=""><img class="p-logo" src="assets\images\arrow.fw.png"></a>
+              </div>
             </div>
+            
           </div>     
-
           <div class="navbar-buttons-outside">
-            <div><button type="button" class="btn btn-number"><img src="assets\images\1.fw.png">+961 1 425 426</button></div>
-            <div><button type="button" class="btn btn-language">EN<img src="assets\images\2.fw.png"></button></div>
+            <button type="button" class="btn btn-number"><img src="assets\images\1.fw.png">+961 1 425 426</button>
+            <button type="button" class="btn btn-language">EN<img src="assets\images\2.fw.png"></button>
           </div>  
-
         </div>
       </nav>
     </div>
@@ -93,55 +98,42 @@
 <main class="home">
   <div class="section-intro">
     <div class="container custom-container">
-      <div class="row">
-        <div class="col-12">
-          <div class="content">
-            <!--Swiper-->
-              <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <h1>YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER</h1>
-                  </div>
-                  <div class="swiper-slide">
-                    <p class="title2">YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER</p>
-                  </div>
-                  <div class="swiper-slide">
-                    <p class="title2">YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER</p>
-                  </div>
-                </div>
-                <!-- Add Pagination-->
-                <div class="swiper-pagination"></div>
-              </div>
-
-              <div class="logos">
-                <div class="content-wrapper">
-                  <img class="first" src="assets\images\4.fw.png">
-                </div>
-                <div class="content-wrapper">
-                  <img class="second" src="assets\images\5.fw.png">
-                </div>
-                <div class="content-wrapper">
-                  <img class="third" src="assets\images\6.fw.png">
-                </div>
-              </div>
-
-              <div class="logos-text">
-                <div class="text">
-                  <p class="first-text">Our  mission</p>
-                </div>
-                <div class="text">
-                  <p class="second-text">Give us your feedback</p>
-                </div>
-                <div class="text">
-                  <p class="third-text">Contact us</p>
-                </div>
-              </div>
-
-              <div class="swiper-pagination"></div>
+      <div class="swiper-banner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h1>YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER</h1>
+            </div>
+            <div class="swiper-slide">
+              <p class="title">YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER</p>
+            </div>
+            <div class="swiper-slide">
+              <p class="title">YOUR LOCAL & REGIONAL MEDICAL CLAIM MANAGER</p>
+            </div>
           </div>
+          <!-- Add Pagination-->
+          <div class="swiper-pagination"></div>
         </div>
+      </div>
 
-        <div class="sidebar-item">
+      <div class="section-intro-icons">
+        <div class="icons-w-text">
+          <img class="icon" src="assets\images\4.fw.png" alt="Arrow bullseye">
+          <p class="text">Our mission</p>
+        </div>
+        <div class="icons-w-text">
+          <img class="icon" src="assets\images\5.fw.png">
+          <p class="text">Give us your feedback</p>
+        </div>
+        <div class="icons-w-text">
+          <img class="icon" src="assets\images\6.fw.png">
+          <p class="text">Contact us</p>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="sidebar-item">
           <div class="fb-logo">
             <img class="fb-logo" src="assets\images\fb.fw.png">
           </div>
@@ -161,75 +153,63 @@
           <div class="phone-logo">
             <img src="assets\images\phone.fw.png">
           </div>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
   </div>
 
   <div class="section-mission">
     <div class="container custom-container">
-      <div class="content-wrapper">
 
+      <div class="content-wrapper">
         <div class="content-holder">
-          <div class="item">
+          <div class="content-pocket">
             <img class="img" src="assets\images\7.fw.png">
           </div>
-        </div>
-
-        <div class="content-holder">
-          <p class="title">Our mission</p>
-
           <div class="content-pocket">
-            <img class="bullet-point" src="assets\images\8.fw.png">
-            <span class="missions">
-              Cost Containment
-            </span>
-          </div>
+              <p class="title">Our mission</p>
 
-          <div class="content-pocket">
-            <img class="bullet-point" src="assets\images\8.fw.png">
-            <span class="missions">
-              High Efficiency Results
-            </span>
-          </div>
+            <div class="missions-pocket">
+              <div class="content-pocket-cc">
+                <img class="bullet-point" src="assets\images\8.fw.png">
+                <p class="missions">Cost Containment</p>
+              </div>
+    
+              <div class="content-pocket-her">
+                <img class="bullet-point" src="assets\images\8.fw.png">
+                <p class="missions">High Efficiency Results</span>
+              </div>
+    
+              <div class="content-pocket-fcs">
+                <img class="bullet-point" src="assets\images\8.fw.png">
+                <p class="missions">Flexibility & Customized Solutions</p>
+              </div>
+    
+              <div class="content-pocket-cnr">
+                <img class="bullet-point" src="assets\images\8.fw.png">
+                <p class="missions">Competitive Network Rates</p>
+              </div>
+    
+              <div class="content-pocket-ft">
+                <img class="bullet-point" src="assets\images\8.fw.png">
+                <p class="missions">Full Transparency</p>
+              </div>
+            </div>
+  
+              <button class="btn-blue">
+                Why Best Assistance
+              </button>
+  
 
-          <div class="content-pocket">
-            <img class="bullet-point" src="assets\images\8.fw.png">
-            <span class="missions">
-              Flexibility & Customized Solutions
-            </span>
-          </div>
+              <button class="btn-yellow">
+                Our history
+              </button>
 
-          <div class="content-pocket">
-            <img class="bullet-point" src="assets\images\8.fw.png">
-            <span class="missions">
-              Competitive Network Rates
-            </span>
-          </div>
-
-          <div class="content-pocket">
-            <img class="bullet-point" src="assets\images\8.fw.png">
-            <span class="missions">
-              Full Transparency
-            </span>
-          </div>
-
-          <div class="content-pocket">
-            <button class="btn-blue">
-              Why Best Assistance
-            </button>
-          </div>
-
-          <div class="content-pocket">
-            <button class="btn-yellow">
-              Our history
-            </button>
           </div>
         </div>
-
         <div class="content-holder">
           <div class="box">
-            <div class="title">
+            <div class="header">
               We provide solutions for
             </div>
 
@@ -252,8 +232,8 @@
             <div class="content-pocket2">
               <div class="logos">
                 <img class="third-logo" src="assets\images\12.fw.png">
-                <p class="small-title">Healthcare providers</p>  
-                <p class="small-desc">Offering Cutting-edge we sulotions & more.</p>
+                <p class="small-title-hp">Healthcare providers</p>  
+                <p class="small-desc-hp">Offering Cutting-edge we sulotions & more.</p>
               </div>
             </div>
 
@@ -266,6 +246,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -275,31 +256,33 @@
       <p class="title">Healthy Reading</p>
       <p class="desc">Best Assitance tips and trick to stay healthy in a few simple changes.</p>
 
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <p class="caption">A new weapon to fight cancer</p>
-            <p class="desc">News</p>
-            <img src="assets\images\16.fw.png">
+      <div class="swiper-reading">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p class="caption">A new weapon to fight cancer</p>
+              <p class="desc">News</p>
+              <img src="assets\images\16.fw.png">
+            </div>
+  
+            <div class="swiper-slide">
+              <p class="caption">Ten Ways modern life is making you sick</p>
+              <p class="desc">Health Tips</p>
+              <img src="assets\images\17.fw.png">
+            </div>              
+  
+            <div class="swiper-slide">
+              <p class="caption">Take care of your skin</p>
+              <p class="desc">Success Stories</p>
+              <img src="assets\images\18.fw.png">
+            </div>
+  
+            <div class="swiper-slide">
+              <img src="assets\images\19.fw.png">
+            </div>
           </div>
-
-          <div class="swiper-slide">
-            <p class="caption">Ten Ways modern life is making you sick</p>
-            <p class="desc">Health Tips</p>
-            <img src="assets\images\17.fw.png">
-          </div>              
-
-          <div class="swiper-slide">
-            <p class="caption">Take care of your skin</p>
-            <p class="desc">Success Stories</p>
-            <img src="assets\images\18.fw.png">
-          </div>
-
-          <div class="swiper-slide">
-            <img src="assets\images\19.fw.png">
-          </div>
+          <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-pagination"></div>
       </div>
 
       <button class="btn">My Journal</button>
@@ -333,7 +316,7 @@
             </div>
           </div>
 
-          <button class="btn">Our Solutions</button>
+          <button class="btn"><p>Our Solutions</p></button>
         </div>
       </div>
     </div>
@@ -341,66 +324,63 @@
 </main>
 
 <footer>
-  <div class="container custom-container">
-    <img class="img-leaves" src="assets\images\23.fw.png">
-    <div class="container-bg">
+  <img class="img-leaves" src="assets\images\23.fw.png">
+  <div class="container-bg">
+    <div class="content-box">
+      <div class="content-wrapper">
+        <div class="text">
+          <p class="title">Best Assistance App</p>
+          <p class="desc">Best Assistance App is the first fully interactive mobile app fully dedicated to help and assist you.</p>
 
-      <div class="content-box">
-        <div class="content-wrapper">
-          <div class="text">
-            <p class="title">Best Assistance App</p>
-            <p class="desc">Best Assistance App is the first fully interactive mobile app fully dedicated to help and assist you.</p>
-
-            <div class="logos">
-              <div class="apple-logo"><img src="assets\images\30.fw.png"></div>
-              <div class="google-logo"><img src="assets\images\31.fw.png"></div>
-            </div>
+          <div class="logos">
+            <div class="apple-logo"><img src="assets\images\30.fw.png"></div>
+            <div class="google-logo"><img src="assets\images\31.fw.png"></div>
           </div>
-        </div>  
-
-        <div class="content-wrapper">
-          <img class="hand" src="assets\images\24.fw.png">
-        </div>         
-      </div>
-
-      <div class="content-holder">
-        <div class="content-pockets">
-          <img class="logo" src="assets\images\27.fw.png">
-          <p class="text">Read and share your medical case story with us. Get inspired and motivate others for a healthier lifestyle.</p>
-          <u>Share us your story</u> 
         </div>
+      </div>  
 
-        <div class="content-pockets">
-          <img class="logo" src="assets\images\28.fw.png">
-          <p class="text">We focus in mainting a professional customized relationship while administering your medical claim.</p> 
-          <u>Give us your feedback</u> 
-        </div>
-
-        <div class="content-pockets">
-          <img class="logo" src="assets\images\29.fw.png">
-          <p class="number">+961 1 425 426</p>
-          <u>Contact us</u>  
-        </div>
-      </div>
-      
+      <div class="content-wrapper">
+        <img class="hand" src="assets\images\24.fw.png">
+      </div>         
     </div>
 
-    <div class="content-tupperware">
-      <div class="content-holder">
-        <ul>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">By &#9408;Koein</a></li>
-        </ul>
+    <div class="content-holder">
+      <div class="content-pockets">
+        <img class="logo" src="assets\images\27.fw.png">
+        <p class="text">Read and share your medical case story with us. Get inspired and motivate others for a healthier lifestyle.</p>
+        <u>Share us your story</u> 
       </div>
 
-      <div class="content-holder">
-        <a href=""><img class="fb-logo" src="assets\images\fb-01.fw.png"></a>
-        <a href=""><img class="ig-logo" src="assets\images\ig-01.fw.png"></a>
-        <a href=""><img class="in-logo" src="assets\images\linkedin-01.fw.png"></a>
-        <a href=""><img class="em-logo" src="assets\images\email.fw.png"></a>
-        <a href=""><img class="p-logo" src="assets\images\arrow.fw.png"></a>
+      <div class="content-pockets">
+        <img class="logo" src="assets\images\28.fw.png">
+        <p class="text">We focus on mainting a professional customized relationship while administering your medical claim.</p> 
+        <u>Give us your feedback</u> 
       </div>
+
+      <div class="content-pockets">
+        <img class="logo" src="assets\images\29.fw.png">
+        <p class="number">+961 1 425 426</p>
+        <u>Contact us</u>  
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="content-tupperware">
+    <div class="content-holder">
+      <ul>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">By &#9408;Koein</a></li>
+      </ul>
+    </div>
+
+    <div class="content-holder">
+      <a href=""><img class="fb-logo" src="assets\images\fb-01.fw.png"></a>
+      <a href=""><img class="ig-logo" src="assets\images\ig-01.fw.png"></a>
+      <a href=""><img class="in-logo" src="assets\images\linkedin-01.fw.png"></a>
+      <a href=""><img class="em-logo" src="assets\images\email.fw.png"></a>
+      <a href=""><img class="p-logo" src="assets\images\arrow.fw.png"></a>
     </div>
   </div>
 </footer>

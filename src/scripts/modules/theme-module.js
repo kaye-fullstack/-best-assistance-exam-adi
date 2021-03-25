@@ -8,12 +8,15 @@ AppName.Modules.ThemeModule = (function () {
   const _privateMethod = () => {
     // private stuff
 
-    const swiper = new Swiper('.swiper-container', {
-      slidesPerView: 'auto',
-      spaceBetween: 0,
+    const swiperBanner = new Swiper('.swiper-banner .swiper-container', {
       pagination: {
         el: '.swiper-pagination',
       },
+    });
+
+    const swiperReading = new Swiper('.swiper-reading .swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 0,
     });
   };
 

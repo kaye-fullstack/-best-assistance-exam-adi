@@ -4,84 +4,54 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 header {
-  .container{
+  .navbar{
     padding: 0;
-    .navbar{
-      .navbar-brand{
-        width: 250px;
+    .navbar-brand{
+      width: 250px;
 
-        margin: 6px 0 0 100px;
+      margin: 15px 0 0 0;
+    }
+
+    .nav-item{
+      margin: 25px 32px 0 0;
+    }
+
+    a{
+      font-size: 14px;
+      color: $mid-grey; 
+    }
+
+    .navbar-collapsing{
+      margin: 8px 0 0 21.5%;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+
+      .navbar-buttons-inside{
+        display: none;
       }
 
-      .switcheroo{
-        margin: 0 0 0 19%;
+      .logos-footer{
+        display: none;
+      }
 
+      .navbar-buttons-outside{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        align-items: center;
-
-        .nav-item{
-          margin: 30px 29px 0 0;
-        }
-
-        ul{
-          a{
-            font-size: 14px;
-            color: $mid-grey; 
-          }
-        }
-
-        .navbar-buttons-inside{
-          display: none;
-        }
-
-        .logos-footer{
-          display: none;
-        }
-
-        .navbar-buttons-outside{
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-end;
-          align-items: center;
-    
-          .btn-number{
-            padding: 13px 19px;
-            margin: 22px 3px 0 20px;
-    
-            font-size: 15px;
-            color: $white;
-    
-            background-color: $orange;
-            border: none;
-            border-radius: 37px;
-
-            img{
-              padding-right: 8px;
-            }
-          }  
-    
-          .btn-language{
-            padding: 13px 20px;
-            margin: 22px 10px 0 0;
-    
-            font-size: 15px;
-            color: $white;
-    
-            background-color: $dark-blue;
-            border: none;
-            border-radius: 37px;
-    
-            img{
-              padding-left: 8px;
-            }
-          }          
-        }   
-      }
+        align-items: center;         
+      }   
     }
   }
 }
+
+// .content-wrapper:nth-child(even) {
+//   .content-holder:first-child {
+//     order: 2;
+//   }
+// }
 
 @media (min-width: 1921px) and (max-width: 2000px){
   header {
@@ -126,7 +96,7 @@ header {
           }
         }
 
-        .switcheroo{
+        .navbar-collapsing{
           margin: 0 0 0 2%;
           width: 79%;
 
@@ -162,7 +132,7 @@ header {
         .navbar-brand{
           margin: 6px 0 0 30px;
         }
-        .switcheroo{
+        .navbar-collapsing{
           margin: 0 0 0 0;  
         }
       }
@@ -178,7 +148,7 @@ header {
           margin: 6px 0 0 5px;
         }
 
-        .switcheroo{
+        .navbar-collapsing{
           margin: 0 0 0 0;  
           ul{
             a{
@@ -208,12 +178,12 @@ header {
           width: 200px;
         }
   
-        .switcheroo{
+        .navbar-collapsing{
           margin: 0;
 
           flex-direction: row-reverse;
           .nav-item{
-            margin: 35px 0 0 0;
+            margin: 35px 0 0 -122px;
           }
 
           .navbar-buttons-outside{
@@ -226,6 +196,58 @@ header {
               margin: 0 20px 0 0;
               font-size: 13px;
             }
+          }
+
+          .logos-footer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            width: 23%;
+
+            margin: 10% 0 0 -5%;
+            .first-logo{
+              position:absolute;
+
+              display:flex;
+              justify-content: flex-start;
+
+              margin: 0 0 0 -13%;
+              width: 8.6%;
+
+              .in-logo{
+                width: 50px;
+              }   
+            }
+            
+            .second-logo{
+              position:absolute;
+
+              display:flex;
+              justify-content: center;
+
+              margin: 0 0 0 3%;
+              width: 8.6%;
+
+              .em-logo{
+                width: 52px;
+              }   
+            }
+            
+            .third-logo{
+              position:absolute;
+
+              display:flex;
+              justify-content: flex-end;
+
+              margin: 0 0 0 19%;
+              width: 8.6%;
+
+              .p-logo{
+                width: 52px;
+              }   
+            } 
           }
         }
 
@@ -259,11 +281,34 @@ header {
             right: 0;
             width: 100%;
         }
-        
       }
     }
   }
 } 
+
+@media (min-width: 800px) and (max-width: 900px) {
+  header {
+    .container{
+      .navbar{
+        .navbar-collapsing{
+          .logos-footer{
+            .in-logo{
+              margin: 9.5% 0 0 -52.5%;
+            }
+        
+            .em-logo{
+              margin: 9.4% 0 0 -40.2%;
+            }
+        
+            .p-logo{
+              margin: 9.4% 0 0 -28.27%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
 @media (min-width: 768px) and (max-width: 850px) {
   header {
@@ -271,7 +316,7 @@ header {
       .navbar{
         margin-right: 8%;
         .navbar-brand{
-          margin: 6px 0 0 10%;
+          margin: 6px 0 0 7%;
           width: 200px;
         }      
       }
@@ -293,7 +338,7 @@ header {
           }
         }
 
-        .switcheroo{
+        .navbar-collapsing{
           margin: 0 1.3% 0 2%;
 
           flex-direction: row-reverse;
@@ -419,7 +464,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{
+        .navbar-collapsing{
           .navbar-buttons-inside{
             .btn-number{
               padding: 13px 19% !important;
@@ -454,7 +499,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{  
+        .navbar-collapsing{  
           .navbar-buttons-inside{
             .btn-number{
               padding: 13px 17% !important;
@@ -490,7 +535,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{
+        .navbar-collapsing{
           .navbar-buttons-inside{
             .btn-number{
               padding: 13px 15% !important;
@@ -527,15 +572,15 @@ header {
       .navbar{
         margin: none;
         .navbar-brand{
-          margin: 6px 0 0 1.5%;
+          margin: 6px 0 0 7%;
           width: 200px;
           img{
             width: 200px;
           }
         }
 
-        .switcheroo{
-          margin: 0 0 0 0;
+        .navbar-collapsing{
+          margin: 0;
           .nav-item{
             margin: 35px 0 0 0;
             .nav-link{
@@ -655,7 +700,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{             
+        .navbar-collapsing{             
           .navbar-buttons-inside{
             .btn-number{
               padding: 9px 29% !important;
@@ -691,7 +736,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{             
+        .navbar-collapsing{             
           .navbar-buttons-inside{
             .btn-number{
               padding: 9px 29% !important;
@@ -728,7 +773,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{             
+        .navbar-collapsing{             
           .navbar-buttons-inside{
             .btn-number{
               padding: 9px 29% !important;
@@ -765,7 +810,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{             
+        .navbar-collapsing{             
           .navbar-buttons-inside{
             .btn-number{
               padding: 7px 29% !important;
@@ -802,7 +847,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{             
+        .navbar-collapsing{             
           .navbar-buttons-inside{
             .btn-number{
               padding: 7px 25% !important;
@@ -839,7 +884,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{             
+        .navbar-collapsing{             
           .navbar-buttons-inside{
             .btn-number{
               padding: 7px 25% !important;
@@ -876,7 +921,7 @@ header {
   header {
     .container{
       .navbar{
-        .switcheroo{             
+        .navbar-collapsing{             
           .navbar-buttons-inside{
             .btn-number{
               padding: 7px 20% !important;

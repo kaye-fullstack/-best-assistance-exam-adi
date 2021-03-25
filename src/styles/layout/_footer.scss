@@ -11,166 +11,174 @@ footer{
   background-size: cover;
 
   .img-leaves{
-    width: 388px;
+    position: absolute;
 
-    margin: -229px 0 44px 1334px;
+    margin: -337px 0 44px 1417px;
+    width: 388px;
 
     z-index: 9;
   }
 
-  .container{
-    .container-bg{
-      padding-bottom: 2.2%;
+  .container-bg{
+    max-width: 100%;
 
-      z-index: 5;
+    z-index: 5;
 
-      .content-box{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    .content-box{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
 
-        .content-wrapper{
-          &:nth-child(1){
-            width: 57%;
+      .content-wrapper{
+        &:nth-child(1){
+          width: 57%;
+        }
+
+        &:nth-child(2){
+          width: 43%;
+        }
+
+        .text{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+    
+          z-index: 13;
+    
+          .title{
+            margin: 35px 0 10px 205px;
+      
+            font-size: 37px;
+            font-weight: 700;
+            color: $white;
           }
-
-          &:nth-child(2){
-            width: 43%;
+      
+          .desc{
+            margin: 0 21px 19px 205px;
+      
+            font-size: 18px;
+            color: $white;
           }
-          .text{
+    
+          .logos{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: flex-start;
-            align-items: flex-start;
+            align-items: center;
       
-            z-index: 13;
-      
-            .title{
-              margin: 29px 0 9px 120px;
-        
-              font-size: 37px;
-              font-weight: 700;
-              color: $white;
-            }
-        
-            .desc{
-              margin: 12px 21px 19px 118px;
-        
-              font-size: 18px;
-              color: $white;
+            .apple-logo{
+              margin: 20px 0 0 205px;
+              width: 18%;
             }
       
-            .logos{
-              display: flex;
-              flex-direction: row;
-              justify-content: flex-start;
-              align-items: center;
-        
-              .apple-logo{
-                margin: 11px 0 0 118px;
-                width: 18%;
-              }
-        
-              .google-logo{
-                margin: 11px 0 0 93px;
-                width: 20%;
-              }
+            .google-logo{
+              margin: 19px 0 0 80px;
+              width: 20%;
             }
           }
-          .hand{
-            margin: -121px 10px 0px 54px;
+        }
 
-            z-index: 12;
-          }
-        }      
-      }
+        .hand{
+          margin: -120px 0 0 41px;
 
-      .content-holder{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        border-top: 1px solid $white;
+          z-index: 12;
+        }
+      }      
+    }
 
-        .content-pockets{
-          padding: 40px 0 0 0;
+    .content-holder{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-top: 1px solid $white;
 
-          &:nth-child(1){
-            width: 33.34%;
+      .content-pockets{
+        padding: 40px 0 0 0;
 
-            .logo{
-              position: absolute;
-              width: 63px;
-              margin: 9px 0 24px 100px;
-            }
+        &:nth-child(1){
+          width: 36.34%;
 
-            .text{
-              font-size: 15px;
-              color: $white;
-    
-              margin: 86px 0 28px 105px;
-            }
-
-            u{
-              font-size: 15px;
-              color: #fff;
-              margin: 15px 0 0 103px;
-            }
+          .logo{
+            position: absolute;
+            width: 63px;
+            margin: -64px 0 24px 200px;
           }
 
-          &:nth-child(2){
-            width: 33.33%;
-
-            border-right: 1px solid $white;
-            border-left: 1px solid $white;
-
-            .text{
-              font-size: 15px;
-              color: $white;
-    
-              margin: 7px 0 0 64px;
-            }
-
-            .logo{
-              position: absolute;
-              width: 66px;
-              margin: -68px 0 0 63px;
-            }
-
-            u{
-              position: absolute;
-
-              font-size: 15px;
-              color: #fff;
-              margin: 48px 0 0 64px;
-            }
-          }
-
-          &:nth-child(3){
-            width: 33.33%;
-
-            .logo{
-              position: absolute;
-              width: 50px;
+          .text{
+            font-size: 15px;
+            color: $white;
   
-              margin: -90px 0 21px 60px;
-            }
+            margin: 13px 0 28px 203px;
+          }
 
-            .number{
-              position: absolute;
-              padding: 0 0 0 57px;
+          u{
+            position:absolute;
 
-              font-size: 36px;
-              font-weight: bold;
-              color: $white;
-            }
+            margin: 9px 0 0 202px;
 
-            u{
-              position: absolute;
+            font-size: 15px;
+            color: #fff;
+          }
+        }
 
-              font-size: 15px;
-              color: $white;
-              margin: 71px 0 0 60px;
-            }
+        &:nth-child(2){
+          padding: 263px 0 0 0;
+          width: 33.33%;
+
+          border-right: 1px solid $white;
+          border-left: 1px solid $white;
+
+          .logo{
+            position: absolute;
+            width: 66px;
+            margin: -222px 0 0 64px;
+          }
+
+          .text{
+            position:absolute;
+  
+            margin: -140px 0 0 66px;
+            width: 365px;
+
+            font-size: 15px;
+            color: $white;
+          }
+
+          u{
+            position: absolute;
+
+            font-size: 15px;
+            color: #fff;
+            margin: -61px 0 0 66px;
+          }
+        }
+
+        &:nth-child(3){
+          width: 36%;
+
+          .logo{
+            position: absolute;
+            width: 50px;
+
+            margin: -111px 0 21px 77px;
+          }
+
+          .number{
+            position: absolute;
+            margin: -23px 0 0 74px;
+
+            font-size: 36px;
+            font-weight: bold;
+            color: $white;
+          }
+
+          u{
+            position: absolute;
+
+            font-size: 15px;
+            color: $white;
+            margin: 53px 0 0 46px;
           }
         }
       }
@@ -179,8 +187,8 @@ footer{
 
   .content-tupperware{
     background-color:#fff !important;
-    margin: 0 -10%;
-    padding: 42px 216px;
+    max-width: 100%;
+    padding: 35px 125px;
 
     display: flex;
     justify-content: space-between;
@@ -192,135 +200,132 @@ footer{
     }
 
     .ig-logo{
-      margin-right: 5px;
+      margin-right: 4px;
       width: 50px;
     }
 
     .in-logo{
-      margin-right: 6px;
+      margin-right: 5px;
       width: 50px;
     }
 
     .em-logo{
-      margin: -5px 16px 0 16px;
+      margin: -1px 17px 0 15px;
       width: 52px;
     }
 
     .p-logo{
-      margin: -5px 73px 0 0;
+      margin: 1px 77px 0 0;
       width: 52px;
     }
   
-
-  .content-holder{
-    ul{ 
-      position: relative;
-    
-      margin: 0;
-    
-      list-style-type: none;
-      li{ 
-        display: inline-block;
-        padding-left:35px;
-    
-        a{
-          font-size: 15px;
-          color:$dark-grey;
+    .content-holder{
+      ul{ 
+        position: relative;
+      
+        margin: 0;
+      
+        list-style-type: none;
+        li{ 
+          display: inline-block;
+          padding-left:36px;
+      
+          a{
+            font-size: 15px;
+            color:$dark-grey;
+          }
         }
       }
     }
-  }
   }
 }
 
 @media (min-width: 1921px) and (max-width: 2000px){
   footer{
-    margin-top: 300px;  
+    margin-top: 200px;  
     .img-leaves{
       width: 388px;
-      margin: -22.5% 0 44px 83%;
+      margin: -16.5% 0 44px 83%;
     }
   
-    .container{
-      .container-bg{
-        padding-bottom: 2.2%; 
-        .content-box{
-          .content-wrapper{
-            .text{
-              .title{
-                margin: 22px 0 13px -2.5%;
-              }
-          
-              .desc{
-                margin: 0 21px 56px -2.5%;
+    .container-bg{
+      padding-bottom: 2.2%; 
+      .content-box{
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 22px 0 13px -2.5%;
+            }
+        
+            .desc{
+              margin: 0 21px 56px -2.5%;
+            }
+      
+            .logos{    
+              .apple-logo{
+                margin: -20px 0 17px -7%;
               }
         
-              .logos{    
-                .apple-logo{
-                  margin: -20px 0 17px -7%;
-                }
-          
-                .google-logo{
-                  margin: -20px 0 17px 37.5%;
-                }
+              .google-logo{
+                margin: -20px 0 17px 37.5%;
               }
             }
-            .hand{
-              margin: -19.8% 10px 0 16%;
-            }
-          }      
-        }
-  
-        .content-holder{  
-          .content-pockets{
-            padding: 40px 0 0 0;
-  
-            &:nth-child(1){
-              .logo{
-                margin: 6px 0 24px -1.5%;
-              }
-  
-              .text{      
-                margin: 86px 0 28px -25px;
+          }
+          .hand{
+            margin: -19.8% 10px 0 16%;
+          }
+        }      
+      }
 
-                width: 425px;
-              }
-  
-              u{
-                margin: 15px 0 0 -25px;
-              }
-            }
-  
-            &:nth-child(2){
-              width: 34.33%;
-              .logo{
-                margin: -70px 0 0 70px;
-              }
-              
-              .text{
-                margin: 24px 0 0 74px;
+      .content-holder{  
+        .content-pockets{
+          padding: 40px 0 0 0;
 
-                width: 420px;
-              }
-  
-              u{
-                margin: 38px 0 0 74px;
-              }
+          &:nth-child(1){
+            .logo{
+              margin: 6px 0 24px -1.5%;
             }
-  
-            &:nth-child(3){
-              width: 32.33%;
-              .logo{    
-                margin: -93px 0 21px 101px;
-              }
-  
-              .number{
-                padding: 13px 0 0 98px;
-              }
-  
-              u{
-                margin: 71px 0 0 103px;
-              }
+
+            .text{      
+              margin: 86px 0 28px -25px;
+
+              width: 425px;
+            }
+
+            u{
+              margin: 15px 0 0 -25px;
+            }
+          }
+
+          &:nth-child(2){
+            width: 34.33%;
+            .logo{
+              margin: -70px 0 0 70px;
+            }
+            
+            .text{
+              margin: 24px 0 0 74px;
+
+              width: 420px;
+            }
+
+            u{
+              margin: 38px 0 0 74px;
+            }
+          }
+
+          &:nth-child(3){
+            width: 32.33%;
+            .logo{    
+              margin: -93px 0 21px 101px;
+            }
+
+            .number{
+              padding: 13px 0 0 98px;
+            }
+
+            u{
+              margin: 71px 0 0 103px;
             }
           }
         }
@@ -361,76 +366,91 @@ footer{
       width: 17%;
     }
   
-    .container{
       .container-bg{
+        .content-holder{
+          .content-pockets{
+            &:nth-child(1){
+              width: 33.33%;
+            }
+
+            &:nth-child(2){
+              width: 33.33%;
+            }
+
+            &:nth-child(3){
+              width: 33.33%;
+            }
+          }
+        }
         .content-box{    
           .content-wrapper{
             .text{
               .title{
-                margin: 29px 0 9px 67px;
+                margin: 29px 0 9px 124px;
               }
           
               .desc{
-                margin: 12px 21px 19px 69px;
+                margin: 12px 21px 19px 124px;
               }
         
               .logos{
                 .apple-logo{
-                  margin: 11px 0 0 70px;
+                  margin: 11px 0 0 122px;
+                }
+
+                .google-logo{
+                  margin: 11px 0 0 80px;
                 }
               }
             }
+
             .hand{
               margin: -121px 10px 0 5%;
               width: 90%;
             }
           }      
         }
-  
+
         .content-holder{    
           .content-pockets{
             padding: 40px 0 0 0;
-  
+
             &:nth-child(1){    
               .logo{
-                width: 63px;
-                margin: 8px 0 10px 70px;
+                margin: -50px 0 10px 70px;
               }
 
               .text{
-                margin: 76px 20px 15px 70px;
+                margin: 11px 20px 15px 70px;
               }
 
               u{
                 margin: 15px 0 0 68px;
               }
             }
-  
+
             &:nth-child(2){
               .logo{
-                position: absolute;
-                width: 66px;
-                margin: -60px 0 44px 70px;
+                margin: -230px 0 44px 70px;
               }
 
               .text{
-                padding: 29px 20px 0 5px;
+                margin: -143px 0 0 55px;
+                width: 255px;
               }
-  
+
               u{
-                margin: 18px 0 0 68px;
+                margin: -52px 0 0 55px;
               }
             }
-  
+
             &:nth-child(3){
-              .logo{
-                width: 50px;
-    
-                margin: -96px 0 0 70px;
+              .logo{  
+                margin: -103px 0 0 70px;
               }
-  
+
               .number{
-                margin: -17px 20px 0 5px;
+                margin: -37px 20px 0 65px;
               }
       
               u{
@@ -440,10 +460,10 @@ footer{
           }
         }
       }
-    }
-  
+
+
     .content-tupperware{
-      padding: 20px 9%;
+      padding: 20px 0;
   
       .fb-logo{
         margin-right: 7px;
@@ -495,94 +515,107 @@ footer{
       width: 17%;
     }
   
-    .container{
-      .container-bg{
-        .content-box{    
-          .content-wrapper{
-            .text{
-              .title{
-                margin: 29px 0 9px 15%;
-                font-size: 32px;
-              }
-          
-              .desc{
-                margin: 12px 21px 19px 15%;
-                font-size: 15px;
-              }
-        
-              .logos{
-                margin-bottom: 3%;
-                .apple-logo{
-                  margin: 11px 0 0 27%;
-                  img{
-                    width: 155px;
-                  }
-                }
-                .google-logo{
-                  margin-left: 35%;
-                  img{
-                    width: 155px;
-                  }
-                }
-              }
-            }
+    .container-bg{
+      .content-holder{
+        .content-pockets{
+          &:nth-child(1){
+            width: 33.33%;
+          }
 
-            .hand{
-              margin: -28% 10px 0 5%;
-              width: 90%;
-            }
-          }      
+          &:nth-child(2){
+            width: 33.33%;
+          }
+
+          &:nth-child(3){
+            width: 33.33%;
+          }
         }
-  
-        .content-holder{    
-          .content-pockets{
-            padding: 40px 0 0 0;
-  
-            &:nth-child(1){    
-              .logo{
-                width: 60px;
-                margin: 8px 0 10px 5.7%;
-              }
+      }
 
-              .text{
-                margin: 76px 20px 15px 17%;
-              }
-
-              u{
-                margin: 15px 0 0 17%;
-              }
+      .content-box{    
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 29px 0 9px 80px;
+              font-size: 32px;
             }
-  
-            &:nth-child(2){
-              .logo{
-                width: 60px;
-                margin: -5% 0 44px 6%;
-              }
-
-              .text{
-                margin: 29px 20px 0 45px;
-              }
-  
-              u{
-                margin: 1% 0 0 5%;
-              }
+        
+            .desc{
+              margin: 12px 0 19px 80px;
+              font-size: 15px;
             }
-  
-            &:nth-child(3){
-              .logo{
-                width: 45px;
-    
-                margin: -10% 0 0 6%;
-              }
-  
-              .number{
-                margin: -3% 20px 0 -2%;
-                font-size: 30px;
-              }
       
-              u{
-                margin: 7% 0 0 6%;
+            .logos{
+              margin-bottom: 3%;
+              .apple-logo{
+                margin: 11px 0 0 26%;
+                img{
+                  width: 155px;
+                }
               }
+              .google-logo{
+                margin: 11px 0 0 35%;
+                img{
+                  width: 155px;
+                }
+              }
+            }
+          }
+
+          .hand{
+            margin: -28% 10px 0 5%;
+            width: 90%;
+          }
+        }      
+      }
+
+      .content-holder{    
+        .content-pockets{
+          &:nth-child(1){    
+            .logo{
+              width: 60px;
+              margin: -65px 0 10px 5.7%;
+            }
+
+            .text{
+              margin: 0 0 15px 17%;
+            }
+
+            u{
+              margin: 15px 0 0 6%;
+            }
+          }
+
+          &:nth-child(2){
+            .logo{
+              width: 60px;
+              margin: -24.8% 0 44px 6%;
+            }
+
+            .text{
+              margin: -160px 0 0 45px;
+              width: 245px
+            }
+
+            u{
+              margin: -4.8% 0 0 5%;
+            }
+          }
+
+          &:nth-child(3){
+            .logo{
+              width: 45px;
+  
+              margin: -11.5% 0 0 6%;
+            }
+
+            .number{
+              margin: -5% 0 0 4%;
+              font-size: 30px;
+            }
+    
+            u{
+              margin: 6.5% 0 0 6%;
             }
           }
         }
@@ -590,65 +623,79 @@ footer{
     }
   
     .content-tupperware{
-      padding: 20px 14%;
-
-      .content-holder{
-        ul{ 
-          margin: 0;
-          li{ 
-            padding-left: 5px;
-        
-            a{
-              font-size: 14px;
-            }
-          }
-        }
-      }
+      display: none;
     }
   }
 }
 
-@media (min-width: 768px) and (max-width: 830px){
+@media (min-width: 780px) and (max-width: 850px){
   footer{
-    .container{
-      .container-bg{ 
-        .content-box{    
-          .content-wrapper{
-            .text{
-              .title{
-                margin: 29px 0 9px 18.5%;
-                font-size: 32px;
-              }
-          
-              .desc{
-                margin: 12px 21px 19px 18.5%;
-                font-size: 15px;
-              }
-        
-              .logos{
-                margin-bottom: 3%;
-                .apple-logo{
-                  margin: 11px 0 0 27%;
-                }
-              }
-            }
-          }
-        } 
+    .container-bg{ 
+      .content-box{    
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 29px 0 9px 18.5%;
 
-        .content-holder{    
-          .content-pockets{  
-            &:nth-child(3){
-              .logo{
-                margin: -14% 0 0 6%;
-              }
-  
-              .number{
-                margin: -3% 20px 0 -2%;
-              }
+              font-size: 32px;
+            }
+        
+            .desc{
+              margin: 12px 21px 19px 16.7%;
+
+              font-size: 15px;
+            }
       
-              u{
-                margin: 11.5% 0 0 6%;
+            .logos{
+              margin-bottom: 3%;
+              .apple-logo{
+                margin: 11px 0 0 26%;
               }
+            }
+          }
+        }
+      } 
+
+      .content-holder{    
+        .content-pockets{  
+          &:nth-child(1){
+            .logo{
+              width: 60px;
+              margin: -53px 0 10px 5.7%;
+            }
+
+            .text{
+              margin: 0 0 15px 17%;
+              width: 195px;
+            }
+          }
+
+          &:nth-child(2){
+            .logo{
+              margin: -29% 0 0 6%;
+            }
+
+            .text{
+              margin: -19% 20px 0 4%;
+              width: 195px;
+            }
+    
+            u{
+              margin: -5.5% 0 0 6%;
+            }
+          }
+
+          &:nth-child(3){
+            .logo{
+              margin: -14% 0 0 6%;
+            }
+
+            .number{
+              margin: -6% 20px 0 4%;
+            }
+    
+            u{
+              margin: 8.5% 0 0 6%;
             }
           }
         }
@@ -657,21 +704,77 @@ footer{
   }
 }
 
-@media (min-width: 768px) and (max-width: 780px){
+@media (min-width: 768px) and (max-width: 779px){
   footer{
-    .container{
-      .container-bg{ 
-        .content-box{    
-          .content-wrapper{
-            .text{     
-              .logos{
-                .apple-logo{
-                  margin: 11px 0 0 26%;
-                }
+    .container-bg{ 
+      .content-box{    
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 29px 0 9px 18.5%;
+
+              font-size: 32px;
+            }
+        
+            .desc{
+              margin: 12px 21px 19px 16.7%;
+
+              font-size: 15px;
+            }
+      
+            .logos{
+              margin-bottom: 3%;
+              .apple-logo{
+                margin: 11px 0 0 26%;
               }
             }
           }
-        } 
+        }
+      } 
+
+      .content-holder{    
+        .content-pockets{  
+          &:nth-child(1){
+            .logo{
+              width: 60px;
+              margin: -53px 0 10px 5.7%;
+            }
+
+            .text{
+              margin: 5% 0 15px 17%;
+              width: 195px;
+            }
+          }
+
+          &:nth-child(2){
+            .logo{
+              margin: -31% 0 0 6%;
+            }
+
+            .text{
+              margin: -21% 20px 0 4%;
+              width: 195px;
+            }
+    
+            u{
+              margin: -5.5% 0 0 6%;
+            }
+          }
+
+          &:nth-child(3){
+            .logo{
+              margin: -16% 0 0 6%;
+            }
+
+            .number{
+              margin: -7% 20px 0 4%;
+            }
+    
+            u{
+              margin: 8.5% 0 0 6%;
+            }
+          }
+        }
       }
     }
   }
@@ -685,95 +788,96 @@ footer{
       display: none;
     }
   
-    .container{
-      .container-bg{
-        .content-box{    
-          .content-wrapper{
-            .text{
-              .title{
-                margin: 29px 0 9px 11.5%;
-                font-size: 22px;
-              }
-          
-              .desc{
-                margin: 12px 21px 19px 11.5%;
-                font-size: 14px;
-              }
+    .container-bg{
+      .content-box{    
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 29px 0 9px 11.5%;
+              font-size: 22px;
+            }
         
-              .logos{
-                margin-bottom: 4%;
-                .apple-logo{
-                  margin: 11px 0 0 17.5%;
-                  img{
-                    width: 140px;
-                  }
-                }
-                .google-logo{
-                  margin-left: 35%;
-                  img{
-                    width: 140px;
-                  }
-                }
-              }
+            .desc{
+              margin: 12px 21px 19px 11.5%;
+              font-size: 14px;
             }
-            .hand{
-              margin: -4% 10px 0 5%;
-              width: 90%;
-            }
-          }      
-        }
-  
-        .content-holder{    
-          .content-pockets{
-            padding: 40px 0 0 0;
-  
-            &:nth-child(1){    
-              .logo{
-                width: 55px;
-                margin: 8px 0 10px 5.7%;
-              }
-
-              .text{
-                margin: 76px 20px 15px 17%;
-              }
-
-              u{
-                margin: 15px 0 0 17%;
-              }
-            }
-  
-            &:nth-child(2){
-              .logo{
-                width: 55px;
-                margin: -7% 0 44px 6%;
-              }
-
-              .text{
-                padding: 29px 20px 0 30px;
-                margin: 0;
-              }
-  
-              u{
-                margin: 3% 0 0 4%;
-              }
-            }
-  
-            &:nth-child(3){
-              .logo{
-                width: 40px;
-    
-                margin: -14% 0 0 6%;
-              }
-  
-              .number{
-                margin: -6% 20px 0 -2%;
-                font-size: 30px;
-              }
       
-              u{
-                margin: 12% 0 0 6%;
-                font-size: 13px;
+            .logos{
+              margin-bottom: 4%;
+              .apple-logo{
+                margin: 11px 0 0 17.5%;
+                img{
+                  width: 140px;
+                }
               }
+              .google-logo{
+                margin-left: 35%;
+                margin: 12px 0 0 35%;
+                img{
+                  width: 140px;
+                }
+              }
+            }
+          }
+          .hand{
+            margin: -4% 10px 0 5%;
+            width: 90%;
+          }
+        }      
+      }
+
+      .content-holder{    
+        .content-pockets{
+          padding: 40px 0 0 0;
+
+          &:nth-child(1){    
+            .logo{
+              width: 55px;
+              margin: -8% 0 10px 4%;
+            }
+
+            .text{
+              margin: -2% 20px 15px 11%;
+              width: 187px;
+            }
+
+            u{
+              margin: 10px 0 0 4%;
+              font-size: 13px;
+            }
+          }
+
+          &:nth-child(2){
+            .logo{
+              margin: -33% 0 0 6%;
+            }
+
+            .text{
+              margin: -23% 20px 0 4%;
+              width: 171px;
+            }
+    
+            u{
+              margin: -6% 0 0 4%;
+              font-size: 13px;
+            }
+          }
+
+          &:nth-child(3){
+            .logo{
+              width: 40px;
+  
+              margin: -16% 0 0 6%;
+            }
+
+            .number{
+              margin: -9% 20px 0 4%;
+              font-size: 30px;
+            }
+    
+            u{
+              margin: 9% 0 0 6%;
+              font-size: 13px;
             }
           }
         }
@@ -786,28 +890,153 @@ footer{
   }
 }
 
-@media (min-width: 596px) and (max-width: 677px) {
+@media (min-width: 620px) and (max-width: 677px) {
   footer{  
-    .container{
-      .container-bg{
-        .content-box{    
-          .content-wrapper{
-            .text{
-              .title{
-                margin: 29px 0 9px 13%;
-              }
-          
-              .desc{
-                margin: 12px 21px 19px 13%;
-              }
+    .container-bg{
+      .content-box{    
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 29px 0 9px 13%;
+            }
         
-              .logos{
-                .apple-logo{
-                  margin: 11px 0 0 18%;
-                }
+            .desc{
+              margin: 12px 21px 19px 13%;
+            }
+      
+            .logos{
+              .apple-logo{
+                margin: 11px 0 0 18%;
               }
             }
-          }      
+          }
+        } 
+      }       
+
+      .content-holder{
+        .content-pockets{
+          &:nth-child(1){    
+            .logo{
+              width: 50px;
+              margin: -9.5% 0 10px 4%;
+            }
+
+            .text{
+              margin: -2% 20px 15px 11%;
+              width: 187px;
+            }
+
+            u{
+              margin: 20px 0 0 4%;
+            }
+          }
+
+          &:nth-child(2){
+            .logo{
+              width: 50px;
+              margin: -37% 0 0 6% !important;
+            }
+
+            .text{
+              margin: -26% 20px 0 4%;
+              width: 160px;
+            }
+
+            .u{
+              margin: -5% 0 0 4% !important;
+            }
+          }
+
+          &:nth-child(3){
+            .logo{
+              margin: -19% 0 0 6%;
+            }
+
+            .number{
+              margin: -10% 20px 0 4%;
+            }
+    
+            u{
+              margin: 12.5% 0 0 6%;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 619px) {
+  footer{  
+    .container-bg{
+      .content-box{    
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 29px 0 9px 13%;
+            }
+        
+            .desc{
+              margin: 12px 21px 19px 13%;
+            }
+      
+            .logos{
+              .apple-logo{
+                margin: 11px 0 0 18%;
+              }
+            }
+          }
+        } 
+      }       
+
+      .content-holder{
+        .content-pockets{
+          &:nth-child(1){    
+            .logo{
+              width: 50px;
+              margin: -9.5% 0 10px 4%;
+            }
+
+            .text{
+              margin: -2% 20px 15px 11%;
+              width: 180px;
+            }
+
+            u{
+              margin: 20px 0 0 4%;
+            }
+          }
+
+          &:nth-child(2){
+            .logo{
+              width: 50px;
+              margin: -39% 0 0 6% !important;
+            }
+
+            .text{
+              margin: -28% 20px 0 4%;
+              width: 160px;
+            }
+
+            .u{
+              margin: -5.5% 0 0 4% !important;
+            }
+          }
+
+          &:nth-child(3){
+            .logo{
+              margin: -19.5% 0 0 6%;
+            }
+
+            .number{
+              margin: -10% 20px 0 4%;
+            }
+    
+            u{
+              margin: 12.5% 0 0 6%;
+            }
+          }
         }
       }
     }
@@ -816,29 +1045,28 @@ footer{
 
 @media (min-width: 576px) and (max-width: 595px) {
   footer{ 
-    .container{
-      .container-bg{
-        .content-box{    
-          .content-wrapper{
-            .text{
-              .title{
-                margin: 29px 0 9px 14.5%;
-              }
-          
-              .desc{
-                margin: 12px 21px 19px 14.5%;
-              }
+    .container-bg{
+      .content-box{    
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 29px 0 9px 14.5%;
+            }
         
-              .logos{
-                .apple-logo{
-                  margin: 11px 0 0 18%;
-                }
+            .desc{
+              margin: 12px 21px 19px 14.5%;
+            }
+      
+            .logos{
+              .apple-logo{
+                margin: 11px 0 0 18%;
               }
             }
-          }      
-        }
+          }
+        }      
       }
     }
+
     .content-holder{    
       .content-pockets{
         &:nth-child(3){    
@@ -852,185 +1080,222 @@ footer{
 }
 
 @include respond-to(xs) {
-  footer {
-    margin-top: 0px;
+  footer{
+    padding-bottom: 15%;
 
     .img-leaves{
       display: none;
     }
-    .container{
-      .container-bg{
-        padding-bottom: 40%;
 
-        .content-box{
-          .content-wrapper{
-            .text{
-              .title{
-                margin: 16% 0 10px 9%;
-                width: 100%;
-          
-                font-size: 30px;
-              }
-          
-              .desc{
-                margin: 8px 0 20px 9%;
-                width: 450px;
-          
-                font-size: 18px;
+    .container-bg{
+      padding-bottom: 32%;
+
+      .content-box{
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 16% 0 10px 15%;
+              width: 100%;
+        
+              font-size: 30px;
+            }
+        
+            .desc{
+              margin: 8px 0 20px 15%;
+              width: 450px;
+        
+              font-size: 18px;
+            }
+      
+            .logos{        
+              .apple-logo{
+                margin: 5% 0 10% 15%;
+                
+                img{
+                  width: 240%;
+                }
               }
         
-              .logos{        
-                .apple-logo{
-                  margin: 5% 0 10% 9%;
-                  
-                  img{
-                    width: 240%;
-                  }
-                }
-          
-                .google-logo{
-                  margin: 5% 0 10% 30%;
+              .google-logo{
+                margin: 5% 0 10% 30%;
 
-                  img{
-                    width: 218%;
-                  }
+                img{
+                  width: 218%;
                 }
               }
             }
-            .hand{
-              display: none;
+          }
+          .hand{
+            display: none;
+          }
+        }      
+      }
+
+      .content-holder{  
+        flex-direction: column;
+
+        border: none;
+        .content-pockets{
+          padding: 40px 0 0 0;
+
+          &:nth-child(1){ 
+            width: 100%;
+
+            .logo{
+              width: 52px;
+              margin: 0 0 0 9%;
             }
-          }      
-        }
-  
-        .content-holder{  
-          flex-direction: column;
 
-          border: none;
-          .content-pockets{
-            padding: 40px 0 0 0;
-  
-            &:nth-child(1){ 
-              width: 100%;
-
-              .logo{
-                width: 52px;
-                margin: 0 0 0 5%;
-              }
-  
-              .text{
-                font-size: 18px;
-      
-                margin: 10% 0 2% 5%;
-                width: 450px;
-              }
-  
-              u{
-                font-size: 16px;
-
-                margin: 10% 0 0 5%;
-              }
-            }
-  
-            &:nth-child(2){  
-              width: 100%;
-
-              border: none;
-              .logo{
-                width: 51px;
-                margin: 0 0 0 5%;
-              }
-
-              .text{
-                font-size: 18px;
-      
-                margin: 13% 0 0 5%;
-                width: 450px;
-              }
-  
-              u{
-                font-size: 16px;
-
-                margin: 3% 0 0 5%;
-              }
-            }
-  
-            &:nth-child(3){ 
-              width: 100%;
-              .logo{
-                width: 38px;
+            .text{
+              font-size: 18px;
     
-                margin: 8% 0 0 5%;
-              }
-  
-              .number{
-                font-size: 32px;
+              margin: 10% 0 2% 9%;
+              width: 450px;
+            }
 
-                margin: 17% 0 0 -5%;
-                width: 450px;
-              }
-  
-              u{
-                font-size: 16px;
+            u{
+              font-size: 16px;
 
-                margin: 26% 0 0 4.5%;
-              }
+              margin: 1% 0 0 9%;
+            }
+          }
+
+          &:nth-child(2){  
+            width: 100%;
+
+            border: none;
+            .logo{
+              width: 51px;
+              margin: -34% 0 0 9%;
+            }
+
+            .text{
+              font-size: 18px;
+    
+              margin: -22% 0 0 9%;
+              width: 450px;
+            }
+
+            u{
+              font-size: 16px;
+
+              margin: -9% 0 0 9%;
+            }
+          }
+
+          &:nth-child(3){ 
+            width: 100%;
+            .logo{
+              width: 38px;
+  
+              margin: -5% 0 0 9%;
+            }
+
+            .number{
+              font-size: 32px;
+
+              margin: 6% 0 0 9%;
+              width: 450px;
+            }
+
+            u{
+              font-size: 16px;
+
+              margin: 19% 0 0 9%;
             }
           }
         }
       }
+    }
 
-      .content-tupperware{
-        display: none;
-      }
+    .content-tupperware{
+      display: none;
     }
   }
 }
 
 @media (min-width: 425px) and (max-width: 490px) {
   footer {
-    .container{
-      .container-bg{
-        .content-box{
-          .content-wrapper{
+    .container-bg{
+      padding-bottom: 31%;
+      .content-box{
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 16% 0 10px 9%;
+
+              font-size: 26px;
+            }
+        
+            .desc{
+              margin: 8px 0 20px 9%;
+              width: 400px;
+        
+              font-size: 17px;
+            }
+
+            .logos{
+              .apple-logo{
+                margin: 5% 0 10% 9%;
+              }
+            }
+          }
+        }      
+      }
+
+      .content-holder{  
+        .content-pockets{
+          &:nth-child(1){ 
+            .logo{
+              margin: 0 0 0 5%;
+            }
+
             .text{
-              .title{
-                font-size: 26px;
-              }
-          
-              .desc{
-                width: 400px;
-          
-                font-size: 17px;
-              }
-            }
-          }      
-        }
-  
-        .content-holder{  
-          .content-pockets{
-            &:nth-child(1){ 
-              .text{
-                font-size: 17px;
+              width: 400px;
+              margin: 10% 0 2% 5%;
 
-                width: 400px;
-              }
+              font-size: 17px;
             }
-  
-            &:nth-child(2){  
-              .text{
-                width: 400px;
 
-                font-size: 17px;
-              }
+            u{
+              margin: 1% 0 0 5% !important;
             }
-  
-            &:nth-child(3){ 
-              .number{
-                font-size: 30px;
+          }
 
-                width: 400px;
-              }
+          &:nth-child(2){  
+            .logo{
+              width: 51px;
+              margin: -38% 0 0 5%;
+            }
+
+            .text{
+              margin: -24% 0 0 5%;
+              width: 400px;
+
+              font-size: 18px;
+            }
+
+            u{
+              font-size: 16px;
+
+              margin: -5% 0 0 5%;
+            }
+          }
+
+          &:nth-child(3){ 
+            .logo{
+              margin: 2% 0 0 5%;
+            }
+
+            .number{
+              width: 400px;
+              margin: 13% 0 0 5%;
+
+              font-size: 30px;
+            }
+
+            u{
+              margin: 24% 0 0 5%;
             }
           }
         }
@@ -1041,83 +1306,97 @@ footer{
 
 @media (min-width: 395px) and (max-width: 424px) {
   footer {
-    .container{
-      .container-bg{
-        padding-bottom: 45%;
+    .container-bg{
+      padding-bottom: 30%;
+      .content-box{
+        .content-wrapper{
+          .text{
+            .title{          
+              margin: 16% 0 10px 10%;
 
-        .content-box{
-          .content-wrapper{
-            .text{
-              .title{          
-                font-size: 24px;
-              }
-          
-              .desc{
-                width: 320px;
-          
-                font-size: 16px;
+              font-size: 24px;
+            }
+        
+            .desc{
+              width: 320px;
+              margin: 8px 0 20px 10%;
+        
+              font-size: 16px;
+            }
+      
+            .logos{        
+              .apple-logo{
+                margin: 5% 0 10% 10%;
+                img{
+                  width: 280%;
+                }
               }
         
-              .logos{        
-                .apple-logo{
-                  img{
-                    width: 280%;
-                  }
-                }
-          
-                .google-logo{
-                  margin: 5% 0 10% 38%;
+              .google-logo{
+                margin: 5% 0 10% 38%;
 
-                  img{
-                    width: 245%;
-                  }
+                img{
+                  width: 245%;
                 }
               }
             }
-          }      
-        }
-  
-        .content-holder{  
-          .content-pockets{  
-            &:nth-child(1){ 
-              .text{
-                font-size: 16px;
-      
-                margin: 12% 0 2% 5%;
-                width: 320px;
-              }
-  
-              u{
-                font-size: 15px;
-              }
-            }
-  
-            &:nth-child(2){  
-              .text{
-                font-size: 16px;
-      
-                margin: 15% 0 0 5%;
-                width: 320px;
-              }
-  
-              u{
-                font-size: 15px;
-              }
-            }
-  
-            &:nth-child(3){ 
-              .number{
-                font-size: 28px;
+          }
+        }      
+      }
 
-                margin: 19% 0 0 -8%;
-                width: 320px;
-              }
-  
-              u{
-                font-size: 15px;
+      .content-holder{  
+        .content-pockets{
+          &:nth-child(1){ 
+            .logo{
+              margin: 0 0 0 6%;
+            }
 
-                margin: 30% 0 0 4.5%;
-              }
+            .text{
+              width: 378px;
+              margin: 10% 0 2% 6%;
+
+              font-size: 17px;
+            }
+
+            u{
+              margin: 1% 0 0 6% !important;
+            }
+          }
+
+          &:nth-child(2){  
+            .logo{
+              width: 51px;
+              margin: -38% 0 0 6%;
+            }
+
+            .text{
+              margin: -24% 0 0 6%;
+              width: 370px;
+
+              font-size: 18px;
+            }
+
+            u{
+              font-size: 16px;
+
+              margin: -5% 0 0 6%;
+            }
+          }
+
+          &:nth-child(3){ 
+            .logo{
+              margin: 2% 0 0 6%;
+            }
+
+            .number{
+              width: 400px;
+              margin: 13% 0 0 6%;
+
+              font-size: 30px;
+            }
+
+            u{
+              margin: 24% 0 0 6%;
             }
           }
         }
@@ -1128,83 +1407,93 @@ footer{
 
 @media (min-width: 360px) and (max-width: 394px) {
   footer {
-    .container{
-      .container-bg{
-        padding-bottom: 50%;
+    .container-bg{
+      padding-bottom: 20%;
 
-        .content-box{
-          .content-wrapper{
-            .text{
-              .title{
-                font-size: 22px;
-              }
-          
-              .desc{
-                width: 320px;
-          
-                font-size: 16px;
+      .content-box{
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 16% 0 10px 12%;
+
+              font-size: 22px;
+            }
+        
+            .desc{
+              width: 320px;
+              margin: 8px 0 20px 12%;
+        
+              font-size: 16px;
+            }
+      
+            .logos{        
+              .apple-logo{      
+                margin: 5% 0 10% 12%;  
+                img{
+                  width: 280%;
+                }
               }
         
-              .logos{        
-                .apple-logo{        
-                  img{
-                    width: 280%;
-                  }
-                }
-          
-                .google-logo{
-                  margin: 5% 0 10% 38%;
-                  img{
-                    width: 245%;
-                  }
+              .google-logo{
+                margin: 5% 0 10% 38%;
+                img{
+                  width: 245%;
                 }
               }
             }
-          }      
+          }
+        }      
+      }
+    }
+
+    .content-holder{  
+      .content-pockets{
+        &:nth-child(1){ 
+          .logo{
+            margin: 0 0 0 7% !important;
+          }
+
+          .text{
+            width: 345px !important;
+            margin: 10% 0 2% 7% !important;
+
+            font-size: 17px !important;
+          }
+
+          u{
+            margin: 1% 0 0 7% !important;
+          }
         }
-  
-        .content-holder{  
-          .content-pockets{
-            &:nth-child(1){ 
-              .text{
-                font-size: 16px;
-      
-                margin: 12% 0 2% 5%;
-                width: 320px;
-              }
-  
-              u{
-                font-size: 15px;
-              }
-            }
-  
-            &:nth-child(2){  
-              .text{
-                font-size: 16px;
-      
-                margin: 15% 0 0 5%;
-                width: 320px;
-              }
-  
-              u{
-                font-size: 15px;
-              }
-            }
-  
-            &:nth-child(3){  
-              .number{
-                font-size: 28px;
 
-                margin: 19% 0 0 -8%;
-                width: 320px;
-              }
-  
-              u{
-                font-size: 15px;
+        &:nth-child(2){  
+          .logo{
+            margin: -45% 0 0 7% !important;
+          }
 
-                margin: 30% 0 0 4.5%;
-              }
-            }
+          .text{
+            margin: -30% 0 0 7% !important;
+            width: 345px !important;
+          }
+
+          u{
+            margin: -8% 0 0 7% !important;
+          }
+        }
+
+        &:nth-child(3){ 
+          .logo{
+            margin: -5% 0 0 7% !important;
+          }
+
+          .number{
+            margin: 6% 0 0 7% !important;
+            width: 345px !important;
+
+            font-size: 30px;
+          }
+
+          u{
+            margin: 19% 0 0 7% !important;
           }
         }
       }
@@ -1214,93 +1503,92 @@ footer{
 
 @media (min-width: 320px) and (max-width: 359px) {
   footer {
-    .container{
-      .container-bg{
-        padding-bottom: 50%;
-        .content-box{
-          .content-wrapper{
-            .text{
-              .title{
-                font-size: 19px;
-              }
-          
-              .desc{
-                width: 280px;
-          
-                font-size: 15px;
+    .container-bg{
+      padding-bottom: 40%;
+      .content-box{
+        .content-wrapper{
+          .text{
+            .title{
+              margin: 16% 0 10px 13%;
+
+              font-size: 19px;
+            }
+        
+            .desc{
+              width: 280px;
+              margin: 8px 0 20px 13%;
+
+        
+              font-size: 15px;
+            }
+      
+            .logos{        
+              .apple-logo{
+                margin: 5% 0 10% 13%;
+                img{
+                  width: 280%;
+                }
               }
         
-              .logos{        
-                .apple-logo{
-                  img{
-                    width: 280%;
-                  }
-                }
-          
-                .google-logo{
-                  margin: 5% 0 10% 38%;
-                  img{
-                    width: 245%;
-                  }
+              .google-logo{
+                margin: 5% 0 10% 38%;
+                img{
+                  width: 245%;
                 }
               }
             }
-          }      
-        }
+          }
+        }      
+      }
+
+      .content-holder{  
+        .content-pockets{
+          &:nth-child(1){ 
+            .logo{
+              margin: -2% 0 0 8%;
+            }
+
+            .text{
+              width: 270px!important;
+              margin: 10% 0 2% 8% !important;
+
+              font-size: 17px !important;
+            }
+
+            u{
+              margin: 1% 0 0 8% !important;
+            }
+          }
   
-        .content-holder{  
-          .content-pockets{
-            &:nth-child(1){ 
-              .logo{
-                width: 49px;
-              }
-  
-              .text{
-                font-size: 15px;
-      
-                margin: 14% 0 2% 5%;
-                width: 280px;
-              }
-  
-              u{
-                font-size: 14px;
-              }
+          &:nth-child(2){  
+            .logo{
+              margin: -47% 0 0 8% !important;
             }
   
-            &:nth-child(2){  
-              .logo{
-                width: 48px;
-              }
-
-              .text{
-                font-size: 15px;
-      
-                margin: 17% 0 0 5%;
-                width: 280px;
-              }
-  
-              u{
-                font-size: 14px;
-              }
+            .text{
+              width: 270px!important;
+              margin: -30% 0 0 8% !important;
             }
   
-            &:nth-child(3){ 
-              .logo{
-                width: 36px;
-              }
+            u{
+              margin: 3% 0 0 8% !important;
+            }
+          }
   
-              .number{
-                font-size: 26px;
+          &:nth-child(3){ 
+            .logo{
+              margin: 10% 0 0 8%;
+            }
 
-                margin: 22% 0 0 -11%;
-                width: 280px;
-              }
-  
-              u{
-                font-size: 14px;
+            .number{
+              width: 270px!important;
+              margin: 25% 0 0 8%;
 
-                margin: 33% 0 0 4.5%;
-              }
+              font-size: 30px;
+            }
+
+            u{
+              margin: 40% 0 0 8%;
             }
           }
         }

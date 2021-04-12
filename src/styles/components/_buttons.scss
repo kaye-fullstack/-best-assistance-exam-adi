@@ -6,7 +6,7 @@
 
 .btn-number{
   padding: 13px 19px;
-  margin: 23px 3px 0 5px;
+  margin: 37px 3px 0 0;
 
   font-size: 15px;
   color: $white;
@@ -20,9 +20,13 @@
   }
 }  
 
+.btn-number:hover {
+  background:linear-gradient(90deg, #f2994a 0%,#f2c94c 100% );
+}
+
 .btn-language{
   padding: 13px 20px;
-  margin: 22px 0 0 0;
+  margin: 37px 0 0 0;
 
   font-size: 15px;
   color: $white;
@@ -36,24 +40,30 @@
   }
 } 
 
+.btn-language:hover {
+  background:linear-gradient(90deg, #07306f 0%,#1cb5e0 100% );
+}
+
 .btn-blue{
   position: absolute;
   
-  margin: 22.6% 0 0 1.2%;
   padding: 18px 29px;
 
   font-size: 15px;
   color: $white;
 
+  background-image: linear-gradient(to right top, #278dd7, #2685cc, #257cc1, #2474b6, #226cab);
+  border-radius: 27px;
   border: none;
-  background-image: url("../assets/images/14.fw.png");
-  background-repeat: no-repeat;
 }          
+
+.btn-blue:hover {
+  background:linear-gradient(90deg, #07306f 0%,#1cb5e0 100% );
+}
 
 .btn-yellow{
   position: absolute;
 
-  margin: 22.6% 0 0 12%;
   padding: 18px 29px;
   width: 200px;
 
@@ -63,4 +73,42 @@
   background-color: $light-yellow;
   border: none;
   border-radius: 27px;
+}
+
+.btn-yellow:hover {
+  background:linear-gradient(90deg, #f2994a 0%,#f2c94c 100% );
+}
+
+.btn-healthy{
+  position: absolute;
+
+  padding: 18px 64px;
+
+  font-size: 15px;
+  color: $white;
+
+  background-image: linear-gradient(to right top, #278dd7, #2685cc, #257cc1, #2474b6, #226cab);
+  border-radius: 27px;
+  border: none;
+}
+
+.btn-healthy:hover {
+  background:linear-gradient(90deg, #07306f 0%,#1cb5e0 100% );
+}
+
+.btn-solution{
+  position: absolute;
+
+  padding: 18px 52px;
+
+  font-size: 15px;
+  color: $white;
+
+  background-image: linear-gradient(to right top, #278dd7, #2685cc, #257cc1, #2474b6, #226cab);
+  border-radius: 27px;
+  border: none;
+}
+
+.btn-solution:hover {
+  background:linear-gradient(90deg, #07306f 0%,#1cb5e0 100% );
 }

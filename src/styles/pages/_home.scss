@@ -16,25 +16,30 @@
     background-size: cover;
 
     .swiper-container{
-      margin-top: 87px;
-    }
+      width: 600px;
+      margin: 87px 0 0 0;
 
-    h1{
-      margin: 160px 0 0 3px;
-      width: 565px;
+      .swiper-slide{
+        width: 600px;
 
-      font-size: 60px;
-      font-weight: bold;
-      color: $white;
-    }
+        h1{
+          margin: 160px 0 0 3px;
+          width: 565px;
 
-    .title{
-      margin: 160px 0 0 0;
-      width: 565px;
+          font-size: 60px;
+          font-weight: bold;
+          color: $white;
+        }
 
-      font-size: 60px;
-      font-weight: bold;
-      color: $white;
+        .title{
+          margin: 160px 0 0 0;
+          width: 565px;
+
+          font-size: 60px;
+          font-weight: bold;
+          color: $white;
+        }
+      }
     }
 
     .swiper-pagination{
@@ -49,7 +54,7 @@
       align-items: center;
 
       .icons-w-text{
-        margin: 40px 66px 0 0px;
+        margin: 40px 66px 0 0;
         width: 61px;
         text-align: center;
   
@@ -62,7 +67,6 @@
         }
       }
     }
-
 
     .sidebar-item {
       position: fixed;
@@ -82,39 +86,51 @@
       .fb-logo{
         flex-grow: 1;
         margin: 13px 0 6px 0;
-
         width: 9px;
       }
 
       .ig-logo{
         margin: 0 5px 21px 0;
-
         width: 9px;
       }
 
-      .in-logo{
+      .linkedin-logo{
         margin: 0 5px 22px 0;
-
         width: 9px;
       }
 
       .share-logo{
         margin: 0 5px 25px 0;
-
         width: 9px;
       }
 
       .phone-logo{
         margin: 0 0 9px 4px;
-   
         width: 9px;
       }
     }
   }
 
   .section-mission{
-    padding-bottom: 188px;
+    position: relative;
+
+    padding-bottom: 34px;
     background-color: $white;
+
+    &:before {
+      content:"";
+      position: absolute;
+      top: 11.3%;
+      left: 9.8%;
+      z-index: 1;
+
+      width: 18%;
+      height: 50%;
+
+      background-image:url("../assets/images/7.fw.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
 
     .content-wrapper{
       display: flex;
@@ -122,1453 +138,1103 @@
       flex-wrap: wrap;
       justify-content: flex-start;
       align-items: center;
+
       .content-holder {
         display: flex;
         flex-direction: row;
+
+        &:nth-child(1){
+          position: absolute;
+
+          width: 27%;
+          height: 70%;
+          margin: -44px 0 0 343px;
+        }
+
+        &:nth-child(2){
+          width: 45%;
+          margin: 0 0 0 823px;
+        }
+
         .content-pocket{
           display: flex;
           flex-direction: row;
+
+          .mission-header{
+            position: absolute;
+            
+            margin: 0 0 0 27px;
+      
+            font-size: 41px;
+            font-weight: bold;
+            color: $black;
+          }
+
           .missions-pocket{
             display: flex;
             flex-direction: row;
-            margin: 160px 0 0 31px;
+            margin: 95px 0 0 31px;
+
+            .mission{
+              position: absolute;
+        
+              display:flex;
+              flex-direction: row;
+        
+              p{
+                margin: 0 0 0 7%;
+          
+                font-size: 16px;
+              }
+            }
+        
+            .cost{
+              width: 250px;
+              margin: 0;
+            }
+        
+            .efficiency{
+              width: 275px;
+              margin: 43px 0 0 0;
+            }
+        
+            .flexibility{
+              width: 298px;
+              margin: 89px 0 0 0;
+            }
+        
+            .competitive{
+              width: 305px;
+              margin: 133px 0 0 0;
+            }
+        
+            .transparency{
+              width: 275px;
+              margin: 178px 0 0 0;
+            }
+        
+            .bullet-point{
+              width: 24px;
+            }
+          }
+
+          .btn-blue{
+            margin: 370px 0 0 23px;
+          }
+
+          .btn-yellow{
+            margin: 370px 0 0 233px;
           }
         }
       }
-    }  
 
-    .img{
-      margin: 23% 0 0 0;
-      width: 343px;
-    }
-
-    .title{
-      position: absolute;
-      
-      margin: 3.4% 0 0 27px;
-
-      font-size: 41px;
-      font-weight: bold;
-      color: $black;
-    }
-
-    .bullet-point{
-      width: 24px;
-    }
-
-      .content-pocket-cc{
-        position: absolute;
-        display:flex;
-        flex-direction: row;
-        width: 250px;
-        margin: 0 0 0 0;
-
-        p{
-          margin: 0 0 0 7%;
-
-          font-size: 16px;
-        }
-      }
-
-      .content-pocket-her{
-        position: absolute;
-        display:flex;
-        flex-direction: row;
-        width: 275px;
-        margin: 0 0 0 0;
-
-        p{
-          margin: 0 0 0 7%;
-
-          font-size: 16px;
-        }
-      }
-
-      .content-pocket-fcs{
-        position: absolute;
-
-        width: 355px;
-        margin: -.3% 0 0 0;
-
-        p{
-          margin: 0 0 0 7%;
-
-          font-size: 16px;
-        }
-      }
-
-      .content-pocket-cnr{
-        position: absolute;
-
-        width: 305px;
-        margin: 2% 0 0 0;
-
-        p{
-          margin: -8% 0 0 30%;
-
-          font-size: 16px;
-        }
-        
-        .bullet-point{
-          margin: .3% 13px 0 47px;
-          width: 24px;
-        }
-      }
-
-      .content-pocket-ft{
-        position: absolute;
-
-        width: 275px;
-        margin: 4.4% 0 0 0;
-
-        p{
-          margin: -9% 0 0 33%;
-
-          font-size: 16px;
-        }
-        
-        .bullet-point{
-          margin: 0 13px 0 47px;
-          width: 24px;
-        }
-      }
-
-
-      .box{ 
-        position: absolute;
-
-        margin: -20.8% 0 0 26.69%;
-        width: 690px;
+      .box-provide{ 
+        z-index: 9;
+  
+        margin: -21% 0 0 11px;
+        width: 100%;
         height: 800px;
     
         background-image: url("../assets/images/9.fw.png");
         background-position: center;
         background-repeat: no-repeat;
-    
-        z-index: 9;
-    
-        .header{
-          padding: 210px 0 0 16%;
+  
+        .box-provide-header{
+          padding: 210px 0 0 111px;
           width: 580px;
-
+    
           font-size: 40px;
           font-weight: bold;
           color: $white;
-    
-          z-index: 11;
         }
-      
-        .content-pocket2{
+
+        .solutions-pocket{
+          display: flex;
+          flex-direction: row;
           width: 575px;
-          .logos{
-            .first-logo{
-              position: relative;
-              margin: 34px 0 0 115px;
-              width: 43px;
-            }
+          margin: 28px 0 33px 115px;
 
-            .second-logo{
-              position: relative;
-              margin: 3px 0 0 115px;
-              width: 40px;
-            }
-
-            .third-logo{
-              position: relative;
-              margin: 2px 0 0 113px;
-              width: 46px;
-            }
-
-            .fourth-logo{
-              position: relative;
-              margin: 1px 0 0 118px;
-              width: 40px;
-            }
-
-            .small-title{
-              z-index: 12;
-
-              margin:-47px 0 15px 188px;
-              width: 176px;
-
-              font-size: 18px;
-              font-weight: bold;
-              color: $white;
-            }
-
-            .small-title-hp{
-              z-index: 12;
-
-              margin:-52px 0 15px 188px;
-              width: 176px;
-
-              font-size: 18px;
-              font-weight: bold;
-              color: $white;
-            }
-
-            .small-desc{
-              z-index: 12;
-
-              margin: -12px 0 33px 187px;
-              width: 390px;
-
-              font-size: 18px;
-              color: $white;
-            }
-
-            .small-desc-hp{
-              z-index: 12;
-
-              margin: -12px 0 36px 187px;
-              width: 390px;
-
-              font-size: 18px;
-              color: $white;
-            }
+          .first-icon{
+            margin-top: 5px;
+            width: 43px;
           }
-        }
-      }  
-    }
+      
+          .second-icon{
+            margin-top: 9px;
+            width: 40px;
+          }
+      
+          .third-icon{
+            margin: 8px 0 0 -2px;
+            width: 46px;
+          }
+      
+          .fourth-icon{
+            margin: 5px 0 0 3px;
+            width: 40px;
+          }
+    
+          .solutions-title-and-desc{
+            position: absolute;
   
+            display: flex;
+            flex-direction: column;
+            margin: 0 0 0 73px;
 
+            .title{
+              margin: 0 0 4px 0;
+              width: 176px;
+        
+              font-size: 18px;
+              font-weight: bold;
+              color: $white;
+            }
+
+            .desc{
+              margin: 0 0 0 1px;
+              width: 390px;
+        
+              font-size: 18px;
+              color: $white;
+            }
+
+          }
+
+          .title-healthcare{
+            margin: 0 0 0 1px;
+            width: 176px;
+      
+            font-size: 18px;
+            font-weight: bold;
+            color: $white;
+          }
+      
+          .desc-healthcare{
+            margin: 0 0 0 1px;
+            width: 390px;
+      
+            font-size: 18px;
+            color: $white;
+          }
+        }  
+      } 
+    }  
+  }
+  
   .section-healthy{
-    margin-bottom: 197px;
-    .title{
-      margin: 0 0 7px 116px;
+    margin-bottom: 207px;
+
+    .healthy-header{
+      margin: 0 0 8px 0;
       width: 310px;
 
       font-size: 40px;
       font-weight: bold;
     }
 
-    .desc{
-      margin-left: 116px;
-      
+    .healthy-desc{
+      margin: 0 0 0 2px;
+      width: 480px;
+
       font-size: 15px;
       font-weight: bold;
     }
 
     .swiper-container{
-      padding: 20px 0 0 116px;
+      padding: 35px 0 0 2px;
 
-    .swiper-wrapper{
-      transition-duration: none;
-      transform: none;
-      
-      .swiper-slide{  
-        font-size: 28px;
-        font-weight: bold;
-        color: $white;
-        line-height: 35px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        &:nth-child(1n){
-        width: 745px;   
-
-          .caption{
-            position: absolute;
+      .swiper-wrapper{
+        transition-duration: none;
+        transform: none;
         
-            margin: 270px 0 0 -435px;
-            width: 240px;
-      
-            line-height: 35px;
-            z-index: 13;
-          }
+        .swiper-slide{  
+          font-size: 28px;
+          font-weight: bold;
+          color: $white;
+          line-height: 35px;
 
-          .desc{
-            position: absolute;
-            
-            margin: 402px 609px -85px 0px;
-            width: 62px;
-            height: 25px;
+          display: flex;
+          justify-content: left;
+          align-items: center;
 
-            font-size: 13px;
-            text-align: center;
+          &:nth-child(1){
+          width: 745px;   
 
-            background-color: $yellow;
-
-            z-index: 13;
-          }       
-        }
-
-        &:nth-child(2n){
-          width: 371px;
-
-          .caption{
-            position: absolute;
+            .caption{
+              position: absolute;
+          
+              margin: 270px 0 0 35px;
+              width: 240px;
         
-            margin: 272px 0 0 -24px;
-            width: 282px;
-      
-            z-index: 13;
+              line-height: 35px;
+              z-index: 13;
+            }
+
+            .date{
+              position: absolute;
+
+              margin: 390px 0 0 35px;
+
+              font-size: 13px;
+              color: white;
+
+              z-index: 13;
+            }
+
+            .tag{
+              position: absolute;
+              
+              margin: 487px 0 0 36px;
+              width: 62px;
+              height: 25px;
+
+              font-size: 13px;
+              text-align: center;
+
+              background-color: $yellow;
+
+              z-index: 13;
+            }       
           }
 
-          .desc{
-            position: absolute;
-            
-            margin: 402px 198px -85px 0px;
-            width: 102px;
-            height: 26px;
+          &:nth-child(2){
+            width: 371px;
 
-            font-size: 13px;
-            text-align: center;
-
-            background-color: $light-green;
-
-            z-index: 13;
-          }
-        }
-
-        &:nth-child(3n){
-          width: 371px;
-
-          .caption{
-            position: absolute;
+            .caption{
+              position: absolute;
+          
+              margin: 272px 0 0 31px;
+              width: 282px;
         
-            margin: 270px 0 0 -52px;
-            width: 240px;
-      
-            line-height: 35px;
-            z-index: 13;
+              z-index: 13;
+            }
+
+            .date{
+              position: absolute;
+
+              margin: 390px 0 0 35px;
+
+              font-size: 13px;
+              color: white;
+
+              z-index: 13;
+            }
+
+            .tag{
+              position: absolute;
+              
+              margin: 488px 0 0 35px;
+              width: 102px;
+              height: 26px;
+
+              font-size: 13px;
+              text-align: center;
+
+              background-color: $light-green;
+
+              z-index: 13;
+            }
           }
-          .desc{
-            position: absolute;
-            
-            margin: 402px 179px -85px 0px;
-            width: 124px;
-            height: 26px;
 
-            font-size: 13px;
-            text-align: center;
+          &:nth-child(3){
+            width: 371px;
 
-            background-color: $blue;
+            .caption{
+              position: absolute;
+          
+              margin: 270px 0 0 36px;
+              width: 240px;
+        
+              line-height: 35px;
+              z-index: 13;
+            }
 
-            z-index: 13;
+            .date{
+              position: absolute;
+
+              margin: 390px 0 0 35px;
+
+              font-size: 13px;
+              color: white;
+
+              z-index: 13;
+            }
+
+            .tag{
+              position: absolute;
+              
+              margin: 487px 0 0 34px;
+              width: 124px;
+              height: 26px;
+
+              font-size: 13px;
+              text-align: center;
+
+              background-color: $blue;
+
+              z-index: 13;
+            }
           }
-        }
 
-        img{
-          z-index: 12;
+          img{
+            z-index: 12;
+          }
         }
       }
     }
-    }
 
-    .swiper-pagination{
-      margin: 0 0 0 -5%;
-      width: 26%;
-    }
-
-    .btn{
-      position: absolute;
-      margin: 68px 0 0 115px;
-
-      padding: 18px 64px;
-
-      font-size: 15px;
-      color: $white;
-
-      border: none;
-      background-image: url("../assets/images/20.fw.png");
-      background-repeat: no-repeat;
+    .btn-healthy{
+      margin: 68px 0 0 0;
     }
   }
 
   .section-is{
-    padding: 190px 0 201px 0;
+    padding: 221px 0 340px 0;
+
     background-image:url("../assets/images/21.fw.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     .content-wrapper{
+      position: relative;
+
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: flex-start;
       align-items: center;
 
-      .img{
-        position: relative;
+      &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 20px;
+        z-index: 1;
 
-        margin: 41px 0 0 136px;
+        width: 636px;
+        height: 535px;
+
+        background-image: url("../assets/images/22.fw.png");
+        background-size: contain;
+        background-repeat: no-repeat;
       }
 
       .content-holder{
-        .title{
-          position: relative;
-          margin: -111px 0 0 134px;
-          width: 582px;
+        position: relative;
 
-          font-size: 43px;
-          font-weight: bold;
-          color: $black;
-        }
-
-        .title-blue{
-          position: relative;
-          margin: -13px 0 33px 132px;
-          width: 140px;
-
-          font-size: 43px;
-          font-weight: bold;
-          color: $dark-blue;
-        }
-
-        .desc{
-          position: relative;
-
-          margin: 29px 0 45px 132px;
-          width: 666px;
-
-          font-size: 18px;
-          line-height: 30px;
-
-          color: $black;
-        }
+        display: flex;
+        flex-direction: column;
+    
+        margin-left: 788px;
 
         .content-features{
-          position: relative;
-
           display: flex;
           flex-direction: column;
-          justify-content: flex-start;
-          align-items: center;
 
-          .content-pocket1{
-            position: relative;
-
-            margin: 4px 230px 12px 0;
-            width: 308px;
-
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-
-            .text{
-              margin: 0 0 0 20px;
-              font-size: 16px;
-              font-weight: bold;
-              color: $black;
-            }
-
-            .bullet-point{
-              width: 28px;
-            }
+          &:nth-child(1){
+            margin-top: -17px;
           }
 
-          .content-pocket2{
-            position: relative;
-
-            margin: 7px 118px 11px 0;
+          .content-pocket{
+            margin: 6px 230px 12px 0;
             width: 420px;
 
             display: flex;
             flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-
-            .text{
-              margin: 2px 0 0 20px;
-              font-size: 16px;
-              font-weight: bold;
-              color: $black;
-            }
-
-            .bullet-point{
-              width: 28px;
-            }
-          }
-
-          .content-pocket3{
-            position: relative;
-            margin: 8px 125px 16px 0;
-            width: 410px;
-
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-
-            .text{
-              margin: 4px 0 0 20px;
-              font-size: 16px;
-              font-weight: bold;
-              color: $black;
-            }
-
-            .bullet-point{
-              width: 28px;
-            }
           }
         }
 
-        .btn{
-          position: absolute;
-          padding: 18px 64px;
-          margin: 36px 0 0 136px;
-    
-          border: none;
-          background-image: url("../assets/images/20.fw.png");
-          background-repeat: no-repeat;
-
-          p{
-            font-size: 15px;
-            color: $white;
-          }
+        .btn-solution{
+          margin: 178px 0 0 5px;
         }
+
       }
+    }
+
+    .title{
+      margin: 0;
+      width: 582px;
+
+      font-size: 43px;
+      font-weight: bold;
+      color: $black;
+    }
+
+    .title-blue{
+      position: absolute;
+      margin: 47px 0 33px 0px;
+      width: 140px;
+
+      font-size: 43px;
+      font-weight: bold;
+      color: $dark-blue;
+    }
+
+    .desc{
+      margin: 78px 0 45px 0;
+      width: 666px;
+
+      font-size: 18px;
+      line-height: 30px;
+
+      color: $black;
+    }
+
+    .bullet-point{
+      width: 28px;
+    }
+
+    .text{
+      margin: 0 0 0 20px;
+      font-size: 16px;
+      font-weight: bold;
+      color: $black;
+    }
+
+    .img-leaves{
+      position: absolute;
+      z-index: 9;
+
+      margin: 105px 0 44px 0;
+      right: 98px;
     }
   }
 }
 
-@media (min-width: 1921px) and (max-width: 2000px){
-  .home {    
-    .section-intro {
-      padding-bottom: 12.7%;
-  
-      .swiper-container{
-        margin-top: 87px;
-  
-        .swiper-wrapper{
-          .swiper-slide{
-            padding: 0 0 3.3% 0;
-          }
-        }
-  
-        h1{
-          margin: 12.6% 0 0 -8px;
-    
-          width: 580px;
-    
-          letter-spacing: 1px;
-        }
-  
-        .title2{
-          margin: 149px 930px 0 0;
-        }
-      }
-  
-      .swiper-pagination{
-        margin: 0 0 0 -49%;
-      }
-  
-      .logos{    
-        .first{
-          margin: 50% 0 0 -11%;
-        }
-  
-        .second{
-          margin: 44% 0 0 26%;
-        }
-  
-        .third{
-          margin: 44% 0 0 65%;
-        }
-      }
-  
-      .logos-text{
-        .text{
-          .first-text{
-            margin: -2.2% 0 0 -1%;
-          }
-  
-          .second-text{
-            margin: -2.5% 0 0 5%;
-          }
-  
-          .third-text{
-            margin: -2.3% 0 0 12%;
-            width: 70px;
-          }
-        }
-      }
-  
-      .sidebar-item {
-        margin: 175px 0 0 89.4%;
-      }
-    }
-
-    .section-mission{
-      padding-bottom: 34px;
-  
-      .content-holder {  
-        .img{
-          margin: -24% 0 81px -6%;
-        }
-
-        .title{  
-          margin: -81% 0 0 9%;
-          width: 235px;
-        }
-  
-        .content-pocket{
-          width: 310px;
-          position: absolute;
-  
-          &:nth-child(2){
-            margin: 32px 0 0 11px;
-          }
-  
-          &:nth-child(3){
-            margin: 76px 0 0 11px;
-          }
-  
-          &:nth-child(4){
-            margin: 121px 0 0 11px;
-          }
-  
-          &:nth-child(5){
-            margin: 165px 0 0 11px;
-          }
-  
-          &:nth-child(6){
-            margin: 0 0 0 12px;
-          }
-  
-          .bullet-point{
-            margin-left: 210px 0 0 11px; 
-          }
-  
-          .btn-blue{
-            margin: 76.5% 0 0 5.8%;
-          }
-  
-          .btn-yellow{
-            margin: 76.5% 0 0 74%;
-          }
-        }
-      }
-  
-      .box{ 
-        margin: 58.5% 0 0 75.5%;
-        .title{
-          padding: 210px 0 0 48px;
-          width: 530px;
-        }
-      
-        .content-pocket2{
-          .logos{
-            .first-logo{
-              margin: 33px 0 0 114px;
-            }
-  
-            .second-logo{
-              margin: 3px 0 0 114px;
-            }
-  
-            .third-logo{
-              margin: 2px 0 0 112px;
-            }
-  
-            .fourth-logo{
-              margin: -1px 0 0 117px;
-            }
-  
-            .small-title{
-              margin:-47px 0 15px 187px;
-            }
-  
-            .small-desc{
-              margin: -12px 0 33px 186px;
-            }
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      margin-bottom: 250px;
-      .title{
-        margin-left: -1.5%;
-        margin-bottom: 6px;
-
-        letter-spacing: 2px;
-      }
-  
-      .desc{
-        margin-left: -1.5%;
-
-        letter-spacing: 2px;
-      }
-  
-      .swiper-container{
-        margin: 18px 0 0 -8.3%;
-
-    }
-      .btn{
-        margin: 67px 0 0 -1.4%;
-      }
-    }
-
-    .section-is{
-      padding: 172px 0 0 0;  
-      .content-wrapper{
-        .img{  
-          margin: .8% 0 0 2.6%;
-        }
-  
-        .content-holder{
-          .title{
-            margin: -135px 0 0 28.5%;
-          }
-  
-          .title-blue{
-            margin: -13px 0 30px 28.5%;
-            letter-spacing: 2px;
-          }
-  
-          .desc{
-            margin: 27px 0 41px 28.5%;
-            width: 665px;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              margin: 8px 0 -4px 0;
-              padding: 0 0 0 266px;
-            }
-  
-            .content-pocket2{
-              margin: 22px 0 0 0;
-              padding: 0 0 0 266px;
-            }
-  
-            .content-pocket3{
-              margin: 13px 0 6px 0;
-              padding-left: 266px;
-            }
-          }
-  
-          .btn{
-            margin: 28px 0 0 271px;
-          }
-        }
-      }
-    }
-  }
-}
-
-//YOUUUUUU
 @include respond-to(lg) {
   .home {
-    .section-intro {  
+    .section-intro {
       .swiper-container{
-        .swiper-slide{
-          padding: 0 0 45px 118px;
-          width: 31%;
-        }
-  
-        h1{
-          line-height: 1.2;
-        }
-  
-        .title2{
-          line-height: 1.2;
-        }
+        margin: 87px 0 0 45px;
       }
   
-      .swiper-pagination{
-        margin: 0 0 0 -1%;
-      }
-  
-      .sidebar-item {
-        margin: 300px 0 0 29.5%;
-      }
-    }
-  
-    .section-mission{
-      margin-bottom: 40%;
-
-      .content-wrapper{
-        .content-holder {
-          &:nth-child(1n){
-            width: 50%
-          }
-
-          &:nth-child(2n){
-            width: 50%
-          }
-
-          .img{
-            margin: 70px 0 180px 26%;
-          }
-
-          .title{  
-            margin: -20% 0 0 20px;
-          }
-    
-          .content-pocket-cc{
-            margin: -14% 0 0 -2%;
-          }
-
-          .content-pocket-her{
-            margin: -11% 0 0 -2%;
-          }
-
-          .content-pocket-fcs{
-            margin: -8% 0 0 -2%;
-          }
-
-          .content-pocket-cnr{
-            margin: -5% 0 0 -2%;
-          }
-
-          .content-pocket-ft{
-            margin: -2% 0 0 -2%;
-          }
-
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 3% 0 0 2%;
-            }          
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 9% 0 0 22px;
-            }
-          }
-
-          .box{ 
-            margin: -13% 0 0 21%;
-        
-            .header{
-              padding: 190px 0 0 115px;
-            }
-          }
-        }        
-      }
-    }
-
-    .section-healthy{
-      margin-bottom: 25px;
-
-      .title{
-        margin-left: 120px;
-      }
-
-      .desc{
-        margin-left: 122px;
-      }
-
-      .swiper-container{
-        padding: 20px 0 80px 124px;
-      }
-
-      .swiper-pagination{
-        margin: 0 0 0 -1%;
-      }
-
-      .btn{
-        margin: -30px 0 0 122px;
-      }
-    }
-
-    .section-is{
-      padding: 0px 0 225px 1%;
-  
-      .content-wrapper{
-        .img{  
-          margin: 5px 0 0 9px;
-
-          width: 475px;
-        }
-  
-        .content-holder{
-          .title{
-            margin: 26% 0 0 -375px;
-          }
-  
-          .title-blue{
-            margin: 0 0 33px -12px;
-          }
-  
-          .desc{ 
-            margin: 458px 0 60px -248px;
-          }
-  
-          .content-features{ 
-            .content-pocket1{
-              margin: 4px 0 12px 0;
-            }
-  
-            .content-pocket2{
-              margin: 7px 0 11px 110px;
-            }
-  
-            .content-pocket3{
-              margin: 8px 0 16px 102px;
-            }
-          }
-  
-          .btn{
-            padding: 18px 53px;
-            margin: 151px 0 0 -21%;
-          }
-        }
-      }
-    }
-  }
-}
-
-
-
-@media (min-width: 1021px) and (max-width: 1075px){
-  .home{
-    .section-mission{
-      .content-wrapper{
-        .content-holder{
-          .box{ 
-            margin: -15% 0 0 18% !important;
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      .swiper-pagination{
-        margin: 0;
-      }
-    }
-
-    .section-is{
-      .desc{
-        margin: -29px 0 45px 13%;
-      }
-
-      .btn{
-        padding: 18px 53px;
-        margin: 36px 0 0 12%  !important;
-      }
-    }    
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1020px){
-  .home{
-    .section-mission{
-      margin-bottom: 45%;
-      .content-wrapper{
-        .content-holder{
-          .box{ 
-            margin: -17% 0 0 15.5%!important;
-          }
-        }
-      }
-    }
-
-    .section-healthy{
       .swiper-pagination{
         margin: 0 0 0 1%;
       }
-    }
-
-    .section-is{
-      .btn{
-        margin: 36px 0 0 12%  !important;
+  
+      .section-intro-icons{ 
+        margin: 0 0 0 50px;
       }
-    } 
+  
+      .sidebar-item {
+        right: 0;
+        top: 370px;
+      }
+    }
+  
+    .section-mission{
+      padding-bottom: 34px;
+  
+      &:before {
+        top: 5%;
+        left: 8%;
+  
+        width: 27%;
+        height: 25%;
+      }
+  
+      .content-wrapper{
+        flex-direction: column;
+  
+        .content-holder {
+          &:nth-child(1){
+            margin: 50px auto;
+            width: 27%;
+            height: 25%;
+          }
+  
+          &:nth-child(2){
+            margin: 440px auto 0;
+            width: 60%;
+          }
+  
+          .content-pocket{
+            .btn-blue{
+              margin: 340px 0 0 23px;
+            }
+  
+            .btn-yellow{
+              margin: 340px 0 0 233px;
+            }
+          }
+        }
+  
+        .box-provide{ 
+          margin: 0;
+        } 
+      }  
+    }
+    
+    .section-healthy{
+      margin-bottom: 110px;
+
+      .healthy-header{
+        margin: 0 0 8px 48px;
+      }
+
+      .healthy-desc{
+        margin: 0 0 0 48px;
+      }
+
+      .swiper-container{
+        width: 92%;
+
+        .swiper-slide{ 
+          &:nth-child(1){
+            width: 550px !important;
+
+            .caption{
+              margin: 160px 0 0 35px !important;
+            }
+
+            .date{
+              margin: 275px 0 0 35px !important;
+            }
+
+            .tag{
+              margin: 350px 0 0 36px !important;
+            }
+
+            img{
+              width: 550px !important;
+            }
+          }
+
+          &:nth-child(2){
+            width: 272px !important;
+
+            .caption{
+              margin: 160px 0 0 35px !important;
+              width: 220px !important;
+            }
+
+            .date{
+              margin: 290px 0 0 35px !important;
+            }
+
+            .tag{
+              margin: 350px 0 0 36px !important;
+            }
+
+            img{
+              width: 272px;
+            }
+          }
+
+          &:nth-child(3){
+            width: 272px !important;
+
+            .caption{
+              margin: 160px 0 0 35px !important;
+              width: 220px;
+            }
+
+            .date{
+              margin: 290px 0 0 35px !important;
+            }
+
+            .tag{
+              margin: 350px 0 0 36px !important;
+            }
+
+            img{
+              width: 272px;
+            }
+          }
+
+          &:nth-child(4){
+            width: 272px !important;
+
+            img{
+              width: 272px;
+            }
+          }
+        }
+      }
+
+      .btn-healthy{
+        margin: 68px 0 0 50px;
+      }
+    }
+  
+    .section-is{ 
+      .content-wrapper{
+        &:before{
+          top: 0;
+          left: 50px;
+        }
+  
+        .content-holder{
+          margin: 550px 0 0 50px;
+  
+          .btn-solution{
+            margin: 178px 0 0 5px;
+          }
+        }
+      }
+
+      .img-leaves{
+        display: none;
+      }
+    }
   }
 }
+
 
 @include respond-to(md) {
   .home {
     .section-intro {
-      padding-bottom: 80px;
       .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 80px;
-        }
-
-        h1{
-          margin: 149px 0 0 15px;
-
-          line-height: 1.2;
-        }
-  
-        .title2{
-          margin: 149px 0 0 15px;
-
-          line-height: 1.2;
-        }
+        margin: 87px 0 0 45px;
       }
-
+  
       .swiper-pagination{
-        margin: 0 0 0 -10%;
+        margin: 0 0 0 1%;
       }
   
-      .logos{  
-        padding: 40px 0 0 15px;
-        .first{
-          margin: 14px 0 0 83px;
-          width: 65px;
-        }
-  
-        .second{
-          margin: 13px 0 0 150px;
-          width: 65px;
-        }
-  
-        .third{
-          margin: 13px 0 0 210px;
-          width: 65px;
-        }
+      .section-intro-icons{ 
+        margin: 0 0 0 50px;
       }
   
-      .logos-text{
-        padding: 0 0 0 15px;
-        .text{
-          .first-text{
-            margin: -37px 0 0 82px;
+      .sidebar-item {
+        right: 0;
+        top: 370px;
+      }
+    }
   
-            font-size: 18px;
+    .section-mission{
+      padding-bottom: 34px;
+  
+      &:before {
+        top: 5%;
+        left: 6%;
+  
+        width: 27%;
+        height: 25%;
+      }
+  
+      .content-wrapper{
+        flex-direction: column;
+  
+        .content-holder {
+          &:nth-child(1){
+            margin: 50px auto;
+            width: 34%;
+            height: 18%;
           }
   
-          .second-text{
-            margin: -53px 0 0 209px;
-            width: 105px;
-  
-            font-size: 18px;
+          &:nth-child(2){
+            margin: 440px auto 0;
+            width: 650px;
           }
   
-          .third-text{
-            margin: -49px 0 0 359px;
-            width: 90px;
+          .content-pocket{
+            .btn-blue{
+              margin: 340px 0 0 23px;
+            }
   
-            font-size: 18px;
+            .btn-yellow{
+              margin: 340px 0 0 233px;
+            }
+          }
+        }
+  
+        .box-provide{ 
+          margin: 0;
+          width: 94%;
+        } 
+      }  
+    }
+    
+    .section-healthy{
+      margin-bottom: 110px;
+
+      .healthy-header{
+        margin: 0 0 8px 48px;
+      }
+
+      .healthy-desc{
+        margin: 0 0 0 48px;
+      }
+
+      .swiper-container{
+        width: 92%;
+
+        .swiper-slide{ 
+          &:nth-child(1){
+            width: 550px !important;
+
+            .caption{
+              margin: 160px 0 0 35px !important;
+            }
+
+            .date{
+              margin: 275px 0 0 35px !important;
+            }
+
+            .tag{
+              margin: 350px 0 0 36px !important;
+            }
+
+            img{
+              width: 550px !important;
+            }
+          }
+
+          &:nth-child(2){
+            width: 272px !important;
+
+            .caption{
+              margin: 160px 0 0 35px !important;
+              width: 220px !important;
+            }
+
+            .date{
+              margin: 290px 0 0 35px !important;
+            }
+
+            .tag{
+              margin: 350px 0 0 36px !important;
+            }
+
+            img{
+              width: 272px;
+            }
+          }
+
+          &:nth-child(3){
+            width: 272px !important;
+
+            .caption{
+              margin: 160px 0 0 35px !important;
+              width: 220px;
+            }
+
+            .date{
+              margin: 290px 0 0 35px !important;
+            }
+
+            .tag{
+              margin: 350px 0 0 36px !important;
+            }
+
+            img{
+              width: 272px;
+            }
+          }
+
+          &:nth-child(4){
+            width: 272px !important;
+
+            img{
+              width: 272px;
+            }
           }
         }
       }
 
-      .sidebar-item {
+      .btn-healthy{
+        margin: 68px 0 0 50px;
+      }
+    }
+  
+    .section-is{ 
+      .content-wrapper{
+        &:before{
+          top: 0;
+          left: 50px;
+        }
+  
+        .content-holder{
+          margin: 550px 0 0 50px;
+  
+          .btn-solution{
+            margin: 178px 0 0 5px;
+          }
+        }
+      }
+
+      .img-leaves{
         display: none;
       }
     }
-
-    .section-mission{
-      padding-bottom: 77%;
-
-      .content-wrapper{
-        .content-holder {
-          &:nth-child(1n){
-            width: 50%
-          }
-          &:nth-child(2n){
-            width: 50%
-          }
-
-          .img{
-            margin: 55px 0 80px 20%;
-            width: 280px;
-          }
-
-          .title{  
-            margin: -155px 0 0 43px;
-            font-size: 35px;
-          }
-
-          .content-pocket-cc{
-            margin: -10% 0 0 -.2%;
-          }
-
-          .content-pocket-her{
-            margin: -7% 0 0 -.2%;
-          }
-
-          .content-pocket-fcs{
-            margin: -4% 0 0 -.2%;
-          }
-
-          .content-pocket-cnr{
-            margin: -1% 0 0 -.2%;
-          }
-
-          .content-pocket-ft{
-            margin: 2% 0 0 -.2%;
-          }
-    
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 7% 0 0 5%;
-              padding: 14px 14px 16px 0;
-              width: 190px;
-
-              font-size: 14px;
-
-              background-size: 90%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 14% 0 0 5%;
-              padding: 14px 12px;
-
-              width: 175px;
-            }
-          }
-
-          .box{ 
-            margin: -60px 0 0 15%;
-    
-            background-size: 100% 85%;
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      margin-bottom: 25px;
-
-      .title{
-        margin-left: 79px;
-      }
-
-      .desc{
-        margin-left: 80px;
-      }
-
-      .swiper-container{
-        padding: 20px 0 80px 82px;
-      }
-
-      .swiper-pagination{
-        margin: 0 0 0 -2%;
-      }
-
-      .btn{
-        margin: -30px 0 0 82px;
-      }
-    }
-
-    .section-is{
-      padding: 0 0 175px 2.5%;
-  
-      .content-wrapper{
-        .img{  
-          margin: 55% 0 0 12%;
-          width: 475px;
-        }
-  
-        .content-holder{
-          .title{
-            margin: -82% 0 0 8.5%;
-          }
-  
-          .title-blue{
-            margin: 0 0 70% 8.5%;
-          }
-  
-          .desc{
-            margin: -29px 0 45px 9%;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              margin: 4px 0 12px -16%;
-              width: 440px;
-            }
-  
-            .content-pocket2{
-              margin: 7px 0 11px 0; 
-              width: 550px;
-            }
-  
-            .content-pocket3{
-              margin: 8px 0 16px -1%;
-              width: 540px;
-            }
-          }
-  
-          .btn{
-            padding: 18px 53px;
-            margin: 36px 0 0 6%;
-          }
-        }
-      }
-    }
   }
 }
 
-@media (min-width: 850px) and (max-width: 900px){
-  .home{ 
-    .section-mission{
-      padding-bottom: 81%;
-      .content-wrapper{
-        .content-holder{
-          .content-pocket-cc{
-            margin: -11% 0 0 -.2%;
-          }
+// @media (min-width: 850px) and (max-width: 900px){
+//   .home{ 
+//     .section-mission{
+//       padding-bottom: 81%;
+//       .content-wrapper{
+//         .content-holder{
+//           .content-pocket-cc{
+//             margin: -11% 0 0 -.2%;
+//           }
 
-          .content-pocket-her{
-            margin: -7% 0 0 -.2%;
-          }
+//           .content-pocket-her{
+//             margin: -7% 0 0 -.2%;
+//           }
 
-          .content-pocket-fcs{
-            margin: -3% 0 0 -.2%;
-          }
+//           .content-pocket-fcs{
+//             margin: -3% 0 0 -.2%;
+//           }
 
-          .content-pocket-cnr{
-            margin: 1% 0 0 -.2%;
-          }
+//           .content-pocket-cnr{
+//             margin: 1% 0 0 -.2%;
+//           }
 
-          .content-pocket-ft{
-            margin: 5% 0 0 -.2%;
-          }
+//           .content-pocket-ft{
+//             margin: 5% 0 0 -.2%;
+//           }
 
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 10% 0 0 5%;
-            }
-          }
+//           .content-pocket-btn-b{
+//             .btn-blue{
+//               margin: 10% 0 0 5%;
+//             }
+//           }
 
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 17% 0 0 5%;
-            }
-          }
-          .box{ 
-            margin: -60px 0 0 11.5%;
-          }
-        }
-      }
-    }
+//           .content-pocket-btn-y{
+//             .btn-yellow{
+//               margin: 17% 0 0 5%;
+//             }
+//           }
+//           .box{ 
+//             margin: -60px 0 0 11.5%;
+//           }
+//         }
+//       }
+//     }
 
-    .section-is{
-      padding: 0 0 175px 0;
-      .content-wrapper{
-        .img{  
-          margin: 55% 0 0 18%;
-        }
+//     .section-is{
+//       padding: 0 0 175px 0;
+//       .content-wrapper{
+//         .img{  
+//           margin: 55% 0 0 18%;
+//         }
   
-        .content-holder{
-          .title{
-            margin: -82% 0 0 12.5%;
-          }
+//         .content-holder{
+//           .title{
+//             margin: -82% 0 0 12.5%;
+//           }
   
-          .title-blue{
-            margin: 0 0 70% 12.5%;
-          }
+//           .title-blue{
+//             margin: 0 0 70% 12.5%;
+//           }
   
-          .desc{
-            margin: -29px 0 45px 12%;
-          }
+//           .desc{
+//             margin: -29px 0 45px 12%;
+//           }
   
-          .content-features{  
-            .content-pocket1{
-              margin: 4px 0 12px -9%;
-            }
+//           .content-features{  
+//             .content-pocket1{
+//               margin: 4px 0 12px -9%;
+//             }
   
-            .content-pocket2{
-              margin: 7px 0 11px 7%; 
-            }
+//             .content-pocket2{
+//               margin: 7px 0 11px 7%; 
+//             }
   
-            .content-pocket3{
-              margin: 8px 0 16px 5%;
-            }
-          }
+//             .content-pocket3{
+//               margin: 8px 0 16px 5%;
+//             }
+//           }
   
-          .btn{
-            margin: 36px 0 0 10%;
-          }
-        }
-      }
-    }
-  }
-}
+//           .btn{
+//             margin: 36px 0 0 10%;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
-@media (min-width: 800px) and (max-width: 849px){
-  .home{ 
-    .section-mission{
-      padding-bottom: 85%;
-      .content-wrapper{
-        .content-holder {
-          .content-pocket-cc{
-            margin: -11% 0 0 -.2%;
-          }
+// @media (min-width: 800px) and (max-width: 849px){
+//   .home{ 
+//     .section-mission{
+//       padding-bottom: 85%;
+//       .content-wrapper{
+//         .content-holder {
+//           .content-pocket-cc{
+//             margin: -11% 0 0 -.2%;
+//           }
 
-          .content-pocket-her{
-            margin: -7% 0 0 -.2%;
-          }
+//           .content-pocket-her{
+//             margin: -7% 0 0 -.2%;
+//           }
 
-          .content-pocket-fcs{
-            margin: -3% 0 0 -.2%;
-          }
+//           .content-pocket-fcs{
+//             margin: -3% 0 0 -.2%;
+//           }
 
-          .content-pocket-cnr{
-            margin: 1% 0 0 -.2%;
-          }
+//           .content-pocket-cnr{
+//             margin: 1% 0 0 -.2%;
+//           }
 
-          .content-pocket-ft{
-            margin: 5% 0 0 -.2%;
-          }
+//           .content-pocket-ft{
+//             margin: 5% 0 0 -.2%;
+//           }
 
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 10% 0 0 5%;
-            }
-          }
+//           .content-pocket-btn-b{
+//             .btn-blue{
+//               margin: 10% 0 0 5%;
+//             }
+//           }
 
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 17% 0 0 5%;
-            }
-          }
+//           .content-pocket-btn-y{
+//             .btn-yellow{
+//               margin: 17% 0 0 5%;
+//             }
+//           }
 
-          .box{ 
-            margin: -65px 0 0 11.5%;
-          }
-        }
-      }
-    }
+//           .box{ 
+//             margin: -65px 0 0 11.5%;
+//           }
+//         }
+//       }
+//     }
 
-    .section-healthy{
-      .swiper-pagination{
-        margin: 0 0 0 1%;
-      }
-    }
+//     .section-healthy{
+//       .swiper-pagination{
+//         margin: 0 0 0 1%;
+//       }
+//     }
 
-    .section-is{
-      .content-wrapper{
-        .img{  
-          margin: 55% 0 0 13%;
-        }
+//     .section-is{
+//       .content-wrapper{
+//         .img{  
+//           margin: 55% 0 0 13%;
+//         }
   
-        .content-holder{
-          .title{
-            margin: -82% 0 0 9.5%;
-          }
+//         .content-holder{
+//           .title{
+//             margin: -82% 0 0 9.5%;
+//           }
   
-          .title-blue{
-            margin: 0 0 70% 9.5%;
-          }
+//           .title-blue{
+//             margin: 0 0 70% 9.5%;
+//           }
   
-          .desc{
-            margin: -29px 0 45px 9%;
-          }
+//           .desc{
+//             margin: -29px 0 45px 9%;
+//           }
   
-          .content-features{  
-            .content-pocket1{
-              margin: 4px 0 12px -15%;
-            }
+//           .content-features{  
+//             .content-pocket1{
+//               margin: 4px 0 12px -15%;
+//             }
   
-            .content-pocket2{
-              margin: 7px 0 11px 1%; 
-            }
+//             .content-pocket2{
+//               margin: 7px 0 11px 1%; 
+//             }
   
-            .content-pocket3{
-              margin: 8px 0 16px 0;
-            }
-          }
+//             .content-pocket3{
+//               margin: 8px 0 16px 0;
+//             }
+//           }
   
-          .btn{
-            margin: 36px 0 0 7%;
-          }
-        }
-      }
-    }
-  }
-}
+//           .btn{
+//             margin: 36px 0 0 7%;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
-@media (min-width: 768px) and (max-width: 799px){
-  .home{
-    .section-mission{
-      padding-bottom: 89%;
-      .content-wrapper{
-        .content-holder{
-          .content-pocket-cc{
-            margin: -11% 0 0 -.2%;
-          }
+// @media (min-width: 768px) and (max-width: 799px){
+//   .home{
+//     .section-mission{
+//       padding-bottom: 89%;
+//       .content-wrapper{
+//         .content-holder{
+//           .content-pocket-cc{
+//             margin: -11% 0 0 -.2%;
+//           }
 
-          .content-pocket-her{
-            margin: -7% 0 0 -.2%;
-          }
+//           .content-pocket-her{
+//             margin: -7% 0 0 -.2%;
+//           }
 
-          .content-pocket-fcs{
-            margin: -3% 0 0 -.2%;
-          }
+//           .content-pocket-fcs{
+//             margin: -3% 0 0 -.2%;
+//           }
 
-          .content-pocket-cnr{
-            margin: 1% 0 0 -.2%;
-          }
+//           .content-pocket-cnr{
+//             margin: 1% 0 0 -.2%;
+//           }
 
-          .content-pocket-ft{
-            margin: 5% 0 0 -.2%;
-          }
+//           .content-pocket-ft{
+//             margin: 5% 0 0 -.2%;
+//           }
 
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 10% 0 0 5%;
-            }
-          }
+//           .content-pocket-btn-b{
+//             .btn-blue{
+//               margin: 10% 0 0 5%;
+//             }
+//           }
 
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 17% 0 0 5%;
-            }
-          }
+//           .content-pocket-btn-y{
+//             .btn-yellow{
+//               margin: 17% 0 0 5%;
+//             }
+//           }
 
-          .box{ 
-            margin: -70px 0 0 6.5%;
-          }
-        }
-      }
-    }
+//           .box{ 
+//             margin: -70px 0 0 6.5%;
+//           }
+//         }
+//       }
+//     }
 
-    .section-healthy{
-      .swiper-pagination{
-        margin: 0 0 0 1%;
-      }
-    }
+//     .section-healthy{
+//       .swiper-pagination{
+//         margin: 0 0 0 1%;
+//       }
+//     }
   
-    .section-is{
-      .content-wrapper{
-        .img{  
-          margin: 55% 0 0 14%;
-        }
+//     .section-is{
+//       .content-wrapper{
+//         .img{  
+//           margin: 55% 0 0 14%;
+//         }
   
-        .content-holder{
-          .title{
-            margin: -82% 0 0 9.5%;
-          }
+//         .content-holder{
+//           .title{
+//             margin: -82% 0 0 9.5%;
+//           }
   
-          .title-blue{
-            margin: 0 0 70% 9.5%;
-          }
+//           .title-blue{
+//             margin: 0 0 70% 9.5%;
+//           }
   
-          .desc{
-            width: 640px;
-            margin: -29px 0 45px 9%;
-          }
+//           .desc{
+//             width: 640px;
+//             margin: -29px 0 45px 9%;
+//           }
   
-          .content-features{  
-            .content-pocket1{
-              margin: 4px 0 12px -11%;
-            }
+//           .content-features{  
+//             .content-pocket1{
+//               margin: 4px 0 12px -11%;
+//             }
   
-            .content-pocket2{
-              margin: 7px 0 11px 6%; 
-            }
+//             .content-pocket2{
+//               margin: 7px 0 11px 6%; 
+//             }
   
-            .content-pocket3{
-              margin: 8px 0 16px 4%;
-            }
-          }
+//             .content-pocket3{
+//               margin: 8px 0 16px 4%;
+//             }
+//           }
   
-          .btn{
-            margin: 36px 0 0 8%;
-          }
-        }
-      }
-    }
-  }
-}
+//           .btn{
+//             margin: 36px 0 0 8%;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
 @include respond-to(sm) {
   .home {

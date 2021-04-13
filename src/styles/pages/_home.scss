@@ -15,14 +15,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    .swiper-container{
-      width: 600px;
+    .swiper-container {
       margin: 87px 0 0 0;
+      width: 600px;
 
-      .swiper-slide{
+      .swiper-slide {
         width: 600px;
 
-        h1{
+        h1 {
           margin: 160px 0 0 3px;
           width: 565px;
 
@@ -31,7 +31,7 @@
           color: $white;
         }
 
-        .title{
+        .title {
           margin: 160px 0 0 0;
           width: 565px;
 
@@ -42,23 +42,24 @@
       }
     }
 
-    .swiper-pagination{
+    .swiper-pagination {
       margin: 0 0 0 -9%;
       width: 9%;
     }
 
-    .section-intro-icons{
+    .section-intro-icons {
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
       align-items: center;
 
-      .icons-w-text{
+      .icons-w-text {
         margin: 40px 66px 0 0;
         width: 61px;
+
         text-align: center;
   
-        .text{
+        .text {
           margin-top: 11px;
 
           font-size: 15px;
@@ -70,8 +71,8 @@
 
     .sidebar-item {
       position: fixed;
-      right: 0;
       top: 370px;
+      right: 0;
       z-index: 20;
 
       display: flex;
@@ -83,42 +84,44 @@
 
       background-color: $white;
 
-      .fb-logo{
+      .fb-logo {
         flex-grow: 1;
         margin: 13px 0 6px 0;
         width: 9px;
       }
 
-      .ig-logo{
+      .ig-logo {
         margin: 0 5px 21px 0;
         width: 9px;
       }
 
-      .linkedin-logo{
+      .linkedin-logo {
         margin: 0 5px 22px 0;
         width: 9px;
       }
 
-      .share-logo{
+      .share-logo {
         margin: 0 5px 25px 0;
         width: 9px;
       }
 
-      .phone-logo{
+      .phone-logo {
         margin: 0 0 9px 4px;
         width: 9px;
       }
     }
   }
 
-  .section-mission{
+  .section-mission {
     position: relative;
 
     padding-bottom: 34px;
+
     background-color: $white;
 
     &:before {
       content:"";
+      
       position: absolute;
       top: 11.3%;
       left: 9.8%;
@@ -128,14 +131,14 @@
       height: 50%;
 
       background-image:url("../assets/images/7.fw.png");
-      background-size: contain;
       background-repeat: no-repeat;
+      background-size: contain;
     }
 
-    .content-wrapper{
+    .content-wrapper {
       display: flex;
-      flex-direction: row;
       flex-wrap: wrap;
+      flex-direction: row;
       justify-content: flex-start;
       align-items: center;
 
@@ -143,24 +146,24 @@
         display: flex;
         flex-direction: row;
 
-        &:nth-child(1){
+        &:nth-child(1) {
           position: absolute;
 
+          margin: -44px 0 0 343px;
           width: 27%;
           height: 70%;
-          margin: -44px 0 0 343px;
         }
 
-        &:nth-child(2){
-          width: 45%;
+        &:nth-child(2) {
           margin: 0 0 0 823px;
+          width: 45%;
         }
 
-        .content-pocket{
+        .content-pocket {
           display: flex;
           flex-direction: row;
 
-          .mission-header{
+          .mission-header {
             position: absolute;
             
             margin: 0 0 0 27px;
@@ -170,7 +173,7 @@
             color: $black;
           }
 
-          .missions-pocket{
+          .missions-pocket {
             display: flex;
             flex-direction: row;
             margin: 95px 0 0 31px;
@@ -178,7 +181,7 @@
             .mission{
               position: absolute;
         
-              display:flex;
+              display: flex;
               flex-direction: row;
         
               p{
@@ -188,47 +191,47 @@
               }
             }
         
-            .cost{
-              width: 250px;
+            .cost {
               margin: 0;
+              width: 250px;
             }
         
-            .efficiency{
-              width: 275px;
+            .efficiency {
               margin: 43px 0 0 0;
-            }
-        
-            .flexibility{
-              width: 298px;
-              margin: 89px 0 0 0;
-            }
-        
-            .competitive{
-              width: 305px;
-              margin: 133px 0 0 0;
-            }
-        
-            .transparency{
               width: 275px;
-              margin: 178px 0 0 0;
             }
         
-            .bullet-point{
+            .flexibility {
+              margin: 89px 0 0 0;
+              width: 298px;
+            }
+        
+            .competitive {
+              margin: 133px 0 0 0;
+              width: 305px;
+            }
+        
+            .transparency {
+              margin: 178px 0 0 0;
+              width: 275px;
+            }
+        
+            .bullet-point {
               width: 24px;
             }
           }
 
-          .btn-blue{
+          .btn-blue {
             margin: 370px 0 0 23px;
           }
 
-          .btn-yellow{
+          .btn-yellow {
             margin: 370px 0 0 233px;
           }
         }
       }
 
-      .box-provide{ 
+      .box-provide { 
         z-index: 9;
   
         margin: -21% 0 0 11px;
@@ -238,8 +241,9 @@
         background-image: url("../assets/images/9.fw.png");
         background-position: center;
         background-repeat: no-repeat;
+        background-size: contain;
   
-        .box-provide-header{
+        .box-provide-header {
           padding: 210px 0 0 111px;
           width: 580px;
     
@@ -248,40 +252,40 @@
           color: $white;
         }
 
-        .solutions-pocket{
+        .solutions-pocket {
           display: flex;
           flex-direction: row;
-          width: 575px;
           margin: 28px 0 33px 115px;
+          width: 575px;
 
-          .first-icon{
+          .first-icon {
             margin-top: 5px;
             width: 43px;
           }
       
-          .second-icon{
+          .second-icon {
             margin-top: 9px;
             width: 40px;
           }
       
-          .third-icon{
+          .third-icon {
             margin: 8px 0 0 -2px;
             width: 46px;
           }
       
-          .fourth-icon{
+          .fourth-icon {
             margin: 5px 0 0 3px;
             width: 40px;
           }
     
-          .solutions-title-and-desc{
+          .solutions-title-and-desc {
             position: absolute;
   
             display: flex;
             flex-direction: column;
             margin: 0 0 0 73px;
 
-            .title{
+            .title {
               margin: 0 0 4px 0;
               width: 176px;
         
@@ -290,17 +294,16 @@
               color: $white;
             }
 
-            .desc{
+            .desc {
               margin: 0 0 0 1px;
               width: 390px;
         
               font-size: 18px;
               color: $white;
             }
-
           }
 
-          .title-healthcare{
+          .title-healthcare {
             margin: 0 0 0 1px;
             width: 176px;
       
@@ -309,7 +312,7 @@
             color: $white;
           }
       
-          .desc-healthcare{
+          .desc-healthcare {
             margin: 0 0 0 1px;
             width: 390px;
       
@@ -321,10 +324,10 @@
     }  
   }
   
-  .section-healthy{
+  .section-healthy {
     margin-bottom: 207px;
 
-    .healthy-header{
+    .healthy-header {
       margin: 0 0 8px 0;
       width: 310px;
 
@@ -332,7 +335,7 @@
       font-weight: bold;
     }
 
-    .healthy-desc{
+    .healthy-desc {
       margin: 0 0 0 2px;
       width: 480px;
 
@@ -340,49 +343,49 @@
       font-weight: bold;
     }
 
-    .swiper-container{
+    .swiper-container {
       padding: 35px 0 0 2px;
 
-      .swiper-wrapper{
+      .swiper-wrapper {
         transition-duration: none;
         transform: none;
         
-        .swiper-slide{  
+        .swiper-slide {  
+          display: flex;
+          justify-content: left;
+          align-items: center;
+
           font-size: 28px;
           font-weight: bold;
           color: $white;
           line-height: 35px;
 
-          display: flex;
-          justify-content: left;
-          align-items: center;
-
-          &:nth-child(1){
+          &:nth-child(1) {
           width: 745px;   
 
-            .caption{
+            .caption {
               position: absolute;
+              z-index: 13;
           
               margin: 270px 0 0 35px;
               width: 240px;
         
               line-height: 35px;
-              z-index: 13;
             }
 
-            .date{
+            .date {
               position: absolute;
+              z-index: 13;
 
               margin: 390px 0 0 35px;
 
               font-size: 13px;
               color: white;
-
-              z-index: 13;
             }
 
-            .tag{
+            .tag {
               position: absolute;
+              z-index: 13;
               
               margin: 487px 0 0 36px;
               width: 62px;
@@ -392,36 +395,33 @@
               text-align: center;
 
               background-color: $yellow;
-
-              z-index: 13;
             }       
           }
 
-          &:nth-child(2){
+          &:nth-child(2) {
             width: 371px;
 
-            .caption{
+            .caption {
               position: absolute;
+              z-index: 13;
           
               margin: 272px 0 0 31px;
               width: 282px;
-        
-              z-index: 13;
             }
 
-            .date{
+            .date {
               position: absolute;
+              z-index: 13;
 
               margin: 390px 0 0 35px;
 
               font-size: 13px;
               color: white;
-
-              z-index: 13;
             }
 
-            .tag{
+            .tag {
               position: absolute;
+              z-index: 13;
               
               margin: 488px 0 0 35px;
               width: 102px;
@@ -431,37 +431,35 @@
               text-align: center;
 
               background-color: $light-green;
-
-              z-index: 13;
             }
           }
 
-          &:nth-child(3){
+          &:nth-child(3) {
             width: 371px;
 
-            .caption{
+            .caption {
               position: absolute;
+              z-index: 13;
           
               margin: 270px 0 0 36px;
               width: 240px;
         
               line-height: 35px;
-              z-index: 13;
             }
 
-            .date{
+            .date {
               position: absolute;
+              z-index: 13;
 
               margin: 390px 0 0 35px;
 
               font-size: 13px;
               color: white;
-
-              z-index: 13;
             }
 
-            .tag{
+            .tag {
               position: absolute;
+              z-index: 13;
               
               margin: 487px 0 0 34px;
               width: 124px;
@@ -471,24 +469,22 @@
               text-align: center;
 
               background-color: $blue;
-
-              z-index: 13;
             }
           }
 
-          img{
+          img {
             z-index: 12;
           }
         }
       }
     }
 
-    .btn-healthy{
+    .btn-healthy {
       margin: 68px 0 0 0;
     }
   }
 
-  .section-is{
+  .section-is {
     padding: 221px 0 340px 0;
 
     background-image:url("../assets/images/21.fw.png");
@@ -496,17 +492,18 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    .content-wrapper{
+    .content-wrapper {
       position: relative;
 
       display: flex;
-      flex-direction: row;
       flex-wrap: wrap;
+      flex-direction: row;
       justify-content: flex-start;
       align-items: center;
 
-      &:before{
+      &:before {
         content: "";
+
         position: absolute;
         top: 0;
         left: 20px;
@@ -516,11 +513,11 @@
         height: 535px;
 
         background-image: url("../assets/images/22.fw.png");
-        background-size: contain;
         background-repeat: no-repeat;
+        background-size: contain;
       }
 
-      .content-holder{
+      .content-holder {
         position: relative;
 
         display: flex;
@@ -528,31 +525,25 @@
     
         margin-left: 788px;
 
-        .content-features{
+        .content-features {
           display: flex;
           flex-direction: column;
 
-          &:nth-child(1){
-            margin-top: -17px;
-          }
-
-          .content-pocket{
-            margin: 6px 230px 12px 0;
-            width: 420px;
-
+          .content-pocket {
             display: flex;
             flex-direction: row;
+            margin: 6px 230px 12px 0;
+            width: 280px;
           }
         }
 
-        .btn-solution{
-          margin: 178px 0 0 5px;
+        .btn-solution {
+          margin: 200px 0 0 5px;
         }
-
       }
     }
 
-    .title{
+    .title {
       margin: 0;
       width: 582px;
 
@@ -561,8 +552,9 @@
       color: $black;
     }
 
-    .title-blue{
+    .title-blue {
       position: absolute;
+
       margin: 47px 0 33px 0px;
       width: 140px;
 
@@ -571,33 +563,33 @@
       color: $dark-blue;
     }
 
-    .desc{
+    .desc {
       margin: 78px 0 45px 0;
       width: 666px;
 
       font-size: 18px;
-      line-height: 30px;
-
       color: $black;
+      line-height: 30px;
     }
 
-    .bullet-point{
+    .bullet-point {
       width: 28px;
     }
 
-    .text{
+    .text {
       margin: 0 0 0 20px;
+
       font-size: 16px;
       font-weight: bold;
       color: $black;
     }
 
-    .img-leaves{
+    .img-leaves {
       position: absolute;
+      right: 98px;
       z-index: 9;
 
       margin: 105px 0 44px 0;
-      right: 98px;
     }
   }
 }
@@ -605,27 +597,20 @@
 @include respond-to(lg) {
   .home {
     .section-intro {
-      .swiper-container{
+      .swiper-container {
         margin: 87px 0 0 45px;
       }
   
-      .swiper-pagination{
+      .swiper-pagination {
         margin: 0 0 0 1%;
       }
   
-      .section-intro-icons{ 
+      .section-intro-icons { 
         margin: 0 0 0 50px;
-      }
-  
-      .sidebar-item {
-        right: 0;
-        top: 370px;
       }
     }
   
-    .section-mission{
-      padding-bottom: 34px;
-  
+    .section-mission {
       &:before {
         top: 5%;
         left: 8%;
@@ -634,147 +619,149 @@
         height: 25%;
       }
   
-      .content-wrapper{
+      .content-wrapper {
         flex-direction: column;
   
         .content-holder {
-          &:nth-child(1){
+          &:nth-child(1) {
             margin: 50px auto;
             width: 27%;
             height: 25%;
           }
   
-          &:nth-child(2){
+          &:nth-child(2) {
             margin: 440px auto 0;
-            width: 60%;
+            width: 690px;
           }
   
-          .content-pocket{
-            .btn-blue{
+          .content-pocket {
+            .btn-blue {
               margin: 340px 0 0 23px;
             }
   
-            .btn-yellow{
+            .btn-yellow {
               margin: 340px 0 0 233px;
             }
           }
         }
   
-        .box-provide{ 
+        .box-provide { 
           margin: 0;
         } 
       }  
     }
     
-    .section-healthy{
+    .section-healthy {
       margin-bottom: 110px;
 
-      .healthy-header{
+      .healthy-header {
         margin: 0 0 8px 48px;
       }
 
-      .healthy-desc{
+      .healthy-desc {
         margin: 0 0 0 48px;
       }
 
-      .swiper-container{
+      .swiper-container {
         width: 92%;
 
-        .swiper-slide{ 
-          &:nth-child(1){
+        .swiper-slide { 
+          &:nth-child(1) {
             width: 550px !important;
 
-            .caption{
+            .caption {
               margin: 160px 0 0 35px !important;
             }
 
-            .date{
+            .date {
               margin: 275px 0 0 35px !important;
             }
 
-            .tag{
+            .tag {
               margin: 350px 0 0 36px !important;
             }
 
-            img{
+            img {
               width: 550px !important;
             }
           }
 
-          &:nth-child(2){
+          &:nth-child(2) {
             width: 272px !important;
 
-            .caption{
+            .caption {
               margin: 160px 0 0 35px !important;
               width: 220px !important;
             }
 
-            .date{
+            .date {
               margin: 290px 0 0 35px !important;
             }
 
-            .tag{
+            .tag {
               margin: 350px 0 0 36px !important;
             }
 
-            img{
+            img {
               width: 272px;
             }
           }
 
-          &:nth-child(3){
+          &:nth-child(3) {
             width: 272px !important;
 
-            .caption{
+            .caption {
               margin: 160px 0 0 35px !important;
               width: 220px;
             }
 
-            .date{
+            .date {
               margin: 290px 0 0 35px !important;
             }
 
-            .tag{
+            .tag {
               margin: 350px 0 0 36px !important;
             }
 
-            img{
+            img {
               width: 272px;
             }
           }
 
-          &:nth-child(4){
+          &:nth-child(4) {
             width: 272px !important;
 
-            img{
+            img {
               width: 272px;
             }
           }
         }
       }
 
-      .btn-healthy{
+      .btn-healthy {
         margin: 68px 0 0 50px;
       }
     }
   
-    .section-is{ 
-      .content-wrapper{
-        &:before{
+    .section-is { 
+      padding: 221px 0 218px 0;
+
+      .content-wrapper {
+        &:before {
           top: 0;
           left: 50px;
         }
   
-        .content-holder{
+        .content-holder {
           margin: 550px 0 0 50px;
   
-          .btn-solution{
+          .btn-solution {
             margin: 178px 0 0 5px;
           }
         }
       }
 
-      .img-leaves{
+      .img-leaves {
         display: none;
       }
     }
@@ -785,8 +772,196 @@
 @include respond-to(md) {
   .home {
     .section-intro {
-      .swiper-container{
+      .swiper-container {
         margin: 87px 0 0 45px;
+      }
+  
+      .swiper-pagination {
+        margin: 0 0 0 1%;
+      }
+  
+      .section-intro-icons { 
+        margin: 0 0 0 50px;
+      }
+    }
+  
+    .section-mission {
+      &:before {
+        top: 5%;
+        left: 6%;
+  
+        width: 30%;
+        height: 18%;
+      }
+  
+      .content-wrapper {
+        flex-direction: column;
+  
+        .content-holder {
+          &:nth-child(1) {
+            margin: 50px auto;
+            width: 34%;
+            height: 18%;
+          }
+  
+          &:nth-child(2) {
+            margin: 440px auto 0;
+            width: 650px;
+          }
+  
+          .content-pocket {
+            .btn-blue{
+              margin: 340px 0 0 23px;
+            }
+  
+            .btn-yellow {
+              margin: 340px 0 0 233px;
+            }
+          }
+        }
+  
+        .box-provide { 
+          margin: 0;
+          width: 94%;
+        } 
+      }  
+    }
+    
+    .section-healthy {
+      margin-bottom: 110px;
+
+      .healthy-header {
+        margin: 0 0 8px 48px;
+      }
+
+      .healthy-desc {
+        margin: 0 0 0 48px;
+      }
+
+      .swiper-container {
+        width: 88%;
+
+        .swiper-slide { 
+          &:nth-child(1) {
+            width: 550px !important;
+
+            .caption {
+              margin: 160px 0 0 35px !important;
+            }
+
+            .date {
+              margin: 275px 0 0 35px !important;
+            }
+
+            .tag {
+              margin: 350px 0 0 36px !important;
+            }
+
+            img {
+              width: 550px !important;
+            }
+          }
+
+          &:nth-child(2) {
+            width: 272px !important;
+
+            .caption {
+              margin: 160px 0 0 35px !important;
+              width: 220px !important;
+            }
+
+            .date {
+              margin: 290px 0 0 35px !important;
+            }
+
+            .tag {
+              margin: 350px 0 0 36px !important;
+            }
+
+            img {
+              width: 272px;
+            }
+          }
+
+          &:nth-child(3) {
+            width: 272px !important;
+
+            .caption {
+              margin: 160px 0 0 35px !important;
+              width: 220px;
+            }
+
+            .date {
+              margin: 290px 0 0 35px !important;
+            }
+
+            .tag {
+              margin: 350px 0 0 36px !important;
+            }
+
+            img {
+              width: 272px;
+            }
+          }
+
+          &:nth-child(4) {
+            width: 272px !important;
+
+            img {
+              width: 272px;
+            }
+          }
+        }
+      }
+
+      .btn-healthy {
+        margin: 68px 0 0 50px;
+      }
+    }
+  
+    .section-is { 
+      padding: 221px 0 205px 0;
+
+      .content-wrapper {
+        &:before {
+          top: 0;
+          left: 50px;
+        }
+  
+        .content-holder {
+          margin: 550px 0 0 50px;
+  
+          .btn-solution {
+            margin: 178px 0 0 5px;
+          }
+        }
+      }
+
+      .img-leaves {
+        display: none;
+      }
+    }
+  }
+}
+
+@include respond-to(sm) {
+  .home {
+    .section-intro {
+      .swiper-container {
+        margin: 87px 0 0 25px;
+        width: 500px;
+
+        .swiper-slide {
+          width: 500px;
+
+          h1 {
+            width: 500px;
+          }
+
+          .title{
+            width: 500px;
+          }
+        }
       }
   
       .swiper-pagination{
@@ -794,907 +969,195 @@
       }
   
       .section-intro-icons{ 
-        margin: 0 0 0 50px;
-      }
-  
-      .sidebar-item {
-        right: 0;
-        top: 370px;
+        justify-content: space-around;
+        margin: 0;
+
+        .icons-w-text{
+          margin: 0;
+        }
       }
     }
   
-    .section-mission{
-      padding-bottom: 34px;
-  
+    .section-mission {
+      padding: 0;
+
       &:before {
-        top: 5%;
-        left: 6%;
-  
-        width: 27%;
-        height: 25%;
+        display: none;
       }
   
-      .content-wrapper{
+      .content-wrapper {
         flex-direction: column;
   
         .content-holder {
-          &:nth-child(1){
-            margin: 50px auto;
-            width: 34%;
+          &:nth-child(1) {
+            left: 0;
+
+            margin: 50px 0 0 3px;
+            width: 47%;
             height: 18%;
           }
   
-          &:nth-child(2){
+          &:nth-child(2) {
             margin: 440px auto 0;
-            width: 650px;
+            width: 570px;
           }
   
-          .content-pocket{
-            .btn-blue{
+          .content-pocket {
+            .btn-blue {
               margin: 340px 0 0 23px;
             }
   
-            .btn-yellow{
+            .btn-yellow {
               margin: 340px 0 0 233px;
             }
           }
         }
   
-        .box-provide{ 
+        .box-provide { 
           margin: 0;
-          width: 94%;
+          width: 90%;
+
+          .box-provide-header {
+            padding: 180px 0 0 57px;
+          }
+
+          .solutions-pocket {
+            margin: 28px 0 50px 60px;
+          }
+
+          .desc {
+            width: 375px !important;
+          }
         } 
       }  
     }
     
-    .section-healthy{
+    .section-healthy {
       margin-bottom: 110px;
 
-      .healthy-header{
-        margin: 0 0 8px 48px;
+      .healthy-header {
+        margin: 0 0 8px 30px;
       }
 
-      .healthy-desc{
-        margin: 0 0 0 48px;
+      .healthy-desc {
+        margin: 0 0 0 30px;
       }
 
-      .swiper-container{
-        width: 92%;
+      .swiper-container {
+        width: 90%;
 
-        .swiper-slide{ 
-          &:nth-child(1){
-            width: 550px !important;
+        .swiper-slide { 
+          &:nth-child(1) {
+            width: 500px !important;
 
-            .caption{
-              margin: 160px 0 0 35px !important;
+            .caption {
+              margin: 100px 0 0 35px !important;
             }
 
-            .date{
-              margin: 275px 0 0 35px !important;
+            .date {
+              margin: 225px 0 0 35px !important;
             }
 
-            .tag{
-              margin: 350px 0 0 36px !important;
+            .tag {
+              margin: 320px 0 0 36px !important;
             }
 
-            img{
-              width: 550px !important;
+            img {
+              width: 500px !important;
             }
           }
 
-          &:nth-child(2){
-            width: 272px !important;
+          &:nth-child(2) {
+            width: 248px !important;
 
-            .caption{
-              margin: 160px 0 0 35px !important;
+            .caption {
+              margin: 100px 0 0 35px !important;
               width: 220px !important;
             }
 
-            .date{
-              margin: 290px 0 0 35px !important;
+            .date {
+              margin: 240px 0 0 35px !important;
             }
 
-            .tag{
-              margin: 350px 0 0 36px !important;
+            .tag {
+              margin: 318px 0 0 36px !important;
             }
 
-            img{
-              width: 272px;
-            }
-          }
-
-          &:nth-child(3){
-            width: 272px !important;
-
-            .caption{
-              margin: 160px 0 0 35px !important;
-              width: 220px;
-            }
-
-            .date{
-              margin: 290px 0 0 35px !important;
-            }
-
-            .tag{
-              margin: 350px 0 0 36px !important;
-            }
-
-            img{
-              width: 272px;
+            img {
+              width: 248px;
             }
           }
 
-          &:nth-child(4){
-            width: 272px !important;
+          &:nth-child(3) {
+            width: 248px !important;
 
-            img{
-              width: 272px;
+            .caption {
+              margin: 100px 0 0 35px !important;
+              width: 220px !important;
+            }
+
+            .date {
+              margin: 240px 0 0 35px !important;
+            }
+
+            .tag {
+              margin: 318px 0 0 36px !important;
+            }
+
+            img {
+              width: 248px;
+            }
+          }
+
+          &:nth-child(4) {
+            width: 248px !important;
+
+            img {
+              width: 248px;
             }
           }
         }
       }
 
-      .btn-healthy{
-        margin: 68px 0 0 50px;
+      .btn-healthy {
+        margin: 35px 0 0 35px;
       }
     }
   
-    .section-is{ 
-      .content-wrapper{
-        &:before{
-          top: 0;
-          left: 50px;
+    .section-is { 
+      padding: 160px 0 150px 0;
+
+      .content-wrapper {
+        &:before {
+          top: 120px;
+          left: 30px;
+
+          width: 518px;
+          height: 434px;
         }
   
-        .content-holder{
-          margin: 550px 0 0 50px;
+        .content-holder {
+          margin: 0 0 0 30px;
+
+          .title {
+            width: 513px;
+
+            font-size: 38px;
+          }
+
+          .desc {
+            margin: 500px 0 45px 0;
+            width: 500px;
+          }
   
-          .btn-solution{
+          .btn-solution {
             margin: 178px 0 0 5px;
           }
         }
       }
 
-      .img-leaves{
+      .img-leaves {
         display: none;
-      }
-    }
-  }
-}
-
-// @media (min-width: 850px) and (max-width: 900px){
-//   .home{ 
-//     .section-mission{
-//       padding-bottom: 81%;
-//       .content-wrapper{
-//         .content-holder{
-//           .content-pocket-cc{
-//             margin: -11% 0 0 -.2%;
-//           }
-
-//           .content-pocket-her{
-//             margin: -7% 0 0 -.2%;
-//           }
-
-//           .content-pocket-fcs{
-//             margin: -3% 0 0 -.2%;
-//           }
-
-//           .content-pocket-cnr{
-//             margin: 1% 0 0 -.2%;
-//           }
-
-//           .content-pocket-ft{
-//             margin: 5% 0 0 -.2%;
-//           }
-
-//           .content-pocket-btn-b{
-//             .btn-blue{
-//               margin: 10% 0 0 5%;
-//             }
-//           }
-
-//           .content-pocket-btn-y{
-//             .btn-yellow{
-//               margin: 17% 0 0 5%;
-//             }
-//           }
-//           .box{ 
-//             margin: -60px 0 0 11.5%;
-//           }
-//         }
-//       }
-//     }
-
-//     .section-is{
-//       padding: 0 0 175px 0;
-//       .content-wrapper{
-//         .img{  
-//           margin: 55% 0 0 18%;
-//         }
-  
-//         .content-holder{
-//           .title{
-//             margin: -82% 0 0 12.5%;
-//           }
-  
-//           .title-blue{
-//             margin: 0 0 70% 12.5%;
-//           }
-  
-//           .desc{
-//             margin: -29px 0 45px 12%;
-//           }
-  
-//           .content-features{  
-//             .content-pocket1{
-//               margin: 4px 0 12px -9%;
-//             }
-  
-//             .content-pocket2{
-//               margin: 7px 0 11px 7%; 
-//             }
-  
-//             .content-pocket3{
-//               margin: 8px 0 16px 5%;
-//             }
-//           }
-  
-//           .btn{
-//             margin: 36px 0 0 10%;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-// @media (min-width: 800px) and (max-width: 849px){
-//   .home{ 
-//     .section-mission{
-//       padding-bottom: 85%;
-//       .content-wrapper{
-//         .content-holder {
-//           .content-pocket-cc{
-//             margin: -11% 0 0 -.2%;
-//           }
-
-//           .content-pocket-her{
-//             margin: -7% 0 0 -.2%;
-//           }
-
-//           .content-pocket-fcs{
-//             margin: -3% 0 0 -.2%;
-//           }
-
-//           .content-pocket-cnr{
-//             margin: 1% 0 0 -.2%;
-//           }
-
-//           .content-pocket-ft{
-//             margin: 5% 0 0 -.2%;
-//           }
-
-//           .content-pocket-btn-b{
-//             .btn-blue{
-//               margin: 10% 0 0 5%;
-//             }
-//           }
-
-//           .content-pocket-btn-y{
-//             .btn-yellow{
-//               margin: 17% 0 0 5%;
-//             }
-//           }
-
-//           .box{ 
-//             margin: -65px 0 0 11.5%;
-//           }
-//         }
-//       }
-//     }
-
-//     .section-healthy{
-//       .swiper-pagination{
-//         margin: 0 0 0 1%;
-//       }
-//     }
-
-//     .section-is{
-//       .content-wrapper{
-//         .img{  
-//           margin: 55% 0 0 13%;
-//         }
-  
-//         .content-holder{
-//           .title{
-//             margin: -82% 0 0 9.5%;
-//           }
-  
-//           .title-blue{
-//             margin: 0 0 70% 9.5%;
-//           }
-  
-//           .desc{
-//             margin: -29px 0 45px 9%;
-//           }
-  
-//           .content-features{  
-//             .content-pocket1{
-//               margin: 4px 0 12px -15%;
-//             }
-  
-//             .content-pocket2{
-//               margin: 7px 0 11px 1%; 
-//             }
-  
-//             .content-pocket3{
-//               margin: 8px 0 16px 0;
-//             }
-//           }
-  
-//           .btn{
-//             margin: 36px 0 0 7%;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-// @media (min-width: 768px) and (max-width: 799px){
-//   .home{
-//     .section-mission{
-//       padding-bottom: 89%;
-//       .content-wrapper{
-//         .content-holder{
-//           .content-pocket-cc{
-//             margin: -11% 0 0 -.2%;
-//           }
-
-//           .content-pocket-her{
-//             margin: -7% 0 0 -.2%;
-//           }
-
-//           .content-pocket-fcs{
-//             margin: -3% 0 0 -.2%;
-//           }
-
-//           .content-pocket-cnr{
-//             margin: 1% 0 0 -.2%;
-//           }
-
-//           .content-pocket-ft{
-//             margin: 5% 0 0 -.2%;
-//           }
-
-//           .content-pocket-btn-b{
-//             .btn-blue{
-//               margin: 10% 0 0 5%;
-//             }
-//           }
-
-//           .content-pocket-btn-y{
-//             .btn-yellow{
-//               margin: 17% 0 0 5%;
-//             }
-//           }
-
-//           .box{ 
-//             margin: -70px 0 0 6.5%;
-//           }
-//         }
-//       }
-//     }
-
-//     .section-healthy{
-//       .swiper-pagination{
-//         margin: 0 0 0 1%;
-//       }
-//     }
-  
-//     .section-is{
-//       .content-wrapper{
-//         .img{  
-//           margin: 55% 0 0 14%;
-//         }
-  
-//         .content-holder{
-//           .title{
-//             margin: -82% 0 0 9.5%;
-//           }
-  
-//           .title-blue{
-//             margin: 0 0 70% 9.5%;
-//           }
-  
-//           .desc{
-//             width: 640px;
-//             margin: -29px 0 45px 9%;
-//           }
-  
-//           .content-features{  
-//             .content-pocket1{
-//               margin: 4px 0 12px -11%;
-//             }
-  
-//             .content-pocket2{
-//               margin: 7px 0 11px 6%; 
-//             }
-  
-//             .content-pocket3{
-//               margin: 8px 0 16px 4%;
-//             }
-//           }
-  
-//           .btn{
-//             margin: 36px 0 0 8%;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
-@include respond-to(sm) {
-  .home {
-    .section-intro {
-      padding-bottom: 80px;
-      .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 80px;
-        }
-
-        h1{
-          margin: 149px 930px 0 -15px;
-          width: 530px;
-        }
-
-        .title2{
-          margin: 149px 930px 0 -15px;
-          width: 530px;
-
-          line-height: 1.2;
-        }
-      }
-
-      .swiper-pagination{
-        margin: 1% 0 0 -2.5%;
-      }
-  
-      .logos{    
-        padding-left: 15px;
-        .first{
-          margin: 14px 0 0 54px;
-          width: 65px;
-        }
-  
-        .second{
-          margin: 13px 0 0 118px;
-          width: 65px;
-        }
-  
-        .third{
-          margin: 13px 0 0 176px;
-          width: 65px;
-        }
-      }
-  
-      .logos-text{
-        padding-left: 15px;
-        .text{
-          .first-text{
-            margin: -37px 0 0 52px;
-  
-            font-size: 18px;
-          }
-  
-          .second-text{
-            margin: -53px 0 0 180px;
-            width: 105px;
-  
-            font-size: 18px;
-          }
-  
-          .third-text{
-            margin: -49px 0 0 325px;
-            width: 90px;
-  
-            font-size: 18px;
-          }
-        }
-      }
-
-      .sidebar-item {
-        display: none;
-      }
-    }
-    
-    .section-mission{
-      padding-bottom: 90%;
-      .content-wrapper{
-        .content-holder {
-          &:nth-child(1n){
-            width: 40%
-          }
-  
-          &:nth-child(2n){
-            width: 60%
-          }
-  
-          .img{
-            margin: 50px 0 80px 12%;
-            width: 235px;
-          }
-  
-          .title{  
-            margin: -150px 0 0 43px;
-            font-size: 32px;
-          }
-
-          .content-pocket-cc{
-            margin: -13% 0 0 -.2%;
-          }
-
-          .content-pocket-her{
-            margin: -9% 0 0 -.2%;
-          }
-
-          .content-pocket-fcs{
-            margin: -5% 0 0 -.2%;
-          }
-
-          .content-pocket-cnr{
-            margin: -1% 0 0 -.2%;
-          }
-
-          .content-pocket-ft{
-            margin: 3% 0 0 -.2%;
-          }
-    
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 10% 0 0 5%;
-              padding: 14px 14px 16px 0;
-              width: 190px;
-
-              font-size: 14px;
-
-              background-size: 90%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 18% 0 0 5%;
-              padding: 14px 12px;
-
-              width: 175px;
-            }
-          }
-
-          .box{ 
-            margin: -60px 0 0 4%;
-    
-            background-size: 100% 80%;
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      margin-bottom: 25px;
-
-      .title{
-        position: absolute;
-        margin: 5% 0 0 54px;
-      }
-
-      .desc{
-        position: absolute;
-
-        width: 500px;
-        margin: 13% 0 0 54px;
-      }
-
-      .swiper-container{
-        padding: 130px 0 80px 54px;
-      }
-
-      .swiper-pagination{
-        margin: 0 0 0 -2%;
-      }
-
-      .btn{
-        margin: -30px 0 0 52px;
-      }
-    }
-
-    .section-is{
-      padding: 0px 0 175px 0;
-  
-      .content-wrapper{
-        .img{  
-          margin: 58% 0 0 11%;
-          width: 475px;
-        }
-  
-        .content-holder{
-          .title{
-            position: absolute;
-
-            margin: -540px 0 0 6.3%;
-
-            font-size: 35px;
-          }
-  
-          .title-blue{
-            position: absolute;
-
-            margin: -480px 0 52% 6.3%;
-
-            font-size: 35px;
-          }
-  
-          .desc{
-            margin: 15px 0 120px 9%;
-            width: 600px;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              position: absolute;
-
-              width: 305px;
-              margin: -13% 31.5% 0 0;
-            }
-  
-            .content-pocket2{
-              position: absolute;
-
-              width: 450px;
-              margin: -6% 7% 11px 0;
-            }
-  
-            .content-pocket3{
-              position: absolute;
-
-              width: 408px;
-              margin: 3% 14% 16px 0;
-            }
-          }
-  
-          .btn{
-            position: absolute;
-
-            padding: 18px 53px;
-            margin: 85px 0 0 7%;
-          }
-        }
-      }
-    }
-  }
-}
-  
-@media (min-width: 661px) and (max-width: 700px){
-  .home{
-    .section-mission{
-      padding-bottom: 100%;
-      .content-wrapper{
-        .content-holder{
-          .box{ 
-            margin: -70px 0 0 -10px;
-    
-            background-size: 94% 80%;
-          }
-        }
-      }
-    }
-
-    .section-is{  
-      .content-wrapper{
-        .content-holder{
-          .title{
-            margin: -540px 0 0 7.3%;
-          }
-  
-          .title-blue{
-            margin: -480px 0 52% 7.3%;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 600px) and (max-width: 660px){
-  .home{
-    .section-mission{
-      padding-bottom: 700px;
-      .content-wrapper{
-        .content-holder{
-          .content-pocket-cc{
-            margin: -15% 0 0 -.2%;
-          }
-
-          .content-pocket-her{
-            margin: -10% 0 0 -.2%;
-          }
-
-          .content-pocket-fcs{
-            margin: -5% 0 0 -.2%;
-          }
-
-          .content-pocket-cnr{
-            margin: 0 0 0 -.2%;
-          }
-
-          .content-pocket-ft{
-            margin: 5% 0 0 -.2%;
-          }
-
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 12% 0 0 5%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 21% 0 0 5%;
-            }
-          }
-
-          .box{ 
-            margin: -55px 0 0 -44px;
-    
-            background-size: 86% 80%;
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      .swiper-pagination{
-        margin: 0 0 0 -1%;
-      }
-    }
-
-    .section-is{
-      .content-wrapper{
-        .img{  
-          margin: 50% 0 0 11%;
-        }
-  
-        .content-holder{
-          .title{
-            width: 475px;
-            margin: -510px 0 0 8%;
-          }
-  
-          .title-blue{
-            margin: -470px 0 0 8%;
-          }
-  
-          .desc{
-            width: 550px;
-            margin: 15px 0 120px 10%;
-          }
-
-          .content-pocket1{
-            margin: -13% 25.5% 0 0 !important;
-          }
-
-          .content-pocket2{
-            margin: -6% 0% 0 0 !important;
-          }
-
-          .content-pocket3{
-            margin: 3% 8% 0 0 !important;
-          }
-
-          .btn{
-            margin: 85px 0 0 8%;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 576px) and (max-width: 599px){
-  .home{
-    .section-mission{
-      padding-bottom: 700px;
-      .content-wrapper{
-        .content-holder{
-          .content-pocket-cc{
-            margin: -15% 0 0 -.2%;
-          }
-
-          .content-pocket-her{
-            margin: -10% 0 0 -.2%;
-          }
-
-          .content-pocket-fcs{
-            margin: -5% 0 0 -.2%;
-          }
-
-          .content-pocket-cnr{
-            margin: 0 0 0 -.2%;
-          }
-
-          .content-pocket-ft{
-            margin: 5% 0 0 -.2%;
-          }
-
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 12% 0 0 5%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 21% 0 0 5%;
-            }
-          }
-
-          .box{ 
-            margin: -55px 0 0 -57px;
-    
-            background-size: 83% 80%;
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      .swiper-pagination{
-        margin: 0;
-      }
-    }
-
-    .section-is{  
-      .content-wrapper{
-        .img{
-          margin: 53% 0 0 11%;
-        }
-        
-        .content-holder{
-          .title{
-            margin: -540px 0 0 8.5%;
-
-            font-size: 35px;
-          }
-
-          .title-blue{
-            margin: -500px 0 52% 8.5%;
-
-            font-size: 35px;
-          }
-
-          .desc{
-            width: 500px;
-            margin: 15px 0 120px 11%;
-          }
-
-          .content-pocket1{
-            margin: -13% 16.5% 0 0 !important;
-          }
-
-          .content-pocket2{
-            margin: -5% -12% 11px 0 !important;
-          }
-
-          .content-pocket3{
-            margin: 4% -4% 16px 0 !important;
-          }
-
-          .btn{
-            margin: 85px 0 0 9%;
-          }
-        } 
       }
     }
   }
@@ -1704,1993 +1167,267 @@
   .home {
     .section-intro {
       padding-bottom: 80px;
-      .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 80px;
-        }
 
-        h1{
-          margin: 149px 930px 0 -15px;
-          width: 530px;
-        }
+      .swiper-container {
+        margin: 0 0 0 20px;
+        width: 280px;
 
-        .title2{
-          margin: 149px 930px 0 -15px;
-          width: 530px;
-          line-height: 1.2;
+        .swiper-slide {
+          width: 280px;
+
+          h1 {
+            width: 280px;
+
+            font-size: 50px;
+          }
+
+          .title{
+            width: 280px;
+
+            font-size: 50px;
+          }
         }
       }
-
+  
       .swiper-pagination{
-        margin: 1% 0 0 -2.5%;
+        margin: 0 0 0 1%;
+        width: 20%;
       }
   
-      .logos{    
-        padding-left: 75px;
-        .first{
-          margin: 14px 0 0 54px;
-          width: 65px;
-        }
-  
-        .second{
-          margin: 13px 0 0 118px;
-          width: 65px;
-        }
-  
-        .third{
-          margin: 13px 0 0 176px;
-          width: 65px;
-        }
-      }
-  
-      .logos-text{
-        padding-left: 75px;
-        .text{
-          .first-text{
-            margin: -37px 0 0 52px;
-  
-            font-size: 18px;
-          }
-  
-          .second-text{
-            margin: -53px 0 0 180px;
-            width: 105px;
-  
-            font-size: 18px;
-          }
-  
-          .third-text{
-            margin: -49px 0 0 325px;
-            width: 90px;
-  
-            font-size: 18px;
-          }
-        }
-      }
+      .section-intro-icons{ 
+        justify-content: space-around;
+        margin: 0;
 
-      .sidebar-item {
+        .icons-w-text{
+          margin: 0;
+        }
+      }
+    }
+  
+    .section-mission {
+      &:before {
         display: none;
       }
-    }
-    
-    .section-mission{
-      padding-bottom: 1150px;
-      .content-wrapper{
+  
+      .content-wrapper {
+        flex-direction: column;
+  
         .content-holder {
-          &:nth-child(1n){
-            width: 40%
+          &:nth-child(1) {
+            left: 0;
+
+            margin: 50px 0 0 3px;
+            width: 82%;
+            height: 18%;
           }
   
-          &:nth-child(2n){
-            width: 60%
+          &:nth-child(2) {
+            margin: 500px auto 0;
+            width: 320px;
           }
   
-          .img{
-            display: none;
-          }
+          .content-pocket {
+            .btn-blue {
+              margin: 340px 0 0 23px;
+            }
   
-          .title{  
-            margin: 24px 0 0 -178px;
-            font-size: 32px;
+            .btn-yellow {
+              margin: 420px 0 0 23px;
+            }
+
+            .mission-header {
+              margin: 0 0 0 20px;
+            }
+
+            .missions-pocket {
+              margin: 95px 0 0 20px;
+
+              p {
+                margin: 0 0 0 4% !important;
+              }
+            }
+          }
+        }
+  
+        .box-provide { 
+          margin: 70px 0 0 0;
+          width: 53%;
+          height: 600px;
+
+          background-size: cover;
+
+          .box-provide-header { 
+            padding: 60px 0 0 25px;
+            width: 300px;
+
+            font-size: 28px;
           }
 
-          .content-pocket-cc{
-            margin: 16% 0 0 -39%;
+          .solutions-pocket {
+            margin: 28px 0 50px 24px;
+
+            .solutions-title-and-desc{
+              margin: 0 0 0 60px;
+            }
           }
 
-          .content-pocket-her{
-            margin: 23% 0 0 -39%;
+          .desc {
+            width: 200px !important;
           }
 
-          .content-pocket-fcs{
-            margin: 30% 0 0 -39%;
+          .desc-healthcare {
+            width: 200px !important;
           }
-
-          .content-pocket-cnr{
-            margin: 37% 0 0 -39%;
-          }
-
-          .content-pocket-ft{
-            margin: 44% 0 0 -39%;
-          }
+        } 
+      }  
+    }
     
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 53% 0 0 -31%;
-              padding: 14px 14px 16px 0;
-              width: 190px;
+    .section-healthy {
+      margin-bottom: 110px;
 
-              font-size: 14px;
+      .healthy-header{
+        margin: 0 0 8px 18px;
 
-              background-size: 90%;
+        font-size: 36px;
+      }
+
+      .healthy-desc {
+        margin: 0 0 0 20px;
+        width: 280px;
+
+        font-size: 15px;
+      }
+
+      .swiper-container {
+        width: 90%;
+
+        .swiper-slide { 
+          &:nth-child(1) {
+            width: 500px !important;
+
+            .caption {
+              margin: 100px 0 0 35px !important;
+            }
+
+            .date {
+              margin: 225px 0 0 35px !important;
+            }
+
+            .tag {
+              margin: 320px 0 0 36px !important;
+            }
+
+            img {
+              width: 500px !important;
             }
           }
 
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 63% 0 0 -31%;
-              padding: 14px 12px;
+          &:nth-child(2) {
+            width: 248px !important;
 
-              width: 175px;
+            .caption {
+              margin: 100px 0 0 35px !important;
+              width: 220px !important;
+            }
+
+            .date {
+              margin: 240px 0 0 35px !important;
+            }
+
+            .tag {
+              margin: 318px 0 0 36px !important;
+            }
+
+            img {
+              width: 248px;
             }
           }
 
-          .box{ 
-            margin: 400px 0 0 -10%;
-    
-            background-size: 83% 80%;
+          &:nth-child(3) {
+            width: 248px !important;
+
+            .caption {
+              margin: 100px 0 0 35px !important;
+              width: 220px !important;
+            }
+
+            .date {
+              margin: 240px 0 0 35px !important;
+            }
+
+            .tag {
+              margin: 318px 0 0 36px !important;
+            }
+
+            img {
+              width: 248px;
+            }
+          }
+
+
+          &:nth-child(4) {
+            width: 248px !important;
+
+            img {
+              width: 248px;
+            }
           }
         }
       }
-    }
 
-    .section-healthy{
-      margin-bottom: 25px;
-
-      .title{
-        position: absolute;
-
-        margin: 5% 0 0 54px;
-      }
-
-      .desc{
-        position: absolute;
-
-        width: 475px;
-        margin: 15% 0 0 54px;
-      }
-
-      .swiper-container{
-        padding: 140px 0 80px 54px;
-      }
-
-      .swiper-pagination{
-        margin: 0 0 0 1%;
-      }
-
-      .btn{
-        margin: -30px 0 0 52px;
-      }
-    }
-
-    .section-is{
-      padding: 0px 0 175px 0;
-  
-      .content-wrapper{
-        .img{  
-          margin: 50% 0 0 11%;
-          width: 475px;
-        }
-  
-        .content-holder{
-          .title{
-            position: absolute;
-
-            width: 435px;
-            margin: -90% 0 0 9.3%;
-
-            font-size: 32px;
-          }
-  
-          .title-blue{
-            position: absolute;
-            margin: -82% 0 52% 9.3%;
-
-            font-size: 32px;
-          }
-  
-          .desc{
-            margin: 0 0 45px 12.3%;
-            width: 420px;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              width: 305px;
-              margin: 4px 11% 0 0;
-            }
-  
-            .content-pocket2{
-              width: 420px;
-              margin: 7px -14% 0 0;
-            }
-  
-            .content-pocket3{
-              width: 464px;
-              padding: 8px 0 0 11.3%;
-            }
-          }
-  
-          .btn{
-            padding: 18px 53px;
-            margin: 36px 0 0 9%;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 500px) and (max-width: 530px){
-  .home{
-    .section-intro {
-      .logos{    
-        padding-left: 50px !important;
-      }
-  
-      .logos-text{
-        padding-left: 50px !important;
-      }
-    }
-
-    .section-mission{
-      padding-bottom: 1100px;
-      .content-wrapper{
-        .content-holder{
-          .title{  
-            margin: 24px 0 0 -160px;
-          }
-    
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 53% 0 0 -30%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 63% 0 0 -30%;
-            }
-          }
-
-          .box{ 
-            margin: 350px 0 0 -19%;
-    
-            background-size: 72% 80%;
-          }
-        }
+      .btn-healthy {
+        margin: 35px 0 0 18px;
       }
     }
   
-    .section-is{
-      .content-wrapper{
-        .img{  
-          margin: 60% 0 0 15% !important;
-          width: 350px !important;
-        }
-  
-        .content-holder{
-          .title{
-            margin: -400px 0 0 9.3% !important;
-          }
-  
-          .title-blue{
-            margin: -365px 0 52% 9.3% !important;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              margin: 4px 11% 0 0;
-            }
-  
-            .content-pocket2{
-              padding: 7px 0 0 0 !important; 
-            }
-  
-            .content-pocket3{
-              padding: 8px 0 0 11.4% !important;
-            }
-          }
-  
-          .btn{
-            margin: 36px 0 0 10%;
-          }
-        }
-      }
-    }
-  }
-}
+    .section-is{ 
+      padding: 160px 0 150px 0;
 
-@media (min-width: 470px) and (max-width: 499px){
-  .home {
-    .section-intro {
-      .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 18px;
-        }
-        h1{
-          width: 375px;
-          margin: 110px 0 0 20px !important;
+      .content-wrapper {
+        &:before {
+          top: 120px;
+          left: 18px;
 
-          font-size: 41px;
-        }
-      }
-
-      .logos{  
-        .first{
-          margin: 13px 0 0 0 !important;
+          width: 275px;
+          height: 232px;      
         }
   
-        .second{
-          margin: 10px 0 0 95px !important;
-        }
-  
-        .third{
-          margin: 13px 0 0 170px !important;
-        }
-      }
-  
-      .logos-text{
-        .text{
-            margin-top: -20%;
-
-          .first-text{
-            margin: 0 0 0 -1%;
-  
-            font-size: 18px;
-          }
-  
-          .second-text{
-            margin: -51px 0 0 60% !important;
-          }
-  
-          .third-text{
-            margin: -49px 0 0 302px;
-          }
-        }
-      }
-    }
-
-    .section-mission{
-      padding-bottom: 1050px;
-      .content-wrapper{
         .content-holder {
-          .title{
-            margin: 24px 0 0 -180px;
-          }
-          
-          &:nth-child(2n){
-            margin-top: 4%;
-          }
-  
-          .content-pocket-cc{
-            margin: 16% 0 0 -45%;
-          }
-  
-          .content-pocket-her{
-            margin: 23% 0 0 -45%;
-          }
-  
-          .content-pocket-fcs{
-            margin: 30% 0 0 -45%;
-          }
-  
-          .content-pocket-cnr{
-            margin: 37% 0 0 -45%;
-          }
-  
-          .content-pocket-ft{
-            margin: 44% 0 0 -45%;
+          margin: 0 0 0 18px;
+
+          .title {
+            width: 278px;
+
+            font-size: 30px;
+            line-height: 30px;
           }
 
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 55% 0 0 -35%;
-            }
+          .title-blue {
+            margin: 56px 0 0 0;
+            width: 140px;
+
+            font-size: 30px;
           }
 
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 67% 0 0 -35%;
-            }
-          }
+          .desc {
+            margin: 300px 0 30px 0;
+            width: 280px;
 
-          .box{ 
-            margin: 300px 0 0 -21% !important;
-    
-            background-size: 64% 72% !important;
-
-            .header{
-              margin: -25px 0 0 55px;
-
-              font-size: 31px;
-            }
-    
-            .content-pocket2{
-              .logos{
-                margin-left: 5%;
-                .first-logo{
-                  margin: 20px 0 0 138px;
-                  
-                  width: 38px;
-                }
-      
-                .second-logo{
-                  margin: 3px 0 0 138px;
-
-                  width: 38px;
-                }
-      
-                .third-logo{
-                  margin: 2px 0 0 138px;
-
-                  width: 38px;
-                }
-
-                .small-title-hp{
-                  margin: -52px 0 15px 195px;
-                }
-
-                .small-desc-hp{
-                  margin: -12px 0 36px 195px;
-
-                  width: 320px;
-                }
-      
-                .fourth-logo{
-                  margin: -1px 0 0 140px;
-
-                  width: 38px;
-                }
-      
-                .small-title{ 
-                  margin:-47px 0 15px 195px;
-                }
-      
-                .small-desc{  
-                  margin: -12px 0 33px 195px;
-
-                  width: 320px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      margin-bottom: 25px;
-
-      .title{
-        margin-left: 23px;
-      }
-
-      .desc{
-        margin-left: 23px;
-      }
-
-      .swiper-container{
-        padding: 20px 0 80px 23px;
-      }
-
-      .swiper-pagination{
-        margin: 0 0 0 1%;
-      }
-
-      .btn{
-        margin: -30px 0 0 23px;
-      }
-    }
-
-    .section-is{  
-      padding: 0 0 130px 0;
-      .content-wrapper{
-        .img{  
-          margin: 58% 0 0 7% !important;
-          width: 350px !important;
-        }
-  
-        .content-holder{
-          .title{
-            margin: -380px 0 0 4.5%!important;
-
-            font-size: 30px!important;
-          }
-  
-          .title-blue{
-            margin: -343px 0 38% 4.5%!important;
-
-            font-size: 30px!important;
-          }
-  
-          .desc{
-            margin: 10px 0 45px 4.5% !important;
-          }
-
-          .content-features{  
-            .content-pocket1{
-              margin: 4px 25% 0 0;
-            }
-  
-            .content-pocket2{
-              margin: 7px 0 0 -0.6%!important;
-            }
-  
-            .content-pocket3{
-              padding: 8px 0 0 4.4% !important;
-            }
-          }
-  
-          .btn{
-            margin: 25px 0 0 5%;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 420px) and (max-width: 469px){
-  .home {
-    .section-intro {
-      .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 18px;
-        }
-
-        h1{
-          width: 375px;
-          margin: 90px 0 0 20px;
-
-          font-size: 41px;
-        }
-      }
-
-      .logos{  
-        padding-left: 60px;
-
-        .first{
-          margin: 13px 0 0 0 !important;
-        }
-  
-        .second{
-          margin: 10px 0 0 75px !important;
-        }
-  
-        .third{
-          margin: 13px 0 0 150px !important;
-        }
-      }
-  
-      .logos-text{
-        .text{
-            margin-top: -20%;
-
-          .first-text{
-            margin: 0 0 0 -7%;
-          }
-  
-          .second-text{
-            margin: -51px 0 0 54% !important;
-          }
-  
-          .third-text{
-            margin: -49px 0 0 284px;
-          }
-        }
-      }
-    }
-
-    .section-mission{
-      padding-bottom: 1000px;
-
-      .content-wrapper{
-        .content-holder {
-          .title{
-            margin: 25px 0 0 -165px;
-          }
-  
-          .content-pocket-cc{
-            margin: 16% 0 0 -45%;
-          }
-  
-          .content-pocket-her{
-            margin: 23% 0 0 -45%;
-          }
-  
-          .content-pocket-fcs{
-            margin: 30% 0 0 -45%;
-          }
-  
-          .content-pocket-cnr{
-            margin: 37% 0 0 -45%;
-          }
-  
-          .content-pocket-ft{
-            margin: 44% 0 0 -45%;
-          }
-  
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 55% 0 0 -35%;
-            }
-          }
-  
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 67% 0 0 -35%;
-            }
-          }
-
-          .box{ 
-            margin: 250px 0 0 -28% !important;
-    
-            background-size: 60% 65% !important;
-    
-            .header{
-              width: 455px;
-              margin: -10px 0 0 57px;
-    
-              font-size: 30px;
-            }
-    
-            .content-pocket2{
-              .logos{
-                margin-left: 4%;
-                .first-logo{
-                  margin: 20px 0 0 148px !important;
-
-                  width: 36px;
-                }
-      
-                .second-logo{
-                  margin: 3px 0 0 148px !important;
-
-                  width: 36px;
-                }
-      
-                .third-logo{
-                  margin: 2px 0 0 148px !important;
-
-                  width: 36px;
-                }
-
-                .small-title-hp{
-                  margin: -52px 0 15px 195px;
-                }
-
-                .small-desc-hp{
-                  margin: -12px 0 36px 195px;
-
-                  width: 295px;
-                }
-      
-                .fourth-logo{
-                  margin: -1px 0 0 150px !important;
-
-                  width: 36px;
-                }
-    
-                .small-title{ 
-                  margin:-47px 0 15px 200px;
-                }
-      
-                .small-desc{  
-                  margin: -12px 0 33px 200px !important;
-                  width: 295px !important;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      .title{
-        margin: 5% 0 0 20px !important;
-      }
-
-      .desc{
-        width: 360px;
-        margin: 19% 0 0 20px;
-      }
-
-      .swiper-container{
-        padding: 140px 0 80px 24px !important;
-      }
-
-      .btn{
-        margin: -30px 0 0 22px !important;
-        padding: 14px 14px 14px 0;
-        width: 180px;
-
-        font-size: 13px;
-
-        background-size: 90%;
-
-      }
-    }
-
-    .section-is{
-      padding: 0px 0 100px 0;
-  
-      .content-wrapper{
-        .img{  
-          margin: 60% 0 0 7% !important;
-          width: 350px !important;
-        }
-  
-        .content-holder{
-          .title{
-            margin: -400px 0 0 5% !important;
-            font-size: 28px!important;
-          }
-  
-          .title-blue{
-            margin: -360px 0 0 5%!important;
-            font-size: 28px!important;
-          }
-  
-          .desc{
-            margin: 12px 0 45px 6%!important;
-            width: 385px !important;
             font-size: 16px;
           }
   
-          .content-features{  
-            .content-pocket1{
-              margin: 4px 9% 12px 0;
-            }
-  
-            .content-pocket2{
-              margin: 8px -2% 11px 0!important;
-              width: 345px;
-
-              .bullet-point{
-                width: 36px;
-              }
-            }
-  
-            .content-pocket3{
-              margin: 8px 21% 16px 0 !important;
-              width: 345px;
-
-              .bullet-point{
-                width: 42px;
-              }
-            }
+          .btn-solution {
+            margin: 178px 0 0 5px;
           }
-  
-          .btn{
-            margin: 10px 0 0 5%;
+
+          .content-pocket {
+            width: 180px;
           }
         }
       }
-    }
-  }
-}
 
-@media (min-width: 380px) and (max-width: 419px){
-  .home {
-    .section-intro {
-      .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 18px;
-        }
-
-        h1{
-          width: 308px;
-          margin: 90px 0 0 18px;
-
-          font-size: 41px;
-        }
-      }
-
-      .logos{  
-        padding-left: 35px;
-
-        .first{
-          margin: 13px 0 0 0 !important;
-        }
-  
-        .second{
-          margin: 10px 0 0 70px !important;
-        }
-  
-        .third{
-          margin: 13px 0 0 124px !important;
-        }
-      }
-  
-      .logos-text{
-        .text{
-            margin-top: -20%;
-
-          .first-text{
-            margin: 0 0 0 -18%;
-          }
-  
-          .second-text{
-            margin: -51px 0 0 42% !important;
-          }
-  
-          .third-text{
-            margin: -49px 0 0 235px !important;
-          }
-        }
-      }
-    }
-
-    .section-mission{
-      padding-bottom: 1000px;
-
-      .content-wrapper{
-        .content-holder{
-          .title{  
-            margin: 25px 0 0 -140px;
-          }
-
-          .content-pocket-cc{
-            margin: 20% 0 0 -45%;
-          }
-  
-          .content-pocket-her{
-            margin: 28% 0 0 -45%;
-          }
-  
-          .content-pocket-fcs{
-            margin: 36% 0 0 -45%;
-          }
-  
-          .content-pocket-cnr{
-            margin: 43% 0 0 -45%;
-          }
-  
-          .content-pocket-ft{
-            margin: 51% 0 0 -45%;
-          }
-
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 65% 0 0 -35%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 80% 0 0 -35%;
-            }
-          }
-
-          .box{ 
-            margin: 275px 0 0 -33% !important;
-    
-            background-size: 59.5% 65%;
-    
-            .header{
-              margin: -20px 0 0 60px;
-
-              font-size: 30px;
-            }
-    
-            .content-pocket2{
-              width: 350px;
-              .logos{
-                .first-logo{
-                  margin: 20px 0 0 48%;
-                }
-      
-                .second-logo{
-                  margin: 3px 0 0 48%;
-                }
-      
-                .third-logo{
-                  margin: 2px 0 0 48%;
-                }
-
-                .small-title-hp{
-                  margin: -52px 0 15px 238px;
-
-                  font-size: 15px;
-                }
-
-                .small-desc-hp{
-                  margin: -12px 0 36px 238px;
-
-                  font-size: 15px;
-
-                  width: 240px;
-                }
-      
-                .fourth-logo{
-                  margin: -1px 0 0 48%;
-                }
-      
-                .small-title{ 
-                  margin: -47px 0 15px 68%;
-    
-                  font-size: 15px;
-                }
-      
-                .small-desc{  
-                  margin: -12px 0 33px 68%;
-                  width: 240px;
-      
-                  font-size: 15px;
-                }
-              }
-            }
-          }
-
-        }
-      }
-    }
-
-    .section-healthy{
-      .title{
-        margin: 5% 0 0 20px !important;
-      }
-
-      .desc{
-        width: 340px;
-        margin: 19% 0 0 20px;
-      }
-
-      .swiper-container{
-        padding: 140px 0 80px 24px !important;
-      }
-
-      .btn{
-        margin: -30px 0 0 25px !important;
-        padding: 14px 14px 14px 0;
-        width: 180px;
-
-        font-size: 13px;
-
-        background-size: 90%;
-      }
-    }
-
-    .section-is{
-      padding: 0px 0 100px 0;
-  
-      .content-wrapper{
-        .img{  
-          margin: 68% 0 0 8% !important;
-          width: 330px !important;
-        }
-  
-        .content-holder{
-          .title{
-            width: 375px !important;
-            margin: -400px 0 0 5% !important;
-            font-size: 28px!important;
-          }
-  
-          .title-blue{
-            margin: -320px 0 0 5%!important;
-            font-size: 28px!important;
-          }
-  
-          .desc{
-            margin: 12px 0 45px 6%!important;
-            width: 325px!important;
-            font-size: 16px;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              margin: 4px 11% 0 0;
-            }
-  
-            .content-pocket2{
-              margin: 8px -3% 0 -2%!important;
-              width: 345px;
-
-              .bullet-point{
-                width: 36px;
-              }
-            }
-  
-            .content-pocket3{
-              margin: 8px 19% 0 -2%!important;
-              width: 345px;
-
-              .bullet-point{
-                width: 42px;
-              }
-            }
-          }
-  
-          .btn{
-            margin: 10px 0 0 6%;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 351px) and (max-width: 379px){
-  .home {
-    .section-intro {
-      .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 18px;
-        }
-
-        h1{
-          width: 308px;
-          margin: 90px 0 0 18px;
-
-          font-size: 41px;
-        }
-      }
-
-      .logos{  
-        padding-left: 35px;
-
-        .first{
-          margin: 13px 0 0 0 !important;
-        }
-  
-        .second{
-          margin: 10px 0 0 40px !important;
-        }
-  
-        .third{
-          margin: 13px 0 0 70px !important;
-        }
-      }
-  
-      .logos-text{
-        .text{
-            margin-top: -20%;
-
-          .first-text{
-            margin: 0 0 0 -20%;
-          }
-  
-          .second-text{
-            margin: -51px 0 0 25% !important;
-          }
-  
-          .third-text{
-            margin: -49px 0 0 180px !important;
-          }
-        }
-      }
-    }
-
-    .section-mission{
-      padding-bottom: 1000px;
-
-      .content-wrapper{
-        .content-holder{
-          .title{  
-            margin: 25px 0 0 -132px;
-          }
-
-          .content-pocket-cc{
-            margin: 22% 0 0 -47%;
-          }
-  
-          .content-pocket-her{
-            margin: 30% 0 0 -47%;
-          }
-  
-          .content-pocket-fcs{
-            margin: 38% 0 0 -47%;
-          }
-  
-          .content-pocket-cnr{
-            margin: 45% 0 0 -47%;
-          }
-  
-          .content-pocket-ft{
-            margin: 53% 0 0 -47%;
-          }
-
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 65% 0 0 -34%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 80% 0 0 -34%;
-            }
-          }
-
-          .box{ 
-            margin: 275px 0 0 -44% !important;
-    
-            background-size: 50% 65%;
-    
-            .header{
-              margin: -20px 0 0 76px;
-
-              font-size: 26px;
-            }
-    
-            .content-pocket2{
-              width: 350px;
-              .logos{
-                .first-logo{
-                  margin: 20px 0 0 53%;
-                }
-      
-                .second-logo{
-                  margin: 3px 0 0 53%;
-                }
-      
-                .third-logo{
-                  margin: 2px 0 0 53%;
-                }
-
-                .small-title-hp{
-                  margin: -52px 0 15px 245px;
-
-                  font-size: 15px;
-                }
-
-                .small-desc-hp{
-                  margin: -12px 0 36px 245px;
-
-                  font-size: 15px;
-
-                  width: 240px;
-                }
-      
-                .fourth-logo{
-                  margin: -1px 0 0 53%;
-                }
-      
-                .small-title{ 
-                  margin: -47px 0 15px 70%;
-    
-                  font-size: 15px;
-                }
-      
-                .small-desc{  
-                  margin: -12px 0 33px 68%;
-                  width: 240px;
-      
-                  font-size: 15px;
-                }
-              }
-            }
-          }
-
-        }
-      }
-    }
-
-    .section-healthy{
-      .title{
-        margin: 5% 0 0 20px !important;
-      }
-
-      .desc{
-        width: 340px;
-        margin: 19% 0 0 20px;
-      }
-
-      .swiper-container{
-        padding: 140px 0 80px 24px !important;
-      }
-
-      .btn{
-        margin: -30px 0 0 25px !important;
-        padding: 14px 14px 14px 0;
-        width: 180px;
-
-        font-size: 13px;
-
-        background-size: 90%;
-      }
-    }
-
-    .section-is{
-      padding: 0px 0 100px 0;
-  
-      .content-wrapper{
-        .img{  
-          margin: 72% 0 0 8% !important;
-          width: 300px !important;
-        }
-  
-        .content-holder{
-          .title{
-            width: 375px !important;
-            margin: -370px 0 0 6% !important;
-            font-size: 28px!important;
-          }
-  
-          .title-blue{
-            margin: -300px 0 0 6%!important;
-            font-size: 28px!important;
-          }
-  
-          .desc{
-            margin: 12px 0 45px 7%!important;
-            width: 325px!important;
-            font-size: 16px;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              margin: 4px -1% 0 0;
-            }
-  
-            .content-pocket2{
-              margin: 8px -3% 0 9%!important;
-              width: 345px;
-
-              .bullet-point{
-                width: 36px;
-              }
-            }
-  
-            .content-pocket3{
-              margin: 8px 19% 0 8%!important;
-              width: 345px;
-
-              .bullet-point{
-                width: 42px;
-              }
-            }
-          }
-  
-          .btn{
-            margin: 20px 0 0 6%;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 340px) and (max-width: 350px){
-  .home {
-    .section-intro {
-      .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 18px;
-        }
-
-        h1{
-          width: 308px;
-          margin: 90px 0 0 24px;
-
-          font-size: 41px;
-        }
-      }
-
-      .logos{  
-        padding-left: 35px;
-
-        .first{
-          margin: 13px 0 0 0 !important;
-        }
-  
-        .second{
-          margin: 10px 0 0 40px !important;
-        }
-  
-        .third{
-          margin: 13px 0 0 70px !important;
-        }
-      }
-  
-      .logos-text{
-        .text{
-            margin-top: -20%;
-
-          .first-text{
-            margin: 0 0 0 -20%;
-          }
-  
-          .second-text{
-            margin: -51px 0 0 25% !important;
-          }
-  
-          .third-text{
-            margin: -49px 0 0 180px !important;
-          }
-        }
-      }
-    }
-
-    .section-mission{
-      padding-bottom: 1000px;
-
-      .content-wrapper{
-        .content-holder{
-          .title{  
-            margin: 25px 0 0 -112px;
-          }
-
-          .content-pocket-cc{
-            margin: 25% 0 0 -45%;
-          }
-  
-          .content-pocket-her{
-            margin: 35% 0 0 -45%;
-          }
-  
-          .content-pocket-fcs{
-            margin: 45% 0 0 -45%;
-          }
-  
-          .content-pocket-cnr{
-            margin: 55% 0 0 -45%;
-          }
-  
-          .content-pocket-ft{
-            margin: 65% 0 0 -45%;
-          }
-
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 80% 0 0 -32%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 96% 0 0 -32%;
-            }
-          }
-
-          .box{ 
-            margin: 275px 0 0 -49% !important;
-    
-            background-size: 48% 65%;
-    
-            .header{
-              margin: -20px 0 0 76px;
-
-              font-size: 26px;
-            }
-    
-            .content-pocket2{
-              width: 350px;
-              .logos{
-                .first-logo{
-                  margin: 20px 0 0 58%;
-                }
-      
-                .second-logo{
-                  margin: 3px 0 0 58%;
-                }
-      
-                .third-logo{
-                  margin: 2px 0 0 58%;
-                }
-
-                .small-title-hp{
-                  margin: -52px 0 15px 262px;
-
-                  font-size: 15px;
-                }
-
-                .small-desc-hp{
-                  margin: -12px 0 36px 262px;
-
-                  font-size: 15px;
-
-                  width: 240px;
-                }
-      
-                .fourth-logo{
-                  margin: -1px 0 0 58%;
-                }
-      
-                .small-title{ 
-                  margin: -47px 0 15px 75%;
-    
-                  font-size: 15px;
-                }
-      
-                .small-desc{  
-                  margin: -12px 0 33px 75%;
-                  width: 240px;
-      
-                  font-size: 15px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      .title{
-        margin: 5% 0 0 27px !important;
-
-        font-size: 35px;
-      }
-
-      .desc{
-        width: 310px;
-        margin: 19% 0 0 27px;
-      }
-
-      .swiper-container{
-        padding: 140px 0 80px 26px !important;
-      }
-
-      .btn{
-        margin: -30px 0 0 25px !important;
-        padding: 14px 14px 14px 0;
-        width: 180px;
-
-        font-size: 13px;
-
-        background-size: 90%;
-      }
-    }
-
-    .section-is{
-      padding: 0px 0 100px 0;
-  
-      .content-wrapper{
-        .img{  
-          margin: 68% 0 0 9% !important;
-          width: 300px !important;
-        }
-  
-        .content-holder{
-          .title{
-            width: 200px;
-            margin: -365px 0 0 9% !important;
-
-            font-size: 26px!important;
-          }
-  
-          .title-blue{
-            margin: -295px 0 80% 9%!important;
-            font-size: 26px!important;
-          }
-  
-          .desc{
-            margin: 0 0 45px 8% !important;
-            width: 320px !important;
-            font-size: 16px;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              margin: 4px -15% 0 0;
-              width: 345px;
-            }
-  
-            .content-pocket2{
-              margin: 6px -6% 0 0!important;
-              width: 314px;
-
-              .bullet-point{
-                width: 41px;
-              }
-            }
-  
-            .content-pocket3{
-              margin: 8px 19% 0 0!important;
-              width: 305px;
-
-              .bullet-point{
-                width: 50px;
-              }
-            }
-          }
-  
-          .btn{
-            margin: 10px 0 0 7%;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 330px) and (max-width: 339px){
-  .home {
-    .section-intro {
-      .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 18px;
-        }
-
-        h1{
-          width: 308px;
-          margin: 90px 0 0 24px;
-
-          font-size: 41px;
-        }
-      }
-
-      .logos{  
-        padding-left: 35px;
-
-        .first{
-          margin: 13px 0 0 0 !important;
-        }
-  
-        .second{
-          margin: 10px 0 0 32px !important;
-        }
-  
-        .third{
-          margin: 13px 0 0 62px !important;
-        }
-      }
-  
-      .logos-text{
-        .text{
-            margin-top: -20%;
-
-          .first-text{
-            margin: 0 0 0 -20%;
-          }
-  
-          .second-text{
-            margin: -51px 0 0 25% !important;
-          }
-  
-          .third-text{
-            margin: -49px 0 0 180px !important;
-          }
-        }
-      }
-    }
-
-    .section-mission{
-      padding-bottom: 1000px;
-
-      .content-wrapper{
-        .content-holder{
-          .title{  
-            margin: 25px 0 0 -108px;
-          }
-
-          .content-pocket-cc{
-            margin: 25% 0 0 -45%;
-          }
-  
-          .content-pocket-her{
-            margin: 35% 0 0 -45%;
-          }
-  
-          .content-pocket-fcs{
-            margin: 45% 0 0 -45%;
-          }
-  
-          .content-pocket-cnr{
-            margin: 55% 0 0 -45%;
-          }
-  
-          .content-pocket-ft{
-            margin: 65% 0 0 -45%;
-          }
-
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 80% 0 0 -32%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 96% 0 0 -32%;
-            }
-          }
-
-          .box{ 
-            margin: 275px 0 0 -54% !important;
-    
-            background-size: 46.5% 65%;
-    
-            .header{
-              margin: -20px 0 0 83px;
-
-              font-size: 26px;
-            }
-    
-            .content-pocket2{
-              width: 350px;
-              .logos{
-                .first-logo{
-                  margin: 20px 0 0 58%;
-                }
-      
-                .second-logo{
-                  margin: 3px 0 0 58%;
-                }
-      
-                .third-logo{
-                  margin: 2px 0 0 58%;
-                }
-
-                .small-title-hp{
-                  margin: -52px 0 15px 262px;
-
-                  font-size: 15px;
-                }
-
-                .small-desc-hp{
-                  margin: -12px 0 36px 262px;
-
-                  font-size: 15px;
-
-                  width: 240px;
-                }
-      
-                .fourth-logo{
-                  margin: -1px 0 0 58%;
-                }
-      
-                .small-title{ 
-                  margin: -47px 0 15px 75%;
-    
-                  font-size: 15px;
-                }
-      
-                .small-desc{  
-                  margin: -12px 0 33px 75%;
-                  width: 240px;
-      
-                  font-size: 15px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      .title{
-        margin: 5% 0 0 28px !important;
-
-        font-size: 35px;
-      }
-
-      .desc{
-        width: 300px;
-        margin: 19% 0 0 30px;
-      }
-
-      .swiper-container{
-        padding: 150px 0 80px 30px !important;
-      }
-
-      .btn{
-        margin: -30px 0 0 30px !important;
-        padding: 14px 14px 14px 0;
-        width: 180px;
-
-        font-size: 13px;
-
-        background-size: 90%;
-      }
-    }
-
-    .section-is{
-      padding: 0px 0 100px 0;
-  
-      .content-wrapper{
-        .img{  
-          margin: 78% 0 0 11% !important;
-          width: 280px !important;
-        }
-  
-        .content-holder{
-          .title{
-            width: 200px;
-            margin: -365px 0 0 9% !important;
-
-            font-size: 26px!important;
-          }
-  
-          .title-blue{
-            margin: -295px 0 80% 9%!important;
-            font-size: 26px!important;
-          }
-  
-          .desc{
-            margin: 0 0 45px 9% !important;
-            width: 285px !important;
-            font-size: 16px;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              margin: 4px -15% 0 0;
-              width: 295px;
-            }
-  
-            .content-pocket2{
-              margin: 6px -16% 0 0!important;
-              width: 300px;
-
-              .bullet-point{
-                width: 41px;
-              }
-            }
-  
-            .content-pocket3{
-              margin: 8px 5% 0 0!important;
-              width: 305px;
-
-              .bullet-point{
-                width: 50px;
-              }
-            }
-          }
-  
-          .btn{
-            margin: 10px 0 0 8%;
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 320px) and (max-width: 329px){
-  .home {
-    .section-intro {
-      .swiper-container{
-        .swiper-slide{
-          padding: 0 0 0 18px;
-        }
-
-        h1{
-          width: 308px;
-          margin: 90px 0 0 24px;
-
-          font-size: 41px;
-        }
-      }
-
-      .logos{  
-        padding-left: 35px;
-
-        .first{
-          margin: 13px 0 0 0 !important;
-        }
-  
-        .second{
-          margin: 10px 0 0 32px !important;
-        }
-  
-        .third{
-          margin: 13px 0 0 62px !important;
-        }
-      }
-  
-      .logos-text{
-        .text{
-            margin-top: -20%;
-
-          .first-text{
-            margin: 0 0 0 -20%;
-          }
-  
-          .second-text{
-            margin: -51px 0 0 25% !important;
-          }
-  
-          .third-text{
-            margin: -49px 0 0 180px !important;
-          }
-        }
-      }
-    }
-
-    .section-mission{
-      padding-bottom: 1000px;
-
-      .content-wrapper{
-        .content-holder{
-          .title{  
-            margin: 25px 0 0 -98px;
-          }
-
-          .content-pocket-cc{
-            margin: 25% 0 0 -45%;
-          }
-  
-          .content-pocket-her{
-            margin: 35% 0 0 -45%;
-          }
-  
-          .content-pocket-fcs{
-            margin: 45% 0 0 -45%;
-          }
-  
-          .content-pocket-cnr{
-            margin: 55% 0 0 -45%;
-          }
-  
-          .content-pocket-ft{
-            margin: 65% 0 0 -45%;
-          }
-
-          .content-pocket-btn-b{
-            .btn-blue{
-              margin: 80% 0 0 -30%;
-            }
-          }
-
-          .content-pocket-btn-y{
-            .btn-yellow{
-              margin: 99% 0 0 -30%;
-            }
-          }
-
-          .box{ 
-            margin: 275px 0 0 -56% !important;
-    
-            background-size: 46% 65%;
-    
-            .header{
-              margin: -20px 0 0 83px;
-
-              font-size: 26px;
-            }
-    
-            .content-pocket2{
-              width: 350px;
-              .logos{
-                .first-logo{
-                  margin: 20px 0 0 58%;
-                }
-      
-                .second-logo{
-                  margin: 3px 0 0 58%;
-                }
-      
-                .third-logo{
-                  margin: 2px 0 0 58%;
-                }
-
-                .small-title-hp{
-                  margin: -52px 0 15px 262px;
-
-                  font-size: 15px;
-                }
-
-                .small-desc-hp{
-                  margin: -12px 0 36px 262px;
-
-                  font-size: 15px;
-
-                  width: 240px;
-                }
-      
-                .fourth-logo{
-                  margin: -1px 0 0 58%;
-                }
-      
-                .small-title{ 
-                  margin: -47px 0 15px 75%;
-    
-                  font-size: 15px;
-                }
-      
-                .small-desc{  
-                  margin: -12px 0 33px 75%;
-                  width: 240px;
-      
-                  font-size: 15px;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .section-healthy{
-      .title{
-        margin: 5% 0 0 28px !important;
-
-        font-size: 35px;
-      }
-
-      .desc{
-        width: 300px;
-        margin: 19% 0 0 30px;
-      }
-
-      .swiper-container{
-        padding: 150px 0 80px 30px !important;
-      }
-
-      .btn{
-        margin: -30px 0 0 30px !important;
-        padding: 14px 14px 14px 0;
-        width: 180px;
-
-        font-size: 13px;
-
-        background-size: 90%;
-      }
-    }
-
-    .section-is{
-      padding: 0px 0 100px 0;
-  
-      .content-wrapper{
-        .img{  
-          margin: 78% 0 0 11% !important;
-          width: 270px !important;
-        }
-  
-        .content-holder{
-          .title{
-            width: 200px;
-            margin: -340px 0 0 9% !important;
-
-            font-size: 26px!important;
-          }
-  
-          .title-blue{
-            margin: -270px 0 80% 9%!important;
-            font-size: 26px!important;
-          }
-  
-          .desc{
-            margin: 0 0 45px 9% !important;
-            width: 269px !important;
-            font-size: 16px;
-          }
-  
-          .content-features{  
-            .content-pocket1{
-              margin: 4px -15% 0 0;
-              width: 295px;
-            }
-  
-            .content-pocket2{
-              margin: 6px -16% 0 0!important;
-              width: 300px;
-
-              .bullet-point{
-                width: 41px;
-              }
-            }
-  
-            .content-pocket3{
-              margin: 8px 5% 0 0!important;
-              width: 305px;
-
-              .bullet-point{
-                width: 48px;
-              }
-            }
-          }
-  
-          .btn{
-            margin: 20px 0 0 9%;
-          }
-        }
+      .img-leaves {
+        display: none;
       }
     }
   }

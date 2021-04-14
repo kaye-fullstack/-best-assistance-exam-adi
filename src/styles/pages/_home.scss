@@ -758,7 +758,7 @@
     }
   
     .section-is { 
-      padding: 221px 0 218px 0;
+      padding: 200px 0 200px 0;
 
       .content-wrapper {
         &:before {
@@ -933,7 +933,7 @@
     }
   
     .section-is { 
-      padding: 221px 0 205px 0;
+      padding: 180px 0 180px 0;
 
       .content-wrapper {
         &:before {
@@ -1011,7 +1011,7 @@
           }
   
           &:nth-child(2) {
-            margin: 440px auto 0;
+            margin: 410px auto 0;
             width: 570px;
           }
   
@@ -1032,6 +1032,7 @@
 
           .box-provide-header {
             padding: 180px 0 0 57px;
+            width: 550px;
           }
 
           .solutions-pocket {
@@ -1046,15 +1047,15 @@
     }
     
     .section-healthy {
-      margin-bottom: 110px;
+      margin-bottom: 70px;
 
       .healthy-header {
-        margin: 0 0 8px 30px;
+        margin: 0 0 8px 35px;
       }
 
       .healthy-desc {
-        margin: 0 0 0 30px;
-        width: 600px;
+        margin: 0 0 0 35px;
+        width: 535px;
       }
 
       .swiper-container {
@@ -1170,6 +1171,10 @@
 
           .content-features {
             width: 520px;
+
+            .content-pocket {
+              margin: 7px 0 12px 0;
+            }
           }
         }
       }
@@ -1245,6 +1250,8 @@
           }
   
           .content-pocket {
+            width: 320px;
+
             .btn-blue {
               margin: 340px 0 0 23px;
             }
@@ -1269,7 +1276,7 @@
   
         .box-provide { 
           margin: 70px 0 0 0;
-          width: 53%;
+          width: 100%;
           height: 600px;
 
           background-size: cover;
@@ -1283,6 +1290,7 @@
 
           .solutions-pocket {
             margin: 28px 0 50px 24px;
+            width: 300px;
 
             .solutions-title-and-desc{
               margin: 0 0 0 60px;
@@ -1291,22 +1299,28 @@
 
           .desc {
             width: 200px !important;
+
+            font-size: 16px;
           }
 
           .desc-healthcare {
             width: 200px !important;
+
+            font-size: 16px;
           }
         } 
       }  
     }
     
     .section-healthy {
-      margin-bottom: 110px;
+      margin-bottom: 70px;
 
       .healthy-header{
         margin: 0 0 8px 18px;
+        width: 280px;
 
-        font-size: 36px;
+        font-size: 35px;
+        letter-spacing: 0;
       }
 
       .healthy-desc {
@@ -1314,6 +1328,7 @@
         width: 280px;
 
         font-size: 15px;
+        letter-spacing: 0;
       }
 
       .swiper-container {
@@ -1321,73 +1336,90 @@
 
         .swiper-slide { 
           &:nth-child(1) {
-            width: 500px !important;
+            width: 290px !important;
 
             .caption {
-              margin: 100px 0 0 35px !important;
+              margin: 40px 0 0 15px !important;
+
+              font-size: 18px;
+              line-height: 20px !important;
             }
 
             .date {
-              margin: 225px 0 0 35px !important;
+              margin: 115px 0 0 15px !important;
             }
 
             .tag {
-              margin: 320px 0 0 36px !important;
+              margin: 173px 0 0 14px !important;
+              width: 48px !important;
+              height: 25px !important;
             }
 
             img {
-              width: 500px !important;
+              width: 290px !important;
             }
           }
 
           &:nth-child(2) {
-            width: 248px !important;
+            width: 143px !important;
 
             .caption {
-              margin: 100px 0 0 35px !important;
-              width: 220px !important;
+              margin: 10px 0 0 15px !important;
+              width: 120px !important;
+
+              font-size: 18px !important;
+              line-height: 20px !important;
             }
 
             .date {
-              margin: 240px 0 0 35px !important;
+              margin: 120px 0 0 15px !important;
             }
 
             .tag {
-              margin: 318px 0 0 36px !important;
+              margin: 172px 0 0 15px !important;
+              width: 72px !important;
+
+              font-size: 11px !important;
             }
 
             img {
-              width: 248px;
+              width: 143px;
             }
           }
 
           &:nth-child(3) {
-            width: 248px !important;
+            width: 143px !important;
 
             .caption {
-              margin: 100px 0 0 35px !important;
-              width: 220px !important;
+              margin: 50px 0 0 15px !important;
+              width: 120px !important;
+
+              font-size: 18px !important;
+              line-height: 20px !important;
             }
 
             .date {
-              margin: 240px 0 0 35px !important;
+              margin: 125px 0 0 15px !important;
             }
 
             .tag {
-              margin: 318px 0 0 36px !important;
+              margin: 140px 0 0 15px !important;
+              width: 90px !important;
+
+              font-size: 11px !important;
             }
 
             img {
-              width: 248px;
+              width: 143px;
             }
           }
 
 
           &:nth-child(4) {
-            width: 248px !important;
+            width: 143px !important;
 
             img {
-              width: 248px;
+              width: 143px;
             }
           }
         }
@@ -1399,7 +1431,7 @@
     }
   
     .section-is{ 
-      padding: 160px 0 150px 0;
+      padding: 120px 0 120px 0;
 
       .content-wrapper {
         &:before {
@@ -1412,6 +1444,7 @@
   
         .content-holder {
           margin: 0 0 0 18px;
+          width: 90%;
 
           .title {
             width: 278px;
@@ -1435,7 +1468,7 @@
           }
   
           .btn-solution {
-            margin: 178px 0 0 5px;
+            margin: 210px 0 0 5px;
           }
 
           .content-pocket {
